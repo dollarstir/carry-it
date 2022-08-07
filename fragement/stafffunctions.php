@@ -2,10 +2,10 @@
 
 function begin($title)
 {
-    session_start();
-    if (!isset($_SESSION['id'])) {
-        echo '<script>window.location.href = "../index.php";</script>';
-    }
+    // session_start();
+    // if (!isset($_SESSION['id'])) {
+    //     echo '<script>window.location.href = "../index.php";</script>';
+    // }
 
     echo '<!DOCTYPE html>
     <html lang="zxx">
@@ -15,41 +15,41 @@ function begin($title)
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <title>'.$title.'</title>
-        <link rel="icon" href="img/logo.png" type="image/png">
+        <link rel="icon" href="back/img/logo.png" type="image/png">
     
-        <link rel="stylesheet" href="css/bootstrap1.min.css" />
+        <link rel="stylesheet" href="back/css/bootstrap1.min.css" />
     
-        <link rel="stylesheet" href="vendors/themefy_icon/themify-icons.css" />
+        <link rel="stylesheet" href="back/vendors/themefy_icon/themify-icons.css" />
     
-        <link rel="stylesheet" href="vendors/swiper_slider/css/swiper.min.css" />
+        <link rel="stylesheet" href="back/vendors/swiper_slider/css/swiper.min.css" />
     
-        <link rel="stylesheet" href="vendors/select2/css/select2.min.css" />
+        <link rel="stylesheet" href="back/vendors/select2/css/select2.min.css" />
     
-        <link rel="stylesheet" href="vendors/niceselect/css/nice-select.css" />
+        <link rel="stylesheet" href="back/vendors/niceselect/css/nice-select.css" />
     
-        <link rel="stylesheet" href="vendors/owl_carousel/css/owl.carousel.css" />
+        <link rel="stylesheet" href="back/vendors/owl_carousel/css/owl.carousel.css" />
     
-        <link rel="stylesheet" href="vendors/gijgo/gijgo.min.css" />
+        <link rel="stylesheet" href="back/vendors/gijgo/gijgo.min.css" />
     
-        <link rel="stylesheet" href="vendors/font_awesome/css/all.min.css" />
-        <link rel="stylesheet" href="vendors/tagsinput/tagsinput.css" />
+        <link rel="stylesheet" href="back/vendors/font_awesome/css/all.min.css" />
+        <link rel="stylesheet" href="back/vendors/tagsinput/tagsinput.css" />
     
-        <link rel="stylesheet" href="vendors/datatable/css/jquery.dataTables.min.css" />
-        <link rel="stylesheet" href="vendors/datatable/css/responsive.dataTables.min.css" />
-        <link rel="stylesheet" href="vendors/datatable/css/buttons.dataTables.min.css" />
+        <link rel="stylesheet" href="back/vendors/datatable/css/jquery.dataTables.min.css" />
+        <link rel="stylesheet" href="back/vendors/datatable/css/responsive.dataTables.min.css" />
+        <link rel="stylesheet" href="back/vendors/datatable/css/buttons.dataTables.min.css" />
     
-        <link rel="stylesheet" href="vendors/text_editor/summernote-bs4.css" />
+        <link rel="stylesheet" href="back/vendors/text_editor/summernote-bs4.css" />
     
-        <link rel="stylesheet" href="vendors/morris/morris.css">
+        <link rel="stylesheet" href="back/vendors/morris/morris.css">
     
-        <link rel="stylesheet" href="vendors/material_icon/material-icons.css" />
+        <link rel="stylesheet" href="back/vendors/material_icon/material-icons.css" />
     
-        <link rel="stylesheet" href="css/metisMenu.css">
+        <link rel="stylesheet" href="back/css/metisMenu.css">
 
-        <link rel="stylesheet" href="../assets/css/sweetalert2.min.css">
+        <link rel="stylesheet" href="back/../assets/css/sweetalert2.min.css">
     
-        <link rel="stylesheet" href="css/style1.css" />
-        <link rel="stylesheet" href="css/colors/default.css" id="colorSkinCSS">
+        <link rel="stylesheet" href="back/css/style1.css" />
+        <link rel="stylesheet" href="back/css/colors/default.css" id="colorSkinCSS">
     </head>';
 }
 // Staff Sidebar
@@ -58,7 +58,7 @@ function begin($title)
  {
      echo '<nav class="sidebar">
      <div class="logo d-flex justify-content-between">
-         <a href="index.php"><img src="../assets/images/logo.png" alt=""></a>
+         <a href="back/index.php"><img src="back/../assets/images/logo.png" alt=""></a>
          <div class="sidebar_close_icon d-lg-none">
              <i class="ti-close"></i>
          </div>
@@ -66,42 +66,42 @@ function begin($title)
      <ul id="sidebar_menu">
          
          <li>
-             <a class="has-arrow" href="index.php" aria-expanded="false">
+             <a class="has-arrow" href="back/index.php" aria-expanded="false">
 
-                 <img src="img/menu-icon/1.svg" alt="">
+                 <img src="back/img/menu-icon/1.svg" alt="">
                  <span>Dashboard</span>
              </a>
              
          </li>
          
          <li class="">
-             <a class="has-arrow" href="#" aria-expanded="false">
-                 <img src="img/menu-icon/2.svg" alt="">
+             <a class="has-arrow" href="back/#" aria-expanded="false">
+                 <img src="back/img/menu-icon/2.svg" alt="">
                  <span>Residence</span>
              </a>
              <ul>
-                 <li><a href="residence.php">Available Residence</a></li>
+                 <li><a href="back/residence.php">Available Residence</a></li>
                  
              </ul>
          </li>
          <li class="">
-             <a class="has-arrow" href="#" aria-expanded="false">
-                 <img src="img/menu-icon/3.svg" alt="">
+             <a class="has-arrow" href="back/#" aria-expanded="false">
+                 <img src="back/img/menu-icon/3.svg" alt="">
                  <span>Records</span>
              </a>
              <ul>
-                 <li><a href="record.php">View Records</a></li>
+                 <li><a href="back/record.php">View Records</a></li>
                  
              </ul>
          </li>
 
          <li class="">
-             <a class="has-arrow" href="#" aria-expanded="false">
-                 <img src="img/menu-icon/3.svg" alt="">
+             <a class="has-arrow" href="back/#" aria-expanded="false">
+                 <img src="back/img/menu-icon/3.svg" alt="">
                  <span>Support</span>
              </a>
              <ul>
-                 <li><a href="support.php">Contact Support</a></li>
+                 <li><a href="back/support.php">Contact Support</a></li>
                  
              </ul>
          </li>
@@ -111,11 +111,6 @@ function begin($title)
  }
 function staffheader()
 {
-    include 'dbcon.php';
-
-    $id = $_SESSION['id'];
-    $sel = mysqli_query($conn, "SELECT * FROM staff WHERE id = '$id'");
-    $row = mysqli_fetch_array($sel);
     echo '<div class="container-fluid g-0">
     <div class="row">
         <div class="col-lg-12 p-0">
@@ -124,26 +119,26 @@ function staffheader()
                     <i class="ti-menu"></i>
                 </div>
                 <div class="serach_field-area">
-                    <h3>Welcome '.$row['name'].'</h3>
+                    <h3>Welcome  Admin</h3>
                 </div>
                 <div class="header_right d-flex justify-content-between align-items-center">
                     <div class="header_notification_warp d-flex align-items-center">
                         <li>
-                            <a href="#"> </a>
+                            <a href="back/#"> </a>
                         </li>
                         <li>
-                            <a href="#">  </a>
+                            <a href="back/#">  </a>
                         </li>
                     </div>
                     <div class="profile_info">
-                        <img src="img/client_img.png" alt="#">
+                        <img src="back/img/client_img.png" alt="#">
                         <div class="profile_info_iner">
                             <p>Staff </p>
-                            <h5>'.$row['name'].'</h5>
+                            <h5>Admin</h5>
                             <div class="profile_info_details">
-                                <!--<a href="#">My Profile <i class="ti-user"></i></a>
-                                <a href="#">Settings <i class="ti-settings"></i></a>-->
-                                <a href="logout.php">Log Out <i class="ti-shift-left"></i></a>
+                                <!--<a href="back/#">My Profile <i class="ti-user"></i></a>
+                                <a href="back/#">Settings <i class="ti-settings"></i></a>-->
+                                <a href="back/logout.php">Log Out <i class="ti-shift-left"></i></a>
                             </div>
                         </div>
                     </div>

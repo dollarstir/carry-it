@@ -1,5 +1,5 @@
 <?php
-include '../includes/stafffunctions.php';
+involve('stafffunctions');
 
 begin('Home'); ?>
 
