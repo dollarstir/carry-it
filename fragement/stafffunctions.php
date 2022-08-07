@@ -66,7 +66,7 @@ function begin($title)
      <ul id="sidebar_menu">
          
          <li>
-             <a class="has-arrow" href="back/index.php" aria-expanded="false">
+             <a class="" href="manager" aria-expanded="false">
 
                  <img src="back/img/menu-icon/1.svg" alt="">
                  <span>Dashboard</span>
@@ -75,12 +75,13 @@ function begin($title)
          </li>
          
          <li class="">
-             <a class="has-arrow" href="back/#" aria-expanded="false">
+             <a class="has-arrow" href="#" aria-expanded="false">
                  <img src="back/img/menu-icon/2.svg" alt="">
-                 <span>Residence</span>
+                 <span>Packages</span>
              </a>
              <ul>
-                 <li><a href="back/residence.php">Available Residence</a></li>
+                 <li><a href="newpackage">Add Package</a></li>
+                 <li><a href="packages">View Packages</a></li>
                  
              </ul>
          </li>
