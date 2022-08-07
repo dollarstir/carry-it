@@ -25,7 +25,7 @@ begin('Home'); ?>
                                         <div class="quick_activity_wrap">
                                             <div class="single_quick_activity d-flex">
                                                 <div class="icon">
-                                                    <img src="img/icon/man.svg" alt="">
+                                                    <img src="back/img/icon/man.svg" alt="">
                                                 </div>
                                                 <div class="count_content">
                                                     <h3><span class="counter">100</span> </h3>
@@ -34,7 +34,7 @@ begin('Home'); ?>
                                             </div>
                                             <div class="single_quick_activity d-flex">
                                                 <div class="icon">
-                                                    <img src="img/icon/cap.svg" alt="">
+                                                    <img src="back/img/icon/cap.svg" alt="">
                                                 </div>
                                                 <div class="count_content">
                                                     <h3><span class="counter">20</span> </h3>
@@ -85,7 +85,7 @@ begin('Home'); ?>
                                             <th scope="row">
                                                 <div class="patient_thumb d-flex align-items-center">
                                                     <div class="student_list_img mr_20">
-                                                        <img src="img/patient/pataint.png" alt="" srcset="">
+                                                        <img src="back/img/patient/pataint.png" alt="" srcset="">
                                                     </div>
                                                     <p>Jhon Kural</p>
                                                 </div>
@@ -97,12 +97,12 @@ begin('Home'); ?>
                                                 <div class="amoutn_action d-flex align-items-center">
                                                     
                                                     <div class="dropdown ms-4">
-                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="back/#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             Action
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right"
                                                             aria-labelledby="dropdownMenuLink">
-                                                            <a class="dropdown-item" href="#">Request schedule</a>
+                                                            <a class="dropdown-item" href="back/#">Request schedule</a>
 
                                                         </div>
                                                     </div>
@@ -113,7 +113,7 @@ begin('Home'); ?>
                                             <th scope="row">
                                                 <div class="patient_thumb d-flex align-items-center">
                                                     <div class="student_list_img mr_20">
-                                                        <img src="img/patient/2.png" alt="" srcset="">
+                                                        <img src="back/img/patient/2.png" alt="" srcset="">
                                                     </div>
                                                     <p>Jhon Kural</p>
                                                 </div>
@@ -125,12 +125,12 @@ begin('Home'); ?>
                                                 <div class="amoutn_action d-flex align-items-center">
                                                     
                                                     <div class="dropdown ms-4">
-                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="back/#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             Action
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right"
                                                             aria-labelledby="dropdownMenuLink">
-                                                            <a class="dropdown-item" href="#">Request schedule</a>
+                                                            <a class="dropdown-item" href="back/#">Request schedule</a>
 
                                                         </div>
                                                     </div>
@@ -141,7 +141,7 @@ begin('Home'); ?>
                                             <th scope="row">
                                                 <div class="patient_thumb d-flex align-items-center">
                                                     <div class="student_list_img mr_20">
-                                                        <img src="img/patient/3.png" alt="" srcset="">
+                                                        <img src="back/img/patient/3.png" alt="" srcset="">
                                                     </div>
                                                     <p>Jhon Kural</p>
                                                 </div>
@@ -153,12 +153,12 @@ begin('Home'); ?>
                                                 <div class="amoutn_action d-flex align-items-center">
                                                     
                                                     <div class="dropdown ms-4">
-                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="back/#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             Action
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right"
                                                             aria-labelledby="dropdownMenuLink">
-                                                            <a class="dropdown-item" href="#">Request schedule</a>
+                                                            <a class="dropdown-item" href="back/#">Request schedule</a>
 
                                                         </div>
                                                     </div>
@@ -169,7 +169,7 @@ begin('Home'); ?>
                                             <th scope="row">
                                                 <div class="patient_thumb d-flex align-items-center">
                                                     <div class="student_list_img mr_20">
-                                                        <img src="img/patient/4.png" alt="" srcset="">
+                                                        <img src="back/img/patient/4.png" alt="" srcset="">
                                                     </div>
                                                     <p>Jhon Kural</p>
                                                 </div>
@@ -181,12 +181,12 @@ begin('Home'); ?>
                                                 <div class="amoutn_action d-flex align-items-center">
                                                     
                                                     <div class="dropdown ms-4">
-                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="back/#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             Action
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right"
                                                             aria-labelledby="dropdownMenuLink">
-                                                            <a class="dropdown-item" href="#">Request schedule</a>
+                                                            <a class="dropdown-item" href="back/#">Request schedule</a>
 
                                                         </div>
                                                     </div>
@@ -197,7 +197,7 @@ begin('Home'); ?>
                                             <th scope="row">
                                                 <div class="patient_thumb d-flex align-items-center">
                                                     <div class="student_list_img mr_20">
-                                                        <img src="img/patient/5.png" alt="" srcset="">
+                                                        <img src="back/img/patient/5.png" alt="" srcset="">
                                                     </div>
                                                     <p>Jhon Kural</p>
                                                 </div>
@@ -209,12 +209,12 @@ begin('Home'); ?>
                                                 <div class="amoutn_action d-flex align-items-center">
                                                     
                                                     <div class="dropdown ms-4">
-                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="back/#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             Action
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right"
                                                             aria-labelledby="dropdownMenuLink">
-                                                            <a class="dropdown-item" href="#">Request schedule</a>
+                                                            <a class="dropdown-item" href="back/#">Request schedule</a>
 
                                                         </div>
                                                     </div>
@@ -225,7 +225,7 @@ begin('Home'); ?>
                                             <th scope="row">
                                                 <div class="patient_thumb d-flex align-items-center">
                                                     <div class="student_list_img mr_20">
-                                                        <img src="img/patient/6.png" alt="" srcset="">
+                                                        <img src="back/img/patient/6.png" alt="" srcset="">
                                                     </div>
                                                     <p>Jhon Kural</p>
                                                 </div>
@@ -237,12 +237,12 @@ begin('Home'); ?>
                                                 <div class="amoutn_action d-flex align-items-center">
                                                     
                                                     <div class="dropdown ms-4">
-                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="back/#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             Action
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right"
                                                             aria-labelledby="dropdownMenuLink">
-                                                            <a class="dropdown-item" href="#">Request schedule</a>
+                                                            <a class="dropdown-item" href="back/#">Request schedule</a>
 
                                                         </div>
                                                     </div>
@@ -253,7 +253,7 @@ begin('Home'); ?>
                                             <th scope="row">
                                                 <div class="patient_thumb d-flex align-items-center">
                                                     <div class="student_list_img mr_20">
-                                                        <img src="img/patient/6.png" alt="" srcset="">
+                                                        <img src="back/img/patient/6.png" alt="" srcset="">
                                                     </div>
                                                     <p>Jhon Kural</p>
                                                 </div>
@@ -265,12 +265,12 @@ begin('Home'); ?>
                                                 <div class="amoutn_action d-flex align-items-center">
                                                     
                                                     <div class="dropdown ms-4">
-                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="back/#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             Action
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right"
                                                             aria-labelledby="dropdownMenuLink">
-                                                            <a class="dropdown-item" href="#">Request schedule</a>
+                                                            <a class="dropdown-item" href="back/#">Request schedule</a>
 
                                                         </div>
                                                     </div>
@@ -319,7 +319,7 @@ begin('Home'); ?>
                                             <th scope="row">
                                                 <div class="patient_thumb d-flex align-items-center">
                                                     <div class="student_list_img mr_20">
-                                                        <img src="img/patient/pataint.png" alt="" srcset="">
+                                                        <img src="back/img/patient/pataint.png" alt="" srcset="">
                                                     </div>
                                                     <p>Jhon Kural</p>
                                                 </div>
@@ -331,12 +331,12 @@ begin('Home'); ?>
                                                 <div class="amoutn_action d-flex align-items-center">
                                                     
                                                     <div class="dropdown ms-4">
-                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="back/#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             Action
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right"
                                                             aria-labelledby="dropdownMenuLink">
-                                                            <a class="dropdown-item" href="#">Request schedule</a>
+                                                            <a class="dropdown-item" href="back/#">Request schedule</a>
 
                                                         </div>
                                                     </div>
@@ -347,7 +347,7 @@ begin('Home'); ?>
                                             <th scope="row">
                                                 <div class="patient_thumb d-flex align-items-center">
                                                     <div class="student_list_img mr_20">
-                                                        <img src="img/patient/2.png" alt="" srcset="">
+                                                        <img src="back/img/patient/2.png" alt="" srcset="">
                                                     </div>
                                                     <p>Jhon Kural</p>
                                                 </div>
@@ -359,12 +359,12 @@ begin('Home'); ?>
                                                 <div class="amoutn_action d-flex align-items-center">
                                                     
                                                     <div class="dropdown ms-4">
-                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="back/#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             Action
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right"
                                                             aria-labelledby="dropdownMenuLink">
-                                                            <a class="dropdown-item" href="#">Request schedule</a>
+                                                            <a class="dropdown-item" href="back/#">Request schedule</a>
 
                                                         </div>
                                                     </div>
@@ -375,7 +375,7 @@ begin('Home'); ?>
                                             <th scope="row">
                                                 <div class="patient_thumb d-flex align-items-center">
                                                     <div class="student_list_img mr_20">
-                                                        <img src="img/patient/3.png" alt="" srcset="">
+                                                        <img src="back/img/patient/3.png" alt="" srcset="">
                                                     </div>
                                                     <p>Jhon Kural</p>
                                                 </div>
@@ -387,12 +387,12 @@ begin('Home'); ?>
                                                 <div class="amoutn_action d-flex align-items-center">
                                                     
                                                     <div class="dropdown ms-4">
-                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="back/#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             Action
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right"
                                                             aria-labelledby="dropdownMenuLink">
-                                                            <a class="dropdown-item" href="#">Request schedule</a>
+                                                            <a class="dropdown-item" href="back/#">Request schedule</a>
 
                                                         </div>
                                                     </div>
@@ -403,7 +403,7 @@ begin('Home'); ?>
                                             <th scope="row">
                                                 <div class="patient_thumb d-flex align-items-center">
                                                     <div class="student_list_img mr_20">
-                                                        <img src="img/patient/4.png" alt="" srcset="">
+                                                        <img src="back/img/patient/4.png" alt="" srcset="">
                                                     </div>
                                                     <p>Jhon Kural</p>
                                                 </div>
@@ -415,12 +415,12 @@ begin('Home'); ?>
                                                 <div class="amoutn_action d-flex align-items-center">
                                                     
                                                     <div class="dropdown ms-4">
-                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="back/#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             Action
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right"
                                                             aria-labelledby="dropdownMenuLink">
-                                                            <a class="dropdown-item" href="#">Request schedule</a>
+                                                            <a class="dropdown-item" href="back/#">Request schedule</a>
 
                                                         </div>
                                                     </div>
@@ -431,7 +431,7 @@ begin('Home'); ?>
                                             <th scope="row">
                                                 <div class="patient_thumb d-flex align-items-center">
                                                     <div class="student_list_img mr_20">
-                                                        <img src="img/patient/5.png" alt="" srcset="">
+                                                        <img src="back/img/patient/5.png" alt="" srcset="">
                                                     </div>
                                                     <p>Jhon Kural</p>
                                                 </div>
@@ -443,12 +443,12 @@ begin('Home'); ?>
                                                 <div class="amoutn_action d-flex align-items-center">
                                                     
                                                     <div class="dropdown ms-4">
-                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="back/#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             Action
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right"
                                                             aria-labelledby="dropdownMenuLink">
-                                                            <a class="dropdown-item" href="#">Request schedule</a>
+                                                            <a class="dropdown-item" href="back/#">Request schedule</a>
 
                                                         </div>
                                                     </div>
@@ -459,7 +459,7 @@ begin('Home'); ?>
                                             <th scope="row">
                                                 <div class="patient_thumb d-flex align-items-center">
                                                     <div class="student_list_img mr_20">
-                                                        <img src="img/patient/6.png" alt="" srcset="">
+                                                        <img src="back/img/patient/6.png" alt="" srcset="">
                                                     </div>
                                                     <p>Jhon Kural</p>
                                                 </div>
@@ -471,12 +471,12 @@ begin('Home'); ?>
                                                 <div class="amoutn_action d-flex align-items-center">
                                                     
                                                     <div class="dropdown ms-4">
-                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="back/#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             Action
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right"
                                                             aria-labelledby="dropdownMenuLink">
-                                                            <a class="dropdown-item" href="#">Request schedule</a>
+                                                            <a class="dropdown-item" href="back/#">Request schedule</a>
 
                                                         </div>
                                                     </div>
@@ -487,7 +487,7 @@ begin('Home'); ?>
                                             <th scope="row">
                                                 <div class="patient_thumb d-flex align-items-center">
                                                     <div class="student_list_img mr_20">
-                                                        <img src="img/patient/6.png" alt="" srcset="">
+                                                        <img src="back/img/patient/6.png" alt="" srcset="">
                                                     </div>
                                                     <p>Jhon Kural</p>
                                                 </div>
@@ -499,12 +499,12 @@ begin('Home'); ?>
                                                 <div class="amoutn_action d-flex align-items-center">
                                                     
                                                     <div class="dropdown ms-4">
-                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <a class="btn btn-primary dropdown-toggle" style="color:white !important;" href="back/#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                             Action
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right"
                                                             aria-labelledby="dropdownMenuLink">
-                                                            <a class="dropdown-item" href="#">Request schedule</a>
+                                                            <a class="dropdown-item" href="back/#">Request schedule</a>
 
                                                         </div>
                                                     </div>
@@ -528,7 +528,7 @@ begin('Home'); ?>
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer_iner text-center">
-                            <p>2020 © Home Assit <a href="#"> <i class="ti-heart"></i> </a><a href="#">
+                            <p>2020 © Home Assit <a href="back/#"> <i class="ti-heart"></i> </a><a href="back/#">
                                     Staff</a></p>
                         </div>
                     </div>
@@ -539,49 +539,49 @@ begin('Home'); ?>
 
 
 
-    <script src="js/jquery1-3.4.1.min.js"></script>
+    <script src="back/js/jquery1-3.4.1.min.js"></script>
 
-    <script src="js/popper1.min.js"></script>
+    <script src="back/js/popper1.min.js"></script>
 
-    <script src="js/bootstrap1.min.js"></script>
+    <script src="back/js/bootstrap1.min.js"></script>
 
-    <script src="js/metisMenu.js"></script>
+    <script src="back/js/metisMenu.js"></script>
 
-    <script src="vendors/count_up/jquery.waypoints.min.js"></script>
+    <script src="back/vendors/count_up/jquery.waypoints.min.js"></script>
 
-    <script src="vendors/chartlist/Chart.min.js"></script>
+    <script src="back/vendors/chartlist/Chart.min.js"></script>
 
-    <script src="vendors/count_up/jquery.counterup.min.js"></script>
+    <script src="back/vendors/count_up/jquery.counterup.min.js"></script>
 
-    <script src="vendors/swiper_slider/js/swiper.min.js"></script>
+    <script src="back/vendors/swiper_slider/js/swiper.min.js"></script>
 
-    <script src="vendors/niceselect/js/jquery.nice-select.min.js"></script>
+    <script src="back/vendors/niceselect/js/jquery.nice-select.min.js"></script>
 
-    <script src="vendors/owl_carousel/js/owl.carousel.min.js"></script>
+    <script src="back/vendors/owl_carousel/js/owl.carousel.min.js"></script>
 
-    <script src="vendors/gijgo/gijgo.min.js"></script>
+    <script src="back/vendors/gijgo/gijgo.min.js"></script>
 
-    <script src="vendors/datatable/js/jquery.dataTables.min.js"></script>
-    <script src="vendors/datatable/js/dataTables.responsive.min.js"></script>
-    <script src="vendors/datatable/js/dataTables.buttons.min.js"></script>
-    <script src="vendors/datatable/js/buttons.flash.min.js"></script>
-    <script src="vendors/datatable/js/jszip.min.js"></script>
-    <script src="vendors/datatable/js/pdfmake.min.js"></script>
-    <script src="vendors/datatable/js/vfs_fonts.js"></script>
-    <script src="vendors/datatable/js/buttons.html5.min.js"></script>
-    <script src="vendors/datatable/js/buttons.print.min.js"></script>
-    <script src="js/chart.min.js"></script>
+    <script src="back/vendors/datatable/js/jquery.dataTables.min.js"></script>
+    <script src="back/vendors/datatable/js/dataTables.responsive.min.js"></script>
+    <script src="back/vendors/datatable/js/dataTables.buttons.min.js"></script>
+    <script src="back/vendors/datatable/js/buttons.flash.min.js"></script>
+    <script src="back/vendors/datatable/js/jszip.min.js"></script>
+    <script src="back/vendors/datatable/js/pdfmake.min.js"></script>
+    <script src="back/vendors/datatable/js/vfs_fonts.js"></script>
+    <script src="back/vendors/datatable/js/buttons.html5.min.js"></script>
+    <script src="back/vendors/datatable/js/buttons.print.min.js"></script>
+    <script src="back/js/chart.min.js"></script>
 
-    <script src="vendors/progressbar/jquery.barfiller.js"></script>
+    <script src="back/vendors/progressbar/jquery.barfiller.js"></script>
 
-    <script src="vendors/tagsinput/tagsinput.js"></script>
+    <script src="back/vendors/tagsinput/tagsinput.js"></script>
 
-    <script src="vendors/text_editor/summernote-bs4.js"></script>
-    <script src="vendors/apex_chart/apexcharts.js"></script>
+    <script src="back/vendors/text_editor/summernote-bs4.js"></script>
+    <script src="back/vendors/apex_chart/apexcharts.js"></script>
 
-    <script src="js/custom.js"></script>
-    <script src="vendors/apex_chart/bar_active_1.js"></script>
-    <script src="vendors/apex_chart/apex_chart_list.js"></script>
+    <script src="back/js/custom.js"></script>
+    <script src="back/vendors/apex_chart/bar_active_1.js"></script>
+    <script src="back/vendors/apex_chart/apex_chart_list.js"></script>
 </body>
 
 </html>
