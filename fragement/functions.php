@@ -12,15 +12,15 @@ function begin()
         <meta name="keywords" content="" />
     
         <!-- Styles -->
-        <link rel="stylesheet" href="css/bootstrap.css" type="text/css" /><!-- Bootstrap -->
-        <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" /><!-- Owl Carousal -->
-        <link rel="stylesheet" href="css/icons.css" type="text/css" /><!-- Font Awesome -->
-        <link rel="stylesheet" href="css/select2.min.css" type="text/css" /><!-- Select2 -->
-        <link rel="stylesheet" href="css/perfect-scrollbar.css" /><!-- Scroll Bar -->
-        <link rel="stylesheet" href="css/style.css" type="text/css" /><!-- Style -->
-        <link rel="stylesheet" href="css/responsive.css" type="text/css" /><!-- Responsive -->
-        <link rel="stylesheet" href="css/colors/color.css" type="text/css" /><!-- Color -->
-        <link rel="stylesheet" href="layerslider/css/layerslider.css" type="text/css"><!-- Layer Slider -->
+        <link rel="stylesheet" href="front/css/bootstrap.css" type="text/css" /><!-- Bootstrap -->
+        <link rel="stylesheet" href="front/css/owl.carousel.css" type="text/css" /><!-- Owl Carousal -->
+        <link rel="stylesheet" href="front/css/icons.css" type="text/css" /><!-- Font Awesome -->
+        <link rel="stylesheet" href="front/css/select2.min.css" type="text/css" /><!-- Select2 -->
+        <link rel="stylesheet" href="front/css/perfect-scrollbar.css" /><!-- Scroll Bar -->
+        <link rel="stylesheet" href="front/css/style.css" type="text/css" /><!-- Style -->
+        <link rel="stylesheet" href="front/css/responsive.css" type="text/css" /><!-- Responsive -->
+        <link rel="stylesheet" href="front/css/colors/color.css" type="text/css" /><!-- Color -->
+        <link rel="stylesheet" href="front/layerslider/css/layerslider.css" type="text/css"><!-- Layer Slider -->
     
     </head>';
 }
@@ -34,15 +34,15 @@ function topnav()
                 <span class="cargo-time"><i class="fa fa-clock-o"></i>Working Time : 08:00AM - 9:00PM</span>
                 <div class="connect-us">
                     <ul class="social-btn">
-                        <li><a itemprop="url" href="#" title=""><i class="fa fa-facebook"></i></a></li>
-                        <li><a itemprop="url" href="#" title=""><i class="fa fa-linkedin"></i></a></li>
-                        <li><a itemprop="url" href="#" title=""><i class="fa fa-twitter"></i></a></li>
-                        <li><a itemprop="url" href="#" title=""><i class="fa fa-reddit"></i></a></li>
-                        <li><a itemprop="url" href="#" title=""><i class="fa fa-rss"></i></a></li>
+                        <li><a itemprop="url" href="front/#" title=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a itemprop="url" href="front/#" title=""><i class="fa fa-linkedin"></i></a></li>
+                        <li><a itemprop="url" href="front/#" title=""><i class="fa fa-twitter"></i></a></li>
+                        <li><a itemprop="url" href="front/#" title=""><i class="fa fa-reddit"></i></a></li>
+                        <li><a itemprop="url" href="front/#" title=""><i class="fa fa-rss"></i></a></li>
                     </ul>
                 </div>
                 <div class="extra-links">
-                    <a itemprop="url" href="contact" title="">Support</a>   /   <a itemprop="url" href="#" title="" class="popup2">Track Item</a>
+                    <a itemprop="url" href="front/contact" title="">Support</a>   /   <a itemprop="url" href="front/#" title="" class="popup2">Track Item</a>
                 </div>
             </div>
         </div>
@@ -50,43 +50,43 @@ function topnav()
     <div class="logo-menu-sec">
         <div class="logo-menu">
             <div class="logo">
-                <a itemprop="url" href="index.php.html" title=""><img itemprop="image" src="images/resource/logo.png" alt="" /></a>
+                <a itemprop="url" href="front/index.php.html" title=""><img itemprop="image" src="front/images/resource/logo.png" alt="" /></a>
             </div>
             <div class="quick-contact">
                 <ul>
                     <li>
-                        <img src="images/resource/phone.png" alt="" />
+                        <img src="front/images/resource/phone.png" alt="" />
                         <span>+1 73 25 64 7820</span>
                         <p></p>
                     </li>
                     <li>
-                        <img src="images/resource/sms.png" alt="" />
+                        <img src="front/images/resource/sms.png" alt="" />
                         <span>info@MoveItFasts.co</span>
                         <p>Have Any Question?</p>
                     </li>
                     <li>
-                        <a href="#" title="" itemprop="url" class="theme-btn popup2">Track Item</a>
+                        <a href="front/#" title="" itemprop="url" class="theme-btn popup2">Track Item</a>
                     </li>
                 </ul>
             </div>
         </div>
         <nav class="menu-curve">
             <ul>
-                <li class=""><a itemprop="url" href="index.php.html" title="">HOME</a>
+                <li class=""><a itemprop="url" href="front/index.php.html" title="">HOME</a>
 
                 </li>
-                <li class=""><a itemprop="url" href="about.php.html" title="">ABOUT</a>
+                <li class=""><a itemprop="url" href="front/about.php.html" title="">ABOUT</a>
 
                 </li>
-                <li class=""><a itemprop="url" href="services.php.html" title="">SERVICES</a>
-
-                </li>
-
-                <li class=""><a itemprop="url" href="gallery.php.html" title="">GALLERY</a>
+                <li class=""><a itemprop="url" href="front/services.php.html" title="">SERVICES</a>
 
                 </li>
 
-                <li><a itemprop="url" href="contact.php.html" title="">CONTACT</a></li>
+                <li class=""><a itemprop="url" href="front/gallery.php.html" title="">GALLERY</a>
+
+                </li>
+
+                <li><a itemprop="url" href="front/contact.php.html" title="">CONTACT</a></li>
             </ul>
         </nav>
     </div><!-- Logo Menu Sec -->
@@ -100,9 +100,9 @@ function topnav()
                 <span class="cargo-time">Opening Time :<i>08:00AM - 9:00PM</i></span>
                 <div class="connect-us">
                     <ul class="social-btn">
-                        <li><a itemprop="url" href="#" title=""><i class="fa fa-facebook"></i></a></li>
-                        <li><a itemprop="url" href="#" title=""><i class="fa fa-linkedin"></i></a></li>
-                        <li><a itemprop="url" href="#" title=""><i class="fa fa-twitter"></i></a></li>
+                        <li><a itemprop="url" href="front/#" title=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a itemprop="url" href="front/#" title=""><i class="fa fa-linkedin"></i></a></li>
+                        <li><a itemprop="url" href="front/#" title=""><i class="fa fa-twitter"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -112,12 +112,12 @@ function topnav()
                 <div class="quick-contact">
                     <ul>
                         <li>
-                            <img src="images/resource/phone.png" alt="" />
+                            <img src="front/images/resource/phone.png" alt="" />
                             <span>+1 73 25 64 7820</span>
                             <p></p>
                         </li>
                         <li>
-                            <img src="images/resource/sms.png" alt="" />
+                            <img src="front/images/resource/sms.png" alt="" />
                             <span>info@MoveItFasts.co</span>
                             <p>Have Any Question?</p>
                         </li>
@@ -130,35 +130,150 @@ function topnav()
         <div class="container">
             <div class="responsive-logo">
                 <div class="logo">
-                    <a itemprop="url" href="index.php.html" title=""><img itemprop="image" src="images/resource/logo.png" alt="" /></a>
+                    <a itemprop="url" href="front/index.php.html" title=""><img itemprop="image" src="front/images/resource/logo.png" alt="" /></a>
                 </div>
             </div>
             <span class="responsive-btn"><i class="fa fa-list"></i></span>
             <div class="responsive-menu">
                 <span class="close-btn"><i class="fa fa-close"></i></span>
                 <ul class="responsive-popup-btns">
-                    <li><i class="fa fa-user"></i><a itemprop="url" href="#" title="" class="popup1">Sign In</a></li>
-                    <li><i class="fa fa-paper-plane"></i><a itemprop="url" href="#" title="" class="popup2">REQUEST A RATE</a></li>
+                    <li><i class="fa fa-user"></i><a itemprop="url" href="front/#" title="" class="popup1">Sign In</a></li>
+                    <li><i class="fa fa-paper-plane"></i><a itemprop="url" href="front/#" title="" class="popup2">REQUEST A RATE</a></li>
                 </ul>
                 <ul>
-                    <li class=""><a itemprop="url" href="index.php.html" title="">HOME</a>
+                    <li class=""><a itemprop="url" href="front/index.php.html" title="">HOME</a>
 
                     </li>
-                    <li class=""><a itemprop="url" href="about.php.html" title="">ABOUT</a>
+                    <li class=""><a itemprop="url" href="front/about.php.html" title="">ABOUT</a>
 
                     </li>
-                    <li class=""><a itemprop="url" href="services.php.html" title="">SERVICES</a>
-
-                    </li>
-
-                    <li class=""><a itemprop="url" href="gallery.php.html" title="">GALLERY</a>
+                    <li class=""><a itemprop="url" href="front/services.php.html" title="">SERVICES</a>
 
                     </li>
 
-                    <li><a itemprop="url" href="contact.php.html" title="">CONTACT</a></li>
+                    <li class=""><a itemprop="url" href="front/gallery.php.html" title="">GALLERY</a>
+
+                    </li>
+
+                    <li><a itemprop="url" href="front/contact.php.html" title="">CONTACT</a></li>
                 </ul>
             </div><!-- Responsive Menu -->
         </div>
     </div>
 </div><!--Responsive header-->';
+}
+
+function foot()
+{
+    echo '<footer>
+    <section class="block">
+        <div class="parallax dark" data-velocity="-.2"
+             style="background: rgba(0, 0, 0, 0) url(images/parallax2.jpg) no-repeat 50% 0;"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4 column">
+                            <div class="widget">
+                                <div class="about-widget">
+                                    <div class="logo">
+                                        <a itemprop="url" href="front/index.php.html" title=""><img itemprop="image"
+                                                                                         src="front/images/resource/logo.png"
+                                                                                         alt=""/></a>
+                                    </div>
+                                    <p itemprop="description"></p>
+                                    <ul class="social-btn">
+                                        <li><a href="front/#" title="" itemprop="url"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="front/#" title="" itemprop="url"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="front/#" title="" itemprop="url"><i class="fa fa-facebook"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 column">
+                            <Div class="row">
+                                <div class="col-md-12 column">
+                                    <div class="widget">
+                                        <div class="heading2">
+                                            <span>Fast And Safe</span>
+                                            <h3>USEFUL LINKS</h3>
+                                        </div>
+                                        <div class="links-widget">
+                                            <ul>
+                                                <li><a itemprop="url" href="front/about.php.html" title="">About Us</a></li>
+                                                <li><a itemprop="url" href="front/services.php.html" title="">Services</a></li>
+                                                <li><a itemprop="url" href="front/gallery.php.html" title="">Gallery</a>
+                                                </li>
+                                                <li><a itemprop="url" href="front/contact.php.html"
+                                                       title="">Contact</a></li>
+                                                <li><a itemprop="url" href="front/track.html" title="">Track Shipment</a></li>
+                                            </ul>
+                                        </div>
+                                    </div><!-- Widget -->
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-5 column">
+                            <div class="widget blue1">
+                                <div class="heading2">
+                                    <span>FAST AND SAFE</span>
+                                    <h3>Track Shipment</h3>
+                                </div>
+                                <div class="subscription-form">
+                                    <p itemprop="description"></p>
+                                    <form action="track.html" method="get">
+                                        <input type="text" name="track" required placeholder="Enter Way Bill Number"/>
+                                        <button type="submit" title="" href="front/#" class="theme-btn"
+                                           ><i class="fa fa-paper-plane"></i>TRACK NOW</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="bottom-line">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 column">
+                    <span>&copy; 2022 <a itemprop="url" title="" href="front/index.php.html">MoveItFast</a> - All Rights Reserved</span>
+                </div>
+                <div class="col-md-6 column">
+                    <ul>
+                        <li><a itemprop="url" href="front/index.php.html" title="">HOME</a></li>
+                        <li><a itemprop="url" href="front/services.php.html" title="">SERVICES</a></li>
+                        <li><a itemprop="url" href="front/gallery.php.html" title="">GALLERY</a></li>
+                        <li><a itemprop="url" href="front/contact.php.html" title="">CONTACT</a></li>
+                        <li><a itemprop="url" href="front/about.php.html" title="">ABOUT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blank"></div>
+</footer>';
+}
+
+function scripts()
+{
+    echo '<script type="text/javascript" src="front/js/modernizr-2.0.6.js"></script><!-- Modernizr -->
+    <script type="text/javascript" src="front/js/jquery-2.2.2.js"></script><!-- jQuery -->
+    <script type="text/javascript" src="front/js/bootstrap.min.js"></script><!-- Bootstrap -->
+    <script type="text/javascript" src="front/js/scrolltopcontrol.js"></script><!-- Scroll To Top -->
+    <script type="text/javascript" src="front/js/jquery.scrolly.js"></script><!-- Scrolly -->
+    <script type="text/javascript" src="front/js/owl.carousel.min.js"></script><!-- Owl Carousal -->
+    <script type="text/javascript" src="front/js/icheck.js"></script><!-- iCheck -->
+    <script type="text/javascript" src="front/js/select2.full.js"></script><!-- Select2 -->
+    <script type="text/javascript" src="front/js/perfect-scrollbar.js"></script><!-- Scroll Bar -->
+    <script type="text/javascript" src="front/js/perfect-scrollbar.jquery.js"></script><!-- Scroll Bar -->
+    
+    <!-- External libraries: jQuery & GreenSock -->
+    <script src="front/layerslider/js/greensock.js" type="text/javascript"></script>
+    <!-- LayerSlider script files -->
+    <script src="front/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+    <script src="front/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+    <script src="front/js/script.js"></script>';
 }

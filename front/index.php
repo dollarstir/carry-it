@@ -13,7 +13,7 @@ begin();
             <div class="modal-dialog2">
                 <div class="modal-content2">
                     <div class="modal-body2">
-                        <button type="submit"><img src="images/close1.png" alt="" /></button>
+                        <button type="submit"><img src="front/images/close1.png" alt="" /></button>
                         <div class="cargo-shipment">
                             <div class="calculate-shipping">
                                 <div class="dark-title">
@@ -36,7 +36,7 @@ begin();
 
 
                                             <div class="col-md-12">
-                                                <button type="submit" href="#" title="" class="theme-btn"><i class="fa fa-paper-plane"></i> Track Shipment</button>
+                                                <button type="submit" href="front/#" title="" class="theme-btn"><i class="fa fa-paper-plane"></i> Track Shipment</button>
                                             </div>
                                             <!--<div class="col-md-12">
                                                 <div class="total">
@@ -59,7 +59,7 @@ begin();
             <div id="layerslider" style="width:100%; height:696px; ">
 
                 <div class="ls-slide" data-ls="transition2d:35; timeshift:-1000; slidedelay: 7000;">
-                    <img itemprop="image" src="images/resource/slide1.jpg" class="ls-bg" alt="Slide background"/>
+                    <img itemprop="image" src="front/images/resource/slide1.jpg" class="ls-bg" alt="Slide background"/>
 
                     <div class="ls-slide"
                          style="font-family:raleway; font-weight:700; font-size:16px; text-transform:uppercase; line-height:28px; color:#ffffff; top:214px; left:100px;"
@@ -90,21 +90,21 @@ begin();
 
                     </div>
 
-                    <a href="track.html" itemprop="url" title="" class="ls-slide slide-icon"
+                    <a href="front/track.html" itemprop="url" title="" class="ls-slide slide-icon"
                        style="padding:16px 45px; background:#ffb400; color:#ffffff; font-size:12px; top:539px; left:100px;"
                        data-ls="offsetxout:left; offsetyin:bottom; durationin:1500; delayin:1300; easingin:easeOutBack; fadein:false; easingout:easeInBack; fadeout:false;">ORDER
                         NOW</a>
 
-                    <img src="images/resource/slide-model.png" alt="" itemprop="image" class="ls-slide"
+                    <img src="front/images/resource/slide-model.png" alt="" itemprop="image" class="ls-slide"
                          style="top:0; left:540px;"
                          data-ls="offsetyout:top; offsetyin:bottom; durationin:2000; delayin:1500; easingin:easeOutBack; fadein:false; easingout:easeInBack; fadeout:false;"/>
                 </div><!-- Slide 1 -->
 
                 <div class="ls-slide" data-ls="transition2d:40; timeshift:-1000; slidedelay: 6000;">
 
-                    <img itemprop="image" src="images/resource/slide2.jpg" class="ls-bg" alt="Slide background"/>
+                    <img itemprop="image" src="front/images/resource/slide2.jpg" class="ls-bg" alt="Slide background"/>
 
-                    <img src="images/resource/logo2.png" alt="" itemprop="image" class="ls-slide"
+                    <img src="front/images/resource/logo2.png" alt="" itemprop="image" class="ls-slide"
                          style="top:200px; left:50%;"
                          data-ls="offsetyout:top; offsetyin:top; durationin:700; delayin:110; easingin:easeOutBack; fadein:false; easingout:easeInBack; fadeout:false;"/>
 
@@ -125,7 +125,7 @@ begin();
                 </div><!-- Slide 2 -->
 
                 <div class="ls-slide" data-ls="transition2d:30; timeshift:-1000; slidedelay: 6000;">
-                    <img itemprop="image" src="images/resource/slide3.jpg" class="ls-bg" alt="Slide background"/>
+                    <img itemprop="image" src="front/images/resource/slide3.jpg" class="ls-bg" alt="Slide background"/>
 
                     <div class="ls-slide"
                          style="top:223px; left:0;font-family:roboto; font-size:22px; color:#ffffff; text-shadow: -2px 4px 18px rgba(0, 0, 0, 0.15);"
@@ -149,7 +149,7 @@ begin();
 
                     </div>
 
-                    <a href="track.html" itemprop="url" title="" class="ls-slide slide-btn slide-icon"
+                    <a href="front/track.html" itemprop="url" title="" class="ls-slide slide-btn slide-icon"
                        style="top:515px; left:0; text-transform:uppercase; padding:16px 40px; color:#ffb400; border:2px solid #ffb400; font-family:raleway; font-size:13px; font-weight:700;"
                        data-ls="offsetxout:left; offsetyin:bottom; durationin:1700; delayin:1000; easingin:easeOutBack; fadein:false; easingout:easeInBack; fadeout:false;">CALCULATE
                         PACKAGE</a>
@@ -164,13 +164,13 @@ begin();
                 <div class="col-md-12">
                     <div class="track-form">
                         <div class="heading2">
-                            <img src="images/resource/track-form.png" alt=""/>
+                            <img src="front/images/resource/track-form.png" alt=""/>
                             <span>BY SEAFREIGHT</span>
                             <h3>SHIPMENT VISIBILITY</h3>
                         </div>
                         <form action="track.html" method="get">
                             <label><i class="fa fa-stumbleupon"></i><input name="track" type="text" placeholder="Track a Shipment: Enter Way Bill Number"/></label>
-                            <button title="" href="#" class="theme-btn"
+                            <button title="" href="front/#" class="theme-btn"
                                ><i class="fa fa-paper-plane"></i>Track</button>
                         </form>
                     </div>
@@ -194,10 +194,10 @@ begin();
                             <div class="col-md-4">
                                 <div class="our-packages">
                                     <div class="packages-thumb">
-                                        <img itemprop="image" src="images/resource/packages1.jpg" alt=""/>
+                                        <img itemprop="image" src="front/images/resource/packages1.jpg" alt=""/>
                                         <div class="packages-info">
-                                            <img src="images/resource/packages-info1.png" alt="" itemprop="image"/>
-                                            <h2 itemprop="name"><a itemprop="url" href="#" title="">Air
+                                            <img src="front/images/resource/packages-info1.png" alt="" itemprop="image"/>
+                                            <h2 itemprop="name"><a itemprop="url" href="front/#" title="">Air
                                                     Freight</a></h2>
                                             <span>Delivery 3-4 Days</span>
                                             <ul>
@@ -212,10 +212,10 @@ begin();
                             <div class="col-md-4">
                                 <div class="our-packages">
                                     <div class="packages-thumb">
-                                        <img itemprop="image" src="images/resource/packages2.jpg" alt=""/>
+                                        <img itemprop="image" src="front/images/resource/packages2.jpg" alt=""/>
                                         <div class="packages-info">
-                                            <img src="images/resource/packages-info2.png" alt="" itemprop="image"/>
-                                            <h2 itemprop="name"><a itemprop="url" href="#" title="">Road
+                                            <img src="front/images/resource/packages-info2.png" alt="" itemprop="image"/>
+                                            <h2 itemprop="name"><a itemprop="url" href="front/#" title="">Road
                                                     Freight</a></h2>
                                             <span>Delivery 3-4 Days</span>
                                             <ul>
@@ -230,10 +230,10 @@ begin();
                             <div class="col-md-4">
                                 <div class="our-packages">
                                     <div class="packages-thumb">
-                                        <img itemprop="image" src="images/resource/packages3.jpg" alt=""/>
+                                        <img itemprop="image" src="front/images/resource/packages3.jpg" alt=""/>
                                         <div class="packages-info">
-                                            <img src="images/resource/packages-info3.png" alt="" itemprop="image"/>
-                                            <h2 itemprop="name"><a itemprop="url" href="#" title="">Ocean
+                                            <img src="front/images/resource/packages-info3.png" alt="" itemprop="image"/>
+                                            <h2 itemprop="name"><a itemprop="url" href="front/#" title="">Ocean
                                                     Freight</a></h2>
                                             <span>Delivery 3-4 Days</span>
                                             <ul>
@@ -267,32 +267,32 @@ begin();
                     <div class="modern-services-carousel style2" id="modern-services-carousel">
                         <div class="modern-service">
                             <div class="mod-service-inner">
-                                <span><img itemprop="image" alt="" src="images/resource/101.png"></span>
-                                <h3><a href="#" title="">Reports & Visibility</a></h3>
+                                <span><img itemprop="image" alt="" src="front/images/resource/101.png"></span>
+                                <h3><a href="front/#" title="">Reports & Visibility</a></h3>
                                 <i>Professionally Productize</i>
                                 <p></p>
                             </div>
                         </div><!-- Modern Service -->
                         <div class="modern-service">
                             <div class="mod-service-inner">
-                                <span><img itemprop="image" alt="" src="images/resource/102.png"></span>
-                                <h3><a href="#" title="">Packages Storage</a></h3>
+                                <span><img itemprop="image" alt="" src="front/images/resource/102.png"></span>
+                                <h3><a href="front/#" title="">Packages Storage</a></h3>
                                 <i>Professionally Productize</i>
                                 <p></p>
                             </div>
                         </div><!-- Modern Service -->
                         <div class="modern-service">
                             <div class="mod-service-inner">
-                                <span><img itemprop="image" alt="" src="images/resource/103.png"></span>
-                                <h3><a href="#" title="">Company Contract</a></h3>
+                                <span><img itemprop="image" alt="" src="front/images/resource/103.png"></span>
+                                <h3><a href="front/#" title="">Company Contract</a></h3>
                                 <i>Professionally Productize</i>
                                 <p></p>
                             </div>
                         </div><!-- Modern Service -->
                         <div class="modern-service">
                             <div class="mod-service-inner">
-                                <span><img itemprop="image" alt="" src="images/resource/101.png"></span>
-                                <h3><a href="#" title="">Reports & Visibility</a></h3>
+                                <span><img itemprop="image" alt="" src="front/images/resource/101.png"></span>
+                                <h3><a href="front/#" title="">Reports & Visibility</a></h3>
                                 <i>Professionally Productize</i>
                                 <p></p>
                             </div>
@@ -395,7 +395,7 @@ begin();
                                     </div>
 
                                     <div class="col-md-5">
-                                        <a href="#" title="" class="theme-btn"><i class="fa fa-paper-plane"></i> Check
+                                        <a href="front/#" title="" class="theme-btn"><i class="fa fa-paper-plane"></i> Check
                                             Now</a>
                                     </div>
                                     <div class="col-md-12">
@@ -440,7 +440,7 @@ begin();
                             </div>
                         </div>
                     </div><!-- Shipment List -->
-                    <a class="theme-btn" href="about.php.html" title=""><i class="fa fa-paper-plane"></i> About Unload</a>
+                    <a class="theme-btn" href="front/about.php.html" title=""><i class="fa fa-paper-plane"></i> About Unload</a>
                 </div><!-- Shipment Guide -->
             </div>
         </div>
@@ -460,8 +460,8 @@ begin();
                             <div class="col-md-4">
                                 <div class="news-box">
                                     <div class="news-thumb">
-                                        <a href="blog-detail.html" title="" itemprop="url"><img itemprop="image"
-                                                                                                src="images/resource/news1.jpg"
+                                        <a href="front/blog-detail.html" title="" itemprop="url"><img itemprop="image"
+                                                                                                src="front/images/resource/news1.jpg"
                                                                                                 alt=""/></a>
                                         <div class="date">
                                             <strong>04</strong>
@@ -469,14 +469,14 @@ begin();
                                         </div>
                                     </div>
                                     <div class="news-detail">
-                                        <h2 itemprop="headline"><a itemprop="url" href="blog-detail.html" title="">New
+                                        <h2 itemprop="headline"><a itemprop="url" href="front/blog-detail.html" title="">New
                                                 Service Available: End-To-End Logistics</a></h2>
                                         <ul class="post-meta2">
                                             <li><i class="fa fa-comments"></i><a title=""
-                                                                                 href="blog-detail.html#comments">03
+                                                                                 href="front/blog-detail.html#comments">03
                                                     Comments</a></li>
                                             <li><i class="fa fa-user"></i>By <a itemprop="url" title=""
-                                                                                href="admin.html">Admin</a></li>
+                                                                                href="front/admin.html">Admin</a></li>
                                         </ul>
                                         <p itemprop="description">Lorem ipsum dolor sit amet, consectetuer adipiscing
                                             elit. Aenean commodo enean dolor sit amet, consectetuer.</p>
@@ -487,8 +487,8 @@ begin();
                             <div class="col-md-4">
                                 <div class="news-box">
                                     <div class="news-thumb">
-                                        <a href="blog-detail.html" title="" itemprop="url"><img itemprop="image"
-                                                                                                src="images/resource/news2.jpg"
+                                        <a href="front/blog-detail.html" title="" itemprop="url"><img itemprop="image"
+                                                                                                src="front/images/resource/news2.jpg"
                                                                                                 alt=""/></a>
                                         <div class="date">
                                             <strong>08</strong>
@@ -496,14 +496,14 @@ begin();
                                         </div>
                                     </div>
                                     <div class="news-detail">
-                                        <h2 itemprop="headline"><a itemprop="url" href="blog-detail.html" title="">We
+                                        <h2 itemprop="headline"><a itemprop="url" href="front/blog-detail.html" title="">We
                                                 Are Hiring. Become One Of Our Drivers!</a></h2>
                                         <ul class="post-meta2">
                                             <li><i class="fa fa-comments"></i><a title=""
-                                                                                 href="blog-detail.html#comments">03
+                                                                                 href="front/blog-detail.html#comments">03
                                                     Comments</a></li>
                                             <li><i class="fa fa-user"></i>By <a itemprop="url" title=""
-                                                                                href="admin.html">Admin</a></li>
+                                                                                href="front/admin.html">Admin</a></li>
                                         </ul>
                                         <p itemprop="description">Lorem ipsum dolor sit amet, consectetuer adipiscing
                                             elit. Aenean commodo enean dolor sit amet, consectetuer.</p>
@@ -514,8 +514,8 @@ begin();
                             <div class="col-md-4">
                                 <div class="news-box">
                                     <div class="news-thumb">
-                                        <a href="blog-detail.html" title="" itemprop="url"><img itemprop="image"
-                                                                                                src="images/resource/news3.jpg"
+                                        <a href="front/blog-detail.html" title="" itemprop="url"><img itemprop="image"
+                                                                                                src="front/images/resource/news3.jpg"
                                                                                                 alt=""/></a>
                                         <div class="date">
                                             <strong>04</strong>
@@ -523,14 +523,14 @@ begin();
                                         </div>
                                     </div>
                                     <div class="news-detail">
-                                        <h2 itemprop="headline"><a itemprop="url" href="blog-detail.html" title="">First
+                                        <h2 itemprop="headline"><a itemprop="url" href="front/blog-detail.html" title="">First
                                                 Quartal 2015 Revenue Report Released</a></h2>
                                         <ul class="post-meta2">
                                             <li><i class="fa fa-comments"></i><a title=""
-                                                                                 href="blog-detail.html#comments">03
+                                                                                 href="front/blog-detail.html#comments">03
                                                     Comments</a></li>
                                             <li><i class="fa fa-user"></i>By <a itemprop="url" title=""
-                                                                                href="admin.html">Admin</a></li>
+                                                                                href="front/admin.html">Admin</a></li>
                                         </ul>
                                         <p itemprop="description">Lorem ipsum dolor sit amet, consectetuer adipiscing
                                             elit. Aenean commodo enean dolor sit amet, consectetuer.</p>
@@ -603,7 +603,7 @@ begin();
                                 <div class="customers-reviews">
                                     <div class="customers-review-carousel" id="customers-review-carousel">
                                         <div class="review-area">
-                                            <div class="customer-thumb"><img src="images/resource/review1.jpg" alt=""
+                                            <div class="customer-thumb"><img src="front/images/resource/review1.jpg" alt=""
                                                                              itemprop="image"/></div>
                                             <div class="customer-detail">
                                                 <p itemprop="description"><span><i class="fa fa-quote-left"></i></span>Lorem
@@ -619,7 +619,7 @@ begin();
                                         </div>
 
                                         <div class="review-area">
-                                            <div class="customer-thumb"><img src="images/resource/review2.jpg" alt=""
+                                            <div class="customer-thumb"><img src="front/images/resource/review2.jpg" alt=""
                                                                              itemprop="image"/></div>
                                             <div class="customer-detail">
                                                 <p itemprop="description"><span><i class="fa fa-quote-left"></i></span>Lorem
@@ -635,7 +635,7 @@ begin();
                                         </div>
 
                                         <div class="review-area">
-                                            <div class="customer-thumb"><img src="images/resource/review3.jpg" alt=""
+                                            <div class="customer-thumb"><img src="front/images/resource/review3.jpg" alt=""
                                                                              itemprop="image"/></div>
                                             <div class="customer-detail">
                                                 <p itemprop="description"><span><i class="fa fa-quote-left"></i></span>Sociis,
@@ -665,111 +665,22 @@ begin();
             <div class="row">
                 <div class="col-md-12">
                     <ul class="partners" id="partners">
-                        <li><a itemprop="url" href="#" title=""><img itemprop="image" src="images/resource/partner1.png"
+                        <li><a itemprop="url" href="front/#" title=""><img itemprop="image" src="front/images/resource/partner1.png"
                                                                      alt=""/></a></li>
-                        <li><a itemprop="url" href="#" title=""><img itemprop="image" src="images/resource/partner2.png"
+                        <li><a itemprop="url" href="front/#" title=""><img itemprop="image" src="front/images/resource/partner2.png"
                                                                      alt=""/></a></li>
-                        <li><a itemprop="url" href="#" title=""><img itemprop="image" src="images/resource/partner3.png"
+                        <li><a itemprop="url" href="front/#" title=""><img itemprop="image" src="front/images/resource/partner3.png"
                                                                      alt=""/></a></li>
-                        <li><a itemprop="url" href="#" title=""><img itemprop="image" src="images/resource/partner4.png"
+                        <li><a itemprop="url" href="front/#" title=""><img itemprop="image" src="front/images/resource/partner4.png"
                                                                      alt=""/></a></li>
-                        <li><a itemprop="url" href="#" title=""><img itemprop="image" src="images/resource/partner5.png"
+                        <li><a itemprop="url" href="front/#" title=""><img itemprop="image" src="front/images/resource/partner5.png"
                                                                      alt=""/></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-<footer>
-    <section class="block">
-        <div class="parallax dark" data-velocity="-.2"
-             style="background: rgba(0, 0, 0, 0) url(images/parallax2.jpg) no-repeat 50% 0;"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-4 column">
-                            <div class="widget">
-                                <div class="about-widget">
-                                    <div class="logo">
-                                        <a itemprop="url" href="index.php.html" title=""><img itemprop="image"
-                                                                                         src="images/resource/logo.png"
-                                                                                         alt=""/></a>
-                                    </div>
-                                    <p itemprop="description"></p>
-                                    <ul class="social-btn">
-                                        <li><a href="#" title="" itemprop="url"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#" title="" itemprop="url"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#" title="" itemprop="url"><i class="fa fa-facebook"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 column">
-                            <Div class="row">
-                                <div class="col-md-12 column">
-                                    <div class="widget">
-                                        <div class="heading2">
-                                            <span>Fast And Safe</span>
-                                            <h3>USEFUL LINKS</h3>
-                                        </div>
-                                        <div class="links-widget">
-                                            <ul>
-                                                <li><a itemprop="url" href="about.php.html" title="">About Us</a></li>
-                                                <li><a itemprop="url" href="services.php.html" title="">Services</a></li>
-                                                <li><a itemprop="url" href="gallery.php.html" title="">Gallery</a>
-                                                </li>
-                                                <li><a itemprop="url" href="contact.php.html"
-                                                       title="">Contact</a></li>
-                                                <li><a itemprop="url" href="track.html" title="">Track Shipment</a></li>
-                                            </ul>
-                                        </div>
-                                    </div><!-- Widget -->
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col-md-5 column">
-                            <div class="widget blue1">
-                                <div class="heading2">
-                                    <span>FAST AND SAFE</span>
-                                    <h3>Track Shipment</h3>
-                                </div>
-                                <div class="subscription-form">
-                                    <p itemprop="description"></p>
-                                    <form action="track.html" method="get">
-                                        <input type="text" name="track" required placeholder="Enter Way Bill Number"/>
-                                        <button type="submit" title="" href="#" class="theme-btn"
-                                           ><i class="fa fa-paper-plane"></i>TRACK NOW</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="bottom-line">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 column">
-                    <span>&copy; 2022 <a itemprop="url" title="" href="index.php.html">MoveItFast</a> - All Rights Reserved</span>
-                </div>
-                <div class="col-md-6 column">
-                    <ul>
-                        <li><a itemprop="url" href="index.php.html" title="">HOME</a></li>
-                        <li><a itemprop="url" href="services.php.html" title="">SERVICES</a></li>
-                        <li><a itemprop="url" href="gallery.php.html" title="">GALLERY</a></li>
-                        <li><a itemprop="url" href="contact.php.html" title="">CONTACT</a></li>
-                        <li><a itemprop="url" href="about.php.html" title="">ABOUT US</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="blank"></div>
-</footer>
+<?php foot(); ?>
 
 </div>
 
@@ -779,7 +690,7 @@ begin();
         <div class="modal-content">
             <div class="modal-body">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true"><img src="images/close.png" alt="" itemprop="image"/></span></button>
+                            aria-hidden="true"><img src="front/images/close.png" alt="" itemprop="image"/></span></button>
                 <div class="region-detail">
                     <div class="row">
                         <div class="col-md-6 column">
@@ -811,9 +722,9 @@ begin();
                         </div>
                         <div class="col-md-6 column">
                             <div class="loc-thumb">
-                                <img src="images/resource/contact.jpg" alt="" itemprop="image"/>
+                                <img src="front/images/resource/contact.jpg" alt="" itemprop="image"/>
                                 <p></p>
-                                <a class="theme-btn" href="#" title="" itemprop="url">CONTACT US NOW</a>
+                                <a class="theme-btn" href="front/#" title="" itemprop="url">CONTACT US NOW</a>
                             </div>
                         </div>
                     </div>
@@ -828,10 +739,10 @@ begin();
         <div class="modal-content">
             <div class="modal-body">
                 <div class="submission-data">
-                    <span><img src="images/resource/submission.png" alt=""/></span>
+                    <span><img src="front/images/resource/submission.png" alt=""/></span>
                     <h1>SUBMISSION SUCCESSFUL</h1>
                     <p>Thank You For Your Booking With Unload. We Have Sent you a Message Shortly.</p>
-                    <a href="#" title="" class="theme-btn" data-dismiss="modal" aria-label="Close"><i
+                    <a href="front/#" title="" class="theme-btn" data-dismiss="modal" aria-label="Close"><i
                                 class="fa fa-paper-plane"></i>BACK TO MAIN</a>
                 </div><!-- Submission-data -->
             </div>
@@ -840,23 +751,7 @@ begin();
 </div>
 
 <!-- Script -->
-<script type="text/javascript" src="js/modernizr-2.0.6.js"></script><!-- Modernizr -->
-<script type="text/javascript" src="js/jquery-2.2.2.js"></script><!-- jQuery -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script><!-- Bootstrap -->
-<script type="text/javascript" src="js/scrolltopcontrol.js"></script><!-- Scroll To Top -->
-<script type="text/javascript" src="js/jquery.scrolly.js"></script><!-- Scrolly -->
-<script type="text/javascript" src="js/owl.carousel.min.js"></script><!-- Owl Carousal -->
-<script type="text/javascript" src="js/icheck.js"></script><!-- iCheck -->
-<script type="text/javascript" src="js/select2.full.js"></script><!-- Select2 -->
-<script type="text/javascript" src="js/perfect-scrollbar.js"></script><!-- Scroll Bar -->
-<script type="text/javascript" src="js/perfect-scrollbar.jquery.js"></script><!-- Scroll Bar -->
-
-<!-- External libraries: jQuery & GreenSock -->
-<script src="layerslider/js/greensock.js" type="text/javascript"></script>
-<!-- LayerSlider script files -->
-<script src="layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
-<script src="layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
-<script src="js/script.js"></script>
+<?php scripts(); ?>
 <script>
     $(document).ready(function () {
         "use strict";
