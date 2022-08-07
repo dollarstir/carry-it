@@ -29,5 +29,12 @@ $router = new Router([
             return Viewer::view('front/contact.php', $context);
         }
     ),
+
+    new Route(
+        '/services',
+        function ($context) {
+            return Viewer::view('front/services.php', $context);
+        }
+    ),
 ]);
 $router->launch();
