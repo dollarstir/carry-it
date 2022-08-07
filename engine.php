@@ -8,5 +8,12 @@ $router = new Router([
             return Viewer::view('front/index.php', $context);
         }
     ),
+
+    new Route(
+        '/home',
+        function ($context) {
+            return Viewer::view('front/index.php', $context);
+        }
+    ),
 ]);
 $router->launch();
