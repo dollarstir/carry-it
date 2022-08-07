@@ -58,7 +58,7 @@ function begin($title)
  {
      echo '<nav class="sidebar">
      <div class="logo d-flex justify-content-between">
-         <a href="back/index.php"><img src="from/assets/images/logo.png" alt=""></a>
+         <a href="manager"><img src="front/images/resource/logo.png" alt=""></a>
          <div class="sidebar_close_icon d-lg-none">
              <i class="ti-close"></i>
          </div>
