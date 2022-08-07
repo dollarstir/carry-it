@@ -13,7 +13,7 @@ begin();
             <div class="modal-dialog2">
                 <div class="modal-content2">
                     <div class="modal-body2">
-                        <button type="submit"><img src="images/close1.png" alt="" /></button>
+                        <button type="submit"><img src="front/images/close1.png" alt="" /></button>
                         <div class="cargo-shipment">
                             <div class="calculate-shipping">
                                 <div class="dark-title">
@@ -36,7 +36,7 @@ begin();
 
 
                                             <div class="col-md-12">
-                                                <button type="submit" href="#" title="" class="theme-btn"><i class="fa fa-paper-plane"></i> Track Shipment</button>
+                                                <button type="submit" href="front/#" title="" class="theme-btn"><i class="fa fa-paper-plane"></i> Track Shipment</button>
                                             </div>
                                             <!--<div class="col-md-12">
                                                 <div class="total">
@@ -72,101 +72,101 @@ begin();
 							<div class="row">
 								<div class="col-md-3">
 									<div class="fancy-service">
-										<img alt="" src="images/resource/service1.jpg">
+										<img alt="" src="front/images/resource/service1.jpg">
 										<div class="service-detail">
-											<i><img alt="" src="images/resource/icon1.png" itemprop="image"></i>
+											<i><img alt="" src="front/images/resource/icon1.png" itemprop="image"></i>
 											<span>M2 Warehouse</span>
 											<h3>Door To Door</h3>
 											<h5>SHIPPING</h5>
-											<a title="" href="track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
+											<a title="" href="front/track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
 										</div>
 									</div><!-- Fancy Services -->
 								</div>
 
 								<div class="col-md-3">
 									<div class="fancy-service">
-										<img alt="" src="images/resource/service2.jpg">
+										<img alt="" src="front/images/resource/service2.jpg">
 										<div class="service-detail">
-											<i><img alt="" src="images/resource/icon2.png" itemprop="image"></i>
+											<i><img alt="" src="front/images/resource/icon2.png" itemprop="image"></i>
 											<span>M2 Warehouse</span>
 											<h3>Ground</h3>
 											<h5>SHIPPING</h5>
-											<a title="" href="track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
+											<a title="" href="front/track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
 										</div>
 									</div><!-- Fancy Services -->
 								</div>
 
 								<div class="col-md-3">
 									<div class="fancy-service">
-										<img alt="" src="images/resource/service3.jpg">
+										<img alt="" src="front/images/resource/service3.jpg">
 										<div class="service-detail">
-											<i><img alt="" src="images/resource/icon3.png" itemprop="image"></i>
+											<i><img alt="" src="front/images/resource/icon3.png" itemprop="image"></i>
 											<span>M2 Warehouse</span>
 											<h3>Worldwide</h3>
 											<h5>DELIVERY</h5>
-											<a title="" href="track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
+											<a title="" href="front/track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
 										</div>
 									</div><!-- Fancy Services -->
 								</div>
 
 								<div class="col-md-3">
 									<div class="fancy-service">
-										<img alt="" src="images/resource/service4.jpg">
+										<img alt="" src="front/images/resource/service4.jpg">
 										<div class="service-detail">
-											<i><img alt="" src="https://moveitfast.co/images/resource/icon4.png" itemprop="image"></i>
+											<i><img alt="" src="front/https://moveitfast.co/images/resource/icon4.png" itemprop="image"></i>
 											<span>M2 Warehouse</span>
 											<h3>Cargo Air</h3>
 											<h5>SHIPPING</h5>
-											<a title="" href="track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
+											<a title="" href="front/track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
 										</div>
 									</div><!-- Fancy Services -->
 								</div>
 
 								<div class="col-md-3">
 									<div class="fancy-service">
-										<img alt="" src="images/resource/service5.jpg">
+										<img alt="" src="front/images/resource/service5.jpg">
 										<div class="service-detail">
-											<i><img alt="" src="images/resource/icon5.png" itemprop="image"></i>
+											<i><img alt="" src="front/images/resource/icon5.png" itemprop="image"></i>
 											<span>M2 Warehouse</span>
 											<h3>Courier Services</h3>
 											<h5>SHIPPING</h5>
-											<a title="" href="track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
+											<a title="" href="front/track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
 										</div>
 									</div><!-- Fancy Services -->
 								</div>
 								<div class="col-md-3">
 									<div class="fancy-service">
-										<img alt="" src="images/resource/service6.jpg">
+										<img alt="" src="front/images/resource/service6.jpg">
 										<div class="service-detail">
-											<i><img alt="" src="https://moveitfast.co/images/resource/icon6.png" itemprop="image"></i>
+											<i><img alt="" src="front/https://moveitfast.co/images/resource/icon6.png" itemprop="image"></i>
 											<span>M2 Warehouse</span>
 											<h3>Fly Anywhere</h3>
 											<h5>SHIPPING</h5>
-											<a title="" href="track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
+											<a title="" href="front/track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
 										</div>
 									</div><!-- Fancy Services -->
 								</div>
 								<div class="col-md-3">
 									<div class="fancy-service">
-										<img alt="" src="https://moveitfast.co/images/resource/service7.jpg">
+										<img alt="" src="front/https://moveitfast.co/images/resource/service7.jpg">
 										<div class="service-detail">
-											<i><img alt="" src="https://moveitfast.co/images/resource/icon7.png" itemprop="image"></i>
+											<i><img alt="" src="front/https://moveitfast.co/images/resource/icon7.png" itemprop="image"></i>
 											<span>M2 Warehouse</span>
 											<h3>Cargo Storage</h3>
 											<h5>SHIPPING</h5>
-											<a title="" href="track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
+											<a title="" href="front/track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
 										</div>
 									</div><!-- Fancy Services -->
 								</div>
 								<div class="col-md-3">
 									<div class="fancy-service">
-										<img alt="" src="https://moveitfast.co/images/resource/service8.jpg">
+										<img alt="" src="front/https://moveitfast.co/images/resource/service8.jpg">
 										<div class="service-detail">
-											<i><img alt="" src="https://moveitfast.co/images/resource/icon8.png" itemprop="image"></i>
+											<i><img alt="" src="front/https://moveitfast.co/images/resource/icon8.png" itemprop="image"></i>
 											<span>M2 Warehouse</span>
 											<h3>Ocean Cargo</h3>
 											<h5>SHIPPING</h5>
-											<a title="" href="track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
+											<a title="" href="front/track.html" itemprop="url" class="theme-btn"><i class="fa fa-paper-plane"></i>Track Shipment</a>
 										</div>
 									</div><!-- Fancy Services -->
 								</div>
@@ -188,7 +188,7 @@ begin();
         <div class="modal-content">
             <div class="modal-body">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true"><img src="images/close.png" alt="" itemprop="image"/></span></button>
+                            aria-hidden="true"><img src="front/images/close.png" alt="" itemprop="image"/></span></button>
                 <div class="region-detail">
                     <div class="row">
                         <div class="col-md-6 column">
@@ -220,9 +220,9 @@ begin();
                         </div>
                         <div class="col-md-6 column">
                             <div class="loc-thumb">
-                                <img src="images/resource/contact.jpg" alt="" itemprop="image"/>
+                                <img src="front/images/resource/contact.jpg" alt="" itemprop="image"/>
                                 <p></p>
-                                <a class="theme-btn" href="#" title="" itemprop="url">CONTACT US NOW</a>
+                                <a class="theme-btn" href="front/#" title="" itemprop="url">CONTACT US NOW</a>
                             </div>
                         </div>
                     </div>
@@ -237,10 +237,10 @@ begin();
         <div class="modal-content">
             <div class="modal-body">
                 <div class="submission-data">
-                    <span><img src="images/resource/submission.png" alt=""/></span>
+                    <span><img src="front/images/resource/submission.png" alt=""/></span>
                     <h1>SUBMISSION SUCCESSFUL</h1>
                     <p>Thank You For Your Booking With Unload. We Have Sent you a Message Shortly.</p>
-                    <a href="#" title="" class="theme-btn" data-dismiss="modal" aria-label="Close"><i
+                    <a href="front/#" title="" class="theme-btn" data-dismiss="modal" aria-label="Close"><i
                                 class="fa fa-paper-plane"></i>BACK TO MAIN</a>
                 </div><!-- Submission-data -->
             </div>

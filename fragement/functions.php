@@ -50,7 +50,7 @@ function topnav()
     <div class="logo-menu-sec">
         <div class="logo-menu">
             <div class="logo">
-                <a itemprop="url" href="front/index.php.html" title=""><img itemprop="image" src="front/images/resource/logo.png" alt="" /></a>
+                <a itemprop="url" href="front/home" title=""><img itemprop="image" src="front/images/resource/logo.png" alt="" /></a>
             </div>
             <div class="quick-contact">
                 <ul>
@@ -72,13 +72,13 @@ function topnav()
         </div>
         <nav class="menu-curve">
             <ul>
-                <li class=""><a itemprop="url" href="front/index.php.html" title="">HOME</a>
+                <li class=""><a itemprop="url" href="front/home" title="">HOME</a>
 
                 </li>
-                <li class=""><a itemprop="url" href="front/about.php.html" title="">ABOUT</a>
+                <li class=""><a itemprop="url" href="front/about" title="">ABOUT</a>
 
                 </li>
-                <li class=""><a itemprop="url" href="front/services.php.html" title="">SERVICES</a>
+                <li class=""><a itemprop="url" href="front/services" title="">SERVICES</a>
 
                 </li>
 
@@ -86,7 +86,7 @@ function topnav()
 
                 </li>
 
-                <li><a itemprop="url" href="front/contact.php.html" title="">CONTACT</a></li>
+                <li><a itemprop="url" href="front/contact" title="">CONTACT</a></li>
             </ul>
         </nav>
     </div><!-- Logo Menu Sec -->
@@ -130,7 +130,7 @@ function topnav()
         <div class="container">
             <div class="responsive-logo">
                 <div class="logo">
-                    <a itemprop="url" href="front/index.php.html" title=""><img itemprop="image" src="front/images/resource/logo.png" alt="" /></a>
+                    <a itemprop="url" href="front/home" title=""><img itemprop="image" src="front/images/resource/logo.png" alt="" /></a>
                 </div>
             </div>
             <span class="responsive-btn"><i class="fa fa-list"></i></span>
@@ -141,13 +141,13 @@ function topnav()
                     <li><i class="fa fa-paper-plane"></i><a itemprop="url" href="front/#" title="" class="popup2">REQUEST A RATE</a></li>
                 </ul>
                 <ul>
-                    <li class=""><a itemprop="url" href="front/index.php.html" title="">HOME</a>
+                    <li class=""><a itemprop="url" href="front/home" title="">HOME</a>
 
                     </li>
-                    <li class=""><a itemprop="url" href="front/about.php.html" title="">ABOUT</a>
+                    <li class=""><a itemprop="url" href="front/about" title="">ABOUT</a>
 
                     </li>
-                    <li class=""><a itemprop="url" href="front/services.php.html" title="">SERVICES</a>
+                    <li class=""><a itemprop="url" href="front/services" title="">SERVICES</a>
 
                     </li>
 
@@ -155,7 +155,7 @@ function topnav()
 
                     </li>
 
-                    <li><a itemprop="url" href="front/contact.php.html" title="">CONTACT</a></li>
+                    <li><a itemprop="url" href="front/contact" title="">CONTACT</a></li>
                 </ul>
             </div><!-- Responsive Menu -->
         </div>
@@ -177,7 +177,7 @@ function foot()
                             <div class="widget">
                                 <div class="about-widget">
                                     <div class="logo">
-                                        <a itemprop="url" href="front/index.php.html" title=""><img itemprop="image"
+                                        <a itemprop="url" href="front/home" title=""><img itemprop="image"
                                                                                          src="front/images/resource/logo.png"
                                                                                          alt=""/></a>
                                     </div>
@@ -200,11 +200,11 @@ function foot()
                                         </div>
                                         <div class="links-widget">
                                             <ul>
-                                                <li><a itemprop="url" href="front/about.php.html" title="">About Us</a></li>
-                                                <li><a itemprop="url" href="front/services.php.html" title="">Services</a></li>
+                                                <li><a itemprop="url" href="front/about" title="">About Us</a></li>
+                                                <li><a itemprop="url" href="front/services" title="">Services</a></li>
                                                 <li><a itemprop="url" href="front/gallery.php.html" title="">Gallery</a>
                                                 </li>
-                                                <li><a itemprop="url" href="front/contact.php.html"
+                                                <li><a itemprop="url" href="front/contact"
                                                        title="">Contact</a></li>
                                                 <li><a itemprop="url" href="front/track.html" title="">Track Shipment</a></li>
                                             </ul>
@@ -239,15 +239,15 @@ function foot()
         <div class="container">
             <div class="row">
                 <div class="col-md-6 column">
-                    <span>&copy; 2022 <a itemprop="url" title="" href="front/index.php.html">MoveItFast</a> - All Rights Reserved</span>
+                    <span>&copy; 2022 <a itemprop="url" title="" href="front/home">MoveItFast</a> - All Rights Reserved</span>
                 </div>
                 <div class="col-md-6 column">
                     <ul>
-                        <li><a itemprop="url" href="front/index.php.html" title="">HOME</a></li>
-                        <li><a itemprop="url" href="front/services.php.html" title="">SERVICES</a></li>
+                        <li><a itemprop="url" href="front/home" title="">HOME</a></li>
+                        <li><a itemprop="url" href="front/services" title="">SERVICES</a></li>
                         <li><a itemprop="url" href="front/gallery.php.html" title="">GALLERY</a></li>
-                        <li><a itemprop="url" href="front/contact.php.html" title="">CONTACT</a></li>
-                        <li><a itemprop="url" href="front/about.php.html" title="">ABOUT US</a></li>
+                        <li><a itemprop="url" href="front/contact" title="">CONTACT</a></li>
+                        <li><a itemprop="url" href="front/about" title="">ABOUT US</a></li>
                     </ul>
                 </div>
             </div>

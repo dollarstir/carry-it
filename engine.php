@@ -36,5 +36,14 @@ $router = new Router([
             return Viewer::view('front/services.php', $context);
         }
     ),
+
+    // admin side
+
+    new Route(
+        '/manager',
+        function ($context) {
+            return Viewer::view('back/index.php', $context);
+        }
+    ),
 ]);
 $router->launch();
