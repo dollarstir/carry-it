@@ -1,160 +1,10 @@
-<!DOCTYPE html>
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoveItFast® Specialized Logistics | The MoveItFast® Companies </title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" /><!-- Bootstrap -->
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" /><!-- Owl Carousal -->
-    <link rel="stylesheet" href="css/icons.css" type="text/css" /><!-- Font Awesome -->
-    <link rel="stylesheet" href="css/select2.min.css" type="text/css" /><!-- Select2 -->
-    <link rel="stylesheet" href="css/perfect-scrollbar.css" /><!-- Scroll Bar -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" /><!-- Style -->
-    <link rel="stylesheet" href="css/responsive.css" type="text/css" /><!-- Responsive -->
-    <link rel="stylesheet" href="css/colors/color.css" type="text/css" /><!-- Color -->
-    <link rel="stylesheet" href="layerslider/css/layerslider.css" type="text/css"><!-- Layer Slider -->
-
-</head>
+<?php
+involve('functions.php');
+begin();
+?>
 <body itemscope="">
 <div class="theme-layout">
-    <header class="fancy-header stick">
-        <div class="top-sec">
-            <div class="top-bar">
-                <div class="container">
-                    <span class="cargo-time"><i class="fa fa-clock-o"></i>Working Time : 08:00AM - 9:00PM</span>
-                    <div class="connect-us">
-                        <ul class="social-btn">
-                            <li><a itemprop="url" href="#" title=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a itemprop="url" href="#" title=""><i class="fa fa-linkedin"></i></a></li>
-                            <li><a itemprop="url" href="#" title=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a itemprop="url" href="#" title=""><i class="fa fa-reddit"></i></a></li>
-                            <li><a itemprop="url" href="#" title=""><i class="fa fa-rss"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="extra-links">
-                        <a itemprop="url" href="contact.php.html" title="">Support</a>   /   <a itemprop="url" href="#" title="" class="popup2">Track Item</a>
-                    </div>
-                </div>
-            </div>
-        </div><!-- Top Sec -->
-        <div class="logo-menu-sec">
-            <div class="logo-menu">
-                <div class="logo">
-                    <a itemprop="url" href="index.php.html" title=""><img itemprop="image" src="images/resource/logo.png" alt="" /></a>
-                </div>
-                <div class="quick-contact">
-                    <ul>
-                        <li>
-                            <img src="images/resource/phone.png" alt="" />
-                            <span>+1 73 25 64 7820</span>
-                            <p></p>
-                        </li>
-                        <li>
-                            <img src="images/resource/sms.png" alt="" />
-                            <span>info@MoveItFasts.co</span>
-                            <p>Have Any Question?</p>
-                        </li>
-                        <li>
-                            <a href="#" title="" itemprop="url" class="theme-btn popup2">Track Item</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <nav class="menu-curve">
-                <ul>
-                    <li class=""><a itemprop="url" href="index.php.html" title="">HOME</a>
-
-                    </li>
-                    <li class=""><a itemprop="url" href="about.php.html" title="">ABOUT</a>
-
-                    </li>
-                    <li class=""><a itemprop="url" href="services.php.html" title="">SERVICES</a>
-
-                    </li>
-
-                    <li class=""><a itemprop="url" href="gallery.php.html" title="">GALLERY</a>
-
-                    </li>
-
-                    <li><a itemprop="url" href="contact.php.html" title="">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div><!-- Logo Menu Sec -->
-    </header>
-
-    <div class="responsive-header">
-        <span class="top-sec-btn"><i class="fa fa-angle-double-down"></i></span>
-        <div class="responsive-top-sec">
-            <div class="responsive-top-bar top-bar">
-                <div class="container">
-                    <span class="cargo-time">Opening Time :<i>08:00AM - 9:00PM</i></span>
-                    <div class="connect-us">
-                        <ul class="social-btn">
-                            <li><a itemprop="url" href="#" title=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a itemprop="url" href="#" title=""><i class="fa fa-linkedin"></i></a></li>
-                            <li><a itemprop="url" href="#" title=""><i class="fa fa-twitter"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div><!-- Responsive Top Bar -->
-            <div class="responsive-quick-contact">
-                <div class="container">
-                    <div class="quick-contact">
-                        <ul>
-                            <li>
-                                <img src="images/resource/phone.png" alt="" />
-                                <span>+1 73 25 64 7820</span>
-                                <p></p>
-                            </li>
-                            <li>
-                                <img src="images/resource/sms.png" alt="" />
-                                <span>info@MoveItFasts.co</span>
-                                <p>Have Any Question?</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div><!-- Responsive Quick Contact -->
-        </div>
-        <div class="responsive-nav">
-            <div class="container">
-                <div class="responsive-logo">
-                    <div class="logo">
-                        <a itemprop="url" href="index.php.html" title=""><img itemprop="image" src="images/resource/logo.png" alt="" /></a>
-                    </div>
-                </div>
-                <span class="responsive-btn"><i class="fa fa-list"></i></span>
-                <div class="responsive-menu">
-                    <span class="close-btn"><i class="fa fa-close"></i></span>
-                    <ul class="responsive-popup-btns">
-                        <li><i class="fa fa-user"></i><a itemprop="url" href="#" title="" class="popup1">Sign In</a></li>
-                        <li><i class="fa fa-paper-plane"></i><a itemprop="url" href="#" title="" class="popup2">REQUEST A RATE</a></li>
-                    </ul>
-                    <ul>
-                        <li class=""><a itemprop="url" href="index.php.html" title="">HOME</a>
-
-                        </li>
-                        <li class=""><a itemprop="url" href="about.php.html" title="">ABOUT</a>
-
-                        </li>
-                        <li class=""><a itemprop="url" href="services.php.html" title="">SERVICES</a>
-
-                        </li>
-
-                        <li class=""><a itemprop="url" href="gallery.php.html" title="">GALLERY</a>
-
-                        </li>
-
-                        <li><a itemprop="url" href="contact.php.html" title="">CONTACT</a></li>
-                    </ul>
-                </div><!-- Responsive Menu -->
-            </div>
-        </div>
-    </div><!--Responsive header-->
+<?php topnav(); ?>
 
 
 
@@ -163,7 +13,7 @@
             <div class="modal-dialog2">
                 <div class="modal-content2">
                     <div class="modal-body2">
-                        <button type="submit"><img src="images/close1.png" alt="" /></button>
+                        <button type="submit"><img src="front/images/close1.png" alt="" /></button>
                         <div class="cargo-shipment">
                             <div class="calculate-shipping">
                                 <div class="dark-title">
@@ -172,7 +22,7 @@
                                 </div>
 
                                 <div class="calculate-shipping-form">
-                                    <form method="get" action="track.php.html">
+                                    <form method="get" action="track">
                                         <div class="row">
 
 
@@ -186,7 +36,7 @@
 
 
                                             <div class="col-md-12">
-                                                <button type="submit" href="#" title="" class="theme-btn"><i class="fa fa-paper-plane"></i> Track Shipment</button>
+                                                <button type="submit" href="front/#" title="" class="theme-btn"><i class="fa fa-paper-plane"></i> Track Shipment</button>
                                             </div>
                                             <!--<div class="col-md-12">
                                                 <div class="total">
@@ -238,7 +88,7 @@
                                             <div class="col-md-6">
                                                 <div class="simple-services1">
                                                     <div class="service-box1">
-                                                        <img src="https://moveitfast.co/images/resource/77.png" alt=""/>
+                                                        <img src="front/images/resource/77.png" alt=""/>
                                                         <h5 class="counter">2257</h5>
                                                         <span>Freights Delivered</span>
                                                     </div>
@@ -248,7 +98,7 @@
                                             <div class="col-md-6">
                                                 <div class="simple-services1">
                                                     <div class="service-box1">
-                                                        <img src="https://moveitfast.co/images/resource/88.png" alt=""/>
+                                                        <img src="front/images/resource/88.png" alt=""/>
                                                         <h5 class="counter">6919</h5>
                                                         <span>Vehicles Owned</span>
                                                     </div>
@@ -256,13 +106,13 @@
                                             </div>
                                         </div>
                                     </div>
-                                   <!-- <a class="theme-btn dark" href="about.html" title=""><i
+                                   <!-- <a class="theme-btn dark" href="front/about.html" title=""><i
                                                 class="fa fa-paper-plane"></i> about unload</a>-->
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="about-shipment-thumb">
-                                    <img src="https://moveitfast.co/images/resource/about-shipment-thumb.jpg" alt="" itemprop="image"/>
+                                    <img src="front/images/resource/about-shipment-thumb.jpg" alt="" itemprop="image"/>
                                 </div>
                             </div>
                         </div>
@@ -330,7 +180,7 @@
                                 <div class="customers-reviews">
                                     <div class="customers-review-carousel" id="customers-review-carousel">
                                         <div class="review-area">
-                                            <div class="customer-thumb"><img src="images/resource/review1.jpg" alt=""
+                                            <div class="customer-thumb"><img src="front/images/resource/review1.jpg" alt=""
                                                                              itemprop="image"/></div>
                                             <div class="customer-detail">
                                                 <p itemprop="description"><span><i class="fa fa-quote-left"></i></span>Lorem
@@ -346,7 +196,7 @@
                                         </div>
 
                                         <div class="review-area">
-                                            <div class="customer-thumb"><img src="images/resource/review2.jpg" alt=""
+                                            <div class="customer-thumb"><img src="front/images/resource/review2.jpg" alt=""
                                                                              itemprop="image"/></div>
                                             <div class="customer-detail">
                                                 <p itemprop="description"><span><i class="fa fa-quote-left"></i></span>Lorem
@@ -362,7 +212,7 @@
                                         </div>
 
                                         <div class="review-area">
-                                            <div class="customer-thumb"><img src="images/resource/review3.jpg" alt=""
+                                            <div class="customer-thumb"><img src="front/images/resource/review3.jpg" alt=""
                                                                              itemprop="image"/></div>
                                             <div class="customer-detail">
                                                 <p itemprop="description"><span><i class="fa fa-quote-left"></i></span>Sociis,
@@ -402,11 +252,11 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="post-style2">
-                                        <span><img src="https://moveitfast.co/images/resource/post-thumb2-1.jpg" alt=""
+                                        <span><img src="front/https://moveitfast.co/images/resource/post-thumb2-1.jpg" alt=""
                                                    itemprop="image"/></span>
                                         <div class="post-info2">
-                                            <i><img src="images/resource/101.png" alt="" itemprop="image"></i>
-                                            <h4><a href="#" title="" itemprop="url">Reports &amp; Visibility</a></h4>
+                                            <i><img src="front/images/resource/101.png" alt="" itemprop="image"></i>
+                                            <h4><a href="front/#" title="" itemprop="url">Reports &amp; Visibility</a></h4>
                                             <span>Professionally productize</span>
                                         </div>
                                     </div>
@@ -414,11 +264,11 @@
 
                                 <div class="col-md-4">
                                     <div class="post-style2">
-                                        <span><img src="https://moveitfast.co/images/resource/post-thumb2-2.jpg" alt=""
+                                        <span><img src="front/https://moveitfast.co/images/resource/post-thumb2-2.jpg" alt=""
                                                    itemprop="image"/></span>
                                         <div class="post-info2">
-                                            <i><img src="images/resource/102.png" alt="" itemprop="image"></i>
-                                            <h4><a href="#" title="" itemprop="url">Packages Storage</a></h4>
+                                            <i><img src="front/images/resource/102.png" alt="" itemprop="image"></i>
+                                            <h4><a href="front/#" title="" itemprop="url">Packages Storage</a></h4>
                                             <span>Professionally productize</span>
                                         </div>
                                     </div>
@@ -426,11 +276,11 @@
 
                                 <div class="col-md-4">
                                     <div class="post-style2">
-                                        <span><img src="https://moveitfast.co/images/resource/post-thumb2-3.jpg" alt=""
+                                        <span><img src="front/https://moveitfast.co/images/resource/post-thumb2-3.jpg" alt=""
                                                    itemprop="image"/></span>
                                         <div class="post-info2">
-                                            <i><img src="images/resource/103.png" alt="" itemprop="image"></i>
-                                            <h4><a href="#" title="" itemprop="url">Company Contract</a></h4>
+                                            <i><img src="front/images/resource/103.png" alt="" itemprop="image"></i>
+                                            <h4><a href="front/#" title="" itemprop="url">Company Contract</a></h4>
                                             <span>Professionally productize</span>
                                         </div>
                                     </div>
@@ -458,69 +308,69 @@
                         <div class="members-area top-margin">
                             <div class="member clicked">
                                 <div class="member-thumb">
-                                    <img src="images/resource/team1.jpg" alt="" itemprop="image"/>
+                                    <img src="front/images/resource/team1.jpg" alt="" itemprop="image"/>
                                     <div class="member-info">
                                         <span>Founder / Ceo</span>
-                                        <h4><a href="team-detail.html" title="" itemprop="url">JACOB HORAM</a></h4>
+                                        <h4><a href="front/team-detail.html" title="" itemprop="url">JACOB HORAM</a></h4>
                                     </div>
                                 </div>
                                 <div class="member-detail">
                                     <div class="member-info">
                                         <span>Founder / Ceo</span>
-                                        <h4><a href="team-detail.html" title="" itemprop="url">JACOB HORAM</a></h4>
+                                        <h4><a href="front/team-detail.html" title="" itemprop="url">JACOB HORAM</a></h4>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet, conse ctetuer aessa. Cum sociis natoque pena culus
                                         muse ore dolor sit ame dolor sit amet.</p>
                                     <ul class="social-btns">
-                                        <li><a href="#" title="" itemprop="url"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#" title="" itemprop="url"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#" title="" itemprop="url"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="front/#" title="" itemprop="url"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="front/#" title="" itemprop="url"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="front/#" title="" itemprop="url"><i class="fa fa-facebook"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
 
                             <div class="member">
                                 <div class="member-thumb">
-                                    <img src="images/resource/team2.jpg" alt="" itemprop="image"/>
+                                    <img src="front/images/resource/team2.jpg" alt="" itemprop="image"/>
                                     <div class="member-info">
                                         <span>Marketing Assistant</span>
-                                        <h4><a href="team-detail.html" title="" itemprop="url">Jessica Bonner</a></h4>
+                                        <h4><a href="front/team-detail.html" title="" itemprop="url">Jessica Bonner</a></h4>
                                     </div>
                                 </div>
                                 <div class="member-detail">
                                     <div class="member-info">
                                         <span>Marketing Assistant</span>
-                                        <h4><a href="team-detail.html" title="" itemprop="url">Jessica Bonner</a></h4>
+                                        <h4><a href="front/team-detail.html" title="" itemprop="url">Jessica Bonner</a></h4>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet, conse ctetuer aessa. Cum sociis natoque pena culus
                                         muse ore dolor sit ame dolor sit amet.</p>
                                     <ul class="social-btns">
-                                        <li><a href="#" title="" itemprop="url"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#" title="" itemprop="url"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#" title="" itemprop="url"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="front/#" title="" itemprop="url"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="front/#" title="" itemprop="url"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="front/#" title="" itemprop="url"><i class="fa fa-facebook"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
 
                             <div class="member">
                                 <div class="member-thumb">
-                                    <img src="images/resource/team3.jpg" alt="" itemprop="image"/>
+                                    <img src="front/images/resource/team3.jpg" alt="" itemprop="image"/>
                                     <div class="member-info">
                                         <span>Insurance Manager</span>
-                                        <h4><a href="team-detail.html" title="" itemprop="url">Patrick Oconor</a></h4>
+                                        <h4><a href="front/team-detail.html" title="" itemprop="url">Patrick Oconor</a></h4>
                                     </div>
                                 </div>
                                 <div class="member-detail">
                                     <div class="member-info">
                                         <span>Insurance Manager</span>
-                                        <h4><a href="team-detail.html" title="" itemprop="url">Patrick Oconor</a></h4>
+                                        <h4><a href="front/team-detail.html" title="" itemprop="url">Patrick Oconor</a></h4>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet, conse ctetuer aessa. Cum sociis natoque pena culus
                                         muse ore dolor sit ame dolor sit amet.</p>
                                     <ul class="social-btns">
-                                        <li><a href="#" title="" itemprop="url"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#" title="" itemprop="url"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#" title="" itemprop="url"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="front/#" title="" itemprop="url"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="front/#" title="" itemprop="url"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="front/#" title="" itemprop="url"><i class="fa fa-facebook"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -536,15 +386,15 @@
             <div class="row">
                 <div class="col-md-12">
                     <ul class="partners" id="partners">
-                        <li><a itemprop="url" href="#" title=""><img itemprop="image" src="images/resource/partner1.png"
+                        <li><a itemprop="url" href="front/#" title=""><img itemprop="image" src="front/images/resource/partner1.png"
                                                                      alt=""/></a></li>
-                        <li><a itemprop="url" href="#" title=""><img itemprop="image" src="images/resource/partner2.png"
+                        <li><a itemprop="url" href="front/#" title=""><img itemprop="image" src="front/images/resource/partner2.png"
                                                                      alt=""/></a></li>
-                        <li><a itemprop="url" href="#" title=""><img itemprop="image" src="images/resource/partner3.png"
+                        <li><a itemprop="url" href="front/#" title=""><img itemprop="image" src="front/images/resource/partner3.png"
                                                                      alt=""/></a></li>
-                        <li><a itemprop="url" href="#" title=""><img itemprop="image" src="images/resource/partner4.png"
+                        <li><a itemprop="url" href="front/#" title=""><img itemprop="image" src="front/images/resource/partner4.png"
                                                                      alt=""/></a></li>
-                        <li><a itemprop="url" href="#" title=""><img itemprop="image" src="images/resource/partner5.png"
+                        <li><a itemprop="url" href="front/#" title=""><img itemprop="image" src="front/images/resource/partner5.png"
                                                                      alt=""/></a></li>
                     </ul>
                 </div>
@@ -553,96 +403,7 @@
     </section>
 
 
-<footer>
-    <section class="block">
-        <div class="parallax dark" data-velocity="-.2"
-             style="background: rgba(0, 0, 0, 0) url(images/parallax2.jpg) no-repeat 50% 0;"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-4 column">
-                            <div class="widget">
-                                <div class="about-widget">
-                                    <div class="logo">
-                                        <a itemprop="url" href="index.php.html" title=""><img itemprop="image"
-                                                                                         src="images/resource/logo.png"
-                                                                                         alt=""/></a>
-                                    </div>
-                                    <p itemprop="description"></p>
-                                    <ul class="social-btn">
-                                        <li><a href="#" title="" itemprop="url"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#" title="" itemprop="url"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#" title="" itemprop="url"><i class="fa fa-facebook"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 column">
-                            <Div class="row">
-                                <div class="col-md-12 column">
-                                    <div class="widget">
-                                        <div class="heading2">
-                                            <span>Fast And Safe</span>
-                                            <h3>USEFUL LINKS</h3>
-                                        </div>
-                                        <div class="links-widget">
-                                            <ul>
-                                                <li><a itemprop="url" href="about.php.html" title="">About Us</a></li>
-                                                <li><a itemprop="url" href="services.php.html" title="">Services</a></li>
-                                                <li><a itemprop="url" href="gallery.php.html" title="">Gallery</a>
-                                                </li>
-                                                <li><a itemprop="url" href="contact.php.html"
-                                                       title="">Contact</a></li>
-                                                <li><a itemprop="url" href="track.php.html" title="">Track Shipment</a></li>
-                                            </ul>
-                                        </div>
-                                    </div><!-- Widget -->
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col-md-5 column">
-                            <div class="widget blue1">
-                                <div class="heading2">
-                                    <span>FAST AND SAFE</span>
-                                    <h3>Track Shipment</h3>
-                                </div>
-                                <div class="subscription-form">
-                                    <p itemprop="description"></p>
-                                    <form action="track.php.html" method="get">
-                                        <input type="text" name="track" required placeholder="Enter Way Bill Number"/>
-                                        <button type="submit" title="" href="#" class="theme-btn"
-                                           ><i class="fa fa-paper-plane"></i>TRACK NOW</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="bottom-line">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 column">
-                    <span>&copy; 2022 <a itemprop="url" title="" href="index.php.html">MoveItFast</a> - All Rights Reserved</span>
-                </div>
-                <div class="col-md-6 column">
-                    <ul>
-                        <li><a itemprop="url" href="index.php.html" title="">HOME</a></li>
-                        <li><a itemprop="url" href="services.php.html" title="">SERVICES</a></li>
-                        <li><a itemprop="url" href="gallery.php.html" title="">GALLERY</a></li>
-                        <li><a itemprop="url" href="contact.php.html" title="">CONTACT</a></li>
-                        <li><a itemprop="url" href="about.php.html" title="">ABOUT US</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="blank"></div>
-</footer>
+    <?php foot(); ?>
 
 </div>
 
@@ -652,7 +413,7 @@
         <div class="modal-content">
             <div class="modal-body">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true"><img src="images/close.png" alt="" itemprop="image"/></span></button>
+                            aria-hidden="true"><img src="front/images/close.png" alt="" itemprop="image"/></span></button>
                 <div class="region-detail">
                     <div class="row">
                         <div class="col-md-6 column">
@@ -684,9 +445,9 @@
                         </div>
                         <div class="col-md-6 column">
                             <div class="loc-thumb">
-                                <img src="images/resource/contact.jpg" alt="" itemprop="image"/>
+                                <img src="front/images/resource/contact.jpg" alt="" itemprop="image"/>
                                 <p></p>
-                                <a class="theme-btn" href="#" title="" itemprop="url">CONTACT US NOW</a>
+                                <a class="theme-btn" href="front/#" title="" itemprop="url">CONTACT US NOW</a>
                             </div>
                         </div>
                     </div>
@@ -701,10 +462,10 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div class="submission-data">
-                    <span><img src="images/resource/submission.png" alt=""/></span>
+                    <span><img src="front/images/resource/submission.png" alt=""/></span>
                     <h1>SUBMISSION SUCCESSFUL</h1>
                     <p>Thank You For Your Booking With Unload. We Have Sent you a Message Shortly.</p>
-                    <a href="#" title="" class="theme-btn" data-dismiss="modal" aria-label="Close"><i
+                    <a href="front/#" title="" class="theme-btn" data-dismiss="modal" aria-label="Close"><i
                                 class="fa fa-paper-plane"></i>BACK TO MAIN</a>
                 </div><!-- Submission-data -->
             </div>
@@ -713,23 +474,7 @@
 </div>
 
 <!-- Script -->
-<script type="text/javascript" src="js/modernizr-2.0.6.js"></script><!-- Modernizr -->
-<script type="text/javascript" src="js/jquery-2.2.2.js"></script><!-- jQuery -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script><!-- Bootstrap -->
-<script type="text/javascript" src="js/scrolltopcontrol.js"></script><!-- Scroll To Top -->
-<script type="text/javascript" src="js/jquery.scrolly.js"></script><!-- Scrolly -->
-<script type="text/javascript" src="js/owl.carousel.min.js"></script><!-- Owl Carousal -->
-<script type="text/javascript" src="js/icheck.js"></script><!-- iCheck -->
-<script type="text/javascript" src="js/select2.full.js"></script><!-- Select2 -->
-<script type="text/javascript" src="js/perfect-scrollbar.js"></script><!-- Scroll Bar -->
-<script type="text/javascript" src="js/perfect-scrollbar.jquery.js"></script><!-- Scroll Bar -->
-
-<!-- External libraries: jQuery & GreenSock -->
-<script src="layerslider/js/greensock.js" type="text/javascript"></script>
-<!-- LayerSlider script files -->
-<script src="layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
-<script src="layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
-<script src="js/script.js"></script>
+<?php scripts(); ?>
 <script>
     $(document).ready(function () {
         "use strict";
