@@ -105,10 +105,10 @@ function staffheader()
                 <div class="header_right d-flex justify-content-between align-items-center">
                     <div class="header_notification_warp d-flex align-items-center">
                         <li>
-                            <a href="back/#"> </a>
+                            <a href="#"> </a>
                         </li>
                         <li>
-                            <a href="back/#">  </a>
+                            <a href="#">  </a>
                         </li>
                     </div>
                     <div class="profile_info">
@@ -117,9 +117,9 @@ function staffheader()
                             <p>Staff </p>
                             <h5>Admin</h5>
                             <div class="profile_info_details">
-                                <!--<a href="back/#">My Profile <i class="ti-user"></i></a>
+                                <!--<a href="#">My Profile <i class="ti-user"></i></a>
                                 <a href="back/#">Settings <i class="ti-settings"></i></a>-->
-                                <a href="back/logout.php">Log Out <i class="ti-shift-left"></i></a>
+                                <a href="home">Log Out <i class="ti-shift-left"></i></a>
                             </div>
                         </div>
                     </div>

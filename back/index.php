@@ -28,8 +28,8 @@ begin('Home'); ?>
                                                     <img src="back/img/icon/man.svg" alt="">
                                                 </div>
                                                 <div class="count_content">
-                                                    <h3><span class="counter">100</span> </h3>
-                                                    <p>Available Residence</p>
+                                                    <h3><span class="counter">1</span> </h3>
+                                                    <p> Total Packages</p>
                                                 </div>
                                             </div>
                                             <div class="single_quick_activity d-flex">
