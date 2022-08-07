@@ -85,27 +85,7 @@ function begin($title)
                  
              </ul>
          </li>
-         <li class="">
-             <a class="has-arrow" href="back/#" aria-expanded="false">
-                 <img src="back/img/menu-icon/3.svg" alt="">
-                 <span>Records</span>
-             </a>
-             <ul>
-                 <li><a href="back/record.php">View Records</a></li>
-                 
-             </ul>
-         </li>
-
-         <li class="">
-             <a class="has-arrow" href="back/#" aria-expanded="false">
-                 <img src="back/img/menu-icon/3.svg" alt="">
-                 <span>Support</span>
-             </a>
-             <ul>
-                 <li><a href="back/support.php">Contact Support</a></li>
-                 
-             </ul>
-         </li>
+         
          
      </ul>
  </nav>';
