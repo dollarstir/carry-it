@@ -186,3 +186,9 @@ function showpackage()
     </tr>';
     }
 }
+
+function pdetail($id, $data)
+{
+    $dd = customfetch('package', ['id', '=', $id]);
+    echo $dd[0]['data'];
+}
