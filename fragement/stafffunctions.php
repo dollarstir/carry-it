@@ -144,3 +144,23 @@ function support($staffid, $message)
         }
     }
 }
+
+function addpackage($item, $status, $origin, $current, $destination)
+{
+    if (empty(trim($item))) {
+        echo 'please enter a item';
+    } else {
+        $record = [
+            'item' => $item,
+            'status' => $status,
+            'origin' => $origin,
+            'current' => $current,
+            'destination' => $destination,
+        ];
+        if ((insert('package', $record) == 'success')) {
+            echo 'success';
+        } else {
+            echo 'Failed to add package';
+        }
+    }
+}
