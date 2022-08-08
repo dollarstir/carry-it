@@ -493,13 +493,13 @@ begin();
                                         <span class="contact">
                                             <i class="fa fa-mobile"></i>
                                             <strong>Phone No</strong>
-                                            <span>+17325647820</span>
-                                            <span>+1 73 25 64 7820</span>
+                                            <span>+17425647820</span>
+                                            <span>+1 72 25 64 7820</span>
                                         </span>
                                     <span class="contact">
                                             <i class="fa fa-email"></i>
                                             <strong>Email Address</strong>
-                                            <span>info@MoveItFasts.co</span>
+                                            <span>info@MoveItFasts.tk</span>
                                         </span>
                                     <span class="contact">
                                             <i class="fa fa-time"></i>
