@@ -50,7 +50,7 @@ function topnav()
     <div class="logo-menu-sec">
         <div class="logo-menu">
             <div class="logo">
-                <a itemprop="url" href="front/home" title=""><img itemprop="image" src="front/images/resource/logo.png" alt="" /></a>
+                <a itemprop="url" href="home" title=""><img itemprop="image" src="front/images/resource/logo.png" alt="" /></a>
             </div>
             <div class="quick-contact">
                 <ul>
@@ -168,7 +168,7 @@ function foot()
     echo '<footer>
     <section class="block">
         <div class="parallax dark" data-velocity="-.2"
-             style="background: rgba(0, 0, 0, 0) url(images/parallax2.jpg) no-repeat 50% 0;"></div>
+             style="background: rgba(0, 0, 0, 0) url(front/images/parallax2.jpg) no-repeat 50% 0;"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -177,7 +177,7 @@ function foot()
                             <div class="widget">
                                 <div class="about-widget">
                                     <div class="logo">
-                                        <a itemprop="url" href="front/home" title=""><img itemprop="image"
+                                        <a itemprop="url" href="home" title=""><img itemprop="image"
                                                                                          src="front/images/resource/logo.png"
                                                                                          alt=""/></a>
                                     </div>
@@ -200,13 +200,13 @@ function foot()
                                         </div>
                                         <div class="links-widget">
                                             <ul>
-                                                <li><a itemprop="url" href="front/about" title="">About Us</a></li>
-                                                <li><a itemprop="url" href="front/services" title="">Services</a></li>
-                                                <li><a itemprop="url" href="front/gallery.php.html" title="">Gallery</a>
+                                                <li><a itemprop="url" href="about" title="">About Us</a></li>
+                                                <li><a itemprop="url" href="services" title="">Services</a></li>
+                                                <li><a itemprop="url" href="gallery" title="">Gallery</a>
                                                 </li>
-                                                <li><a itemprop="url" href="front/contact"
+                                                <li><a itemprop="url" href="contact"
                                                        title="">Contact</a></li>
-                                                <li><a itemprop="url" href="front/track.html" title="">Track Shipment</a></li>
+                                                <li><a itemprop="url" href="track" title="">Track Shipment</a></li>
                                             </ul>
                                         </div>
                                     </div><!-- Widget -->
@@ -222,9 +222,9 @@ function foot()
                                 </div>
                                 <div class="subscription-form">
                                     <p itemprop="description"></p>
-                                    <form action="track.html" method="get">
-                                        <input type="text" name="track" required placeholder="Enter Way Bill Number"/>
-                                        <button type="submit" title="" href="front/#" class="theme-btn"
+                                    <form action="track" method="get">
+                                        <input type="text" name="tracking" required placeholder="Enter Tracking Number"/>
+                                        <button type="submit" title=""  class="theme-btn"
                                            ><i class="fa fa-paper-plane"></i>TRACK NOW</button>
                                     </form>
                                 </div>

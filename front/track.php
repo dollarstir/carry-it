@@ -66,8 +66,9 @@ if (isset($_GET['tracking'])) {
     if ($_GET['tracking'] == '') {
         echo '';
     } else {
-        if (authenticate('package', [['tracking', '=', $_GET['tracking']]]) == 'succes') {
+        if (authenticate('package', [['trackid', '=', $_GET['tracking']]]) == 'success') {
             $rev = customfetch('package', [['trackid', '=', $_GET['tracking']]]);
+            $rev = $rev[0];
             echo '<div style="margin: 5%" class="inner_main_agile_section">
             <div class="container">
                 <h3 class="w3l_header w3_agileits_header">Result <span> Summary</span></h3>
@@ -79,40 +80,40 @@ if (isset($_GET['tracking'])) {
                         <tbody>
                         <tr>
                             <td>#</td>
-                            <td>CAG153226</td>
+                            <td>'.$rev['trackid'].'</td>
                             
                         </tr>
                         <tr>
-                            <td>Item</td>
+                            <td>Item Description</td>
                             
-                            <td> Six Bars of God</td>
+                            <td> '.$rev['item'].'</td>
                             
                         </tr>
                         <tr>
                             <td>Origin Service Area</td>
-                            <td>Ghana</td>
+                            <td>'.$rev['origin'].'</td>
                             
                         </tr>
                         <tr>
                             <td>Current location</td>
                             
-                            <td>Burkina Faso</td>
+                            <td>'.$rev['current'].'</td>
                             
                         </tr>
                         <tr>
                             <td>Destination Service Area</td>
-                            <td>Germany</td>
+                            <td>'.$rev['destination'].'</td>
                             
                         </tr>
                         <tr>
                             <td>Status</td>
                            
-                            <td>Shipped</td>
+                            <td>'.$rev['status'].'</td>
                             
                         </tr>
                         <tr>
                             <td>Date</td>
-                            <td>11/17/2022</td>
+                            <td>'.$rev['dateadded'].'</td>
                         </tr>
                         </tbody>
                     </table>
@@ -126,10 +127,42 @@ if (isset($_GET['tracking'])) {
                 <p class="sub_para_agile two"></p>
                 <div class="bs-docs-example">
         
-                   <p>Invalid Tracking code</p>
+                    <table class="table table-bordered table-hover table-striped">
+                        
+                        <tbody>
+                        <tr>
+                            <td>Invalide Tracking NUmber</td>
+                            
+                            
+                        </tr>
+                        
+                        </tbody>
+                    </table>
                 </div>
             </div>
-        </div>';
+        </div>
+        <section class="overlape track-sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="track-form">
+                    <div class="heading2">
+                        <img src="front/images/resource/track-form.png" alt=""/>
+                        
+                    </div>
+                    <form action="track" method="get">
+                        <label><i class="fa fa-stumbleupon"></i><input name="tracking" type="text" placeholder="Track a Shipment: Enter Way Bill Number"/></label>
+                        <button title=""  class="theme-btn"
+                           ><i class="fa fa-paper-plane"></i>Track</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        '
+
+        ;
         }
     }
 } else {
