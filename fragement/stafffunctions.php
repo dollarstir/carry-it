@@ -192,3 +192,24 @@ function pdetail($id, $data)
     $dd = customfetch('package', ['id', '=', $id]);
     echo $dd[0][$data];
 }
+
+function editpackage($id, $item, $status, $origin, $current, $destination)
+{
+    if (empty(trim($item))) {
+        echo 'please enter a item';
+    } else {
+        $record = [
+            'item' => $item,
+            'origin' => $origin,
+            'current' => $current,
+            'destination' => $destination,
+            'status' => $status,
+        ];
+        if ((update('package', $record, ['id', '=', $id]) == 'success')) {
+            echo 'Updated Successfully';
+        } else {
+            echo 'Failed to edit package';
+        }
+    }
+}
+

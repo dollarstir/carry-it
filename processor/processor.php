@@ -10,6 +10,10 @@ if (isset($_GET['action'])) {
             addpackage($item, $status, $origin, $current, $destination);
             break;
 
+        case 'editpackage':
+            extract($_POST);
+            editpackage($id, $item, $status, $origin, $current, $destination);
+            break;
         default:
 
         break;

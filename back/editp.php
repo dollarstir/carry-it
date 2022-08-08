@@ -26,17 +26,20 @@ begin('Add Package'); ?>
                                     <h3 class="mb-0">Edit <?php pdetail($id, 'item'); ?></h3>
                                 </div>
                             </div>
-                            <form class="addpackage">
+                            <form class="editpackage">
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Item </label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="item">
+                                        placeholder="" name="item" value="<?php pdetail($id, 'item'); ?>">
+
+                                        <input type="hidden" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="id" value="<?php pdetail($id, 'id'); ?>">
                                 </div>
 
                                 <div class="mb-3">
-                                    <label class="form-label" for="exampleFormControlInput1">Select Item Status</label>
-                                    <select class="default_sel mb_30 w-100" name="status">
-                                        <option value="">Select</option>
+                                    <label class="form-label" for="exampleFormControlInput1">Select Status: <?php pdetail($id, 'status'); ?></label>
+                                    <select class="default_sel mb_30 w-100" name="status" value="<?php pdetail($id, 'status'); ?>">
+                                        <option value="<?php pdetail($id, 'status'); ?>"><?php pdetail($id, 'status'); ?></option>
                                         <option value="Pending">Pending</option>
                                         <option value="Shipped">Shipped</option>
                                         <option value="Delivered">Delivered</option>
@@ -51,7 +54,7 @@ begin('Add Package'); ?>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Current Location</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="current">
+                                        placeholder="" name="current" value="<?php pdetail($id, 'current'); ?>">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Destination Service Area</label>
