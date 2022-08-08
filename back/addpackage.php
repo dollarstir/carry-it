@@ -71,8 +71,8 @@ begin('Add Package'); ?>
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="footer_iner text-center">
-                            <p>2020 © Home Assit <a href="#"> <i class="ti-heart"></i> </a><a href="#">
-                                    Staff</a></p>
+                            <p>2020 © Moveit <a href="#"> <i class="ti-heart"></i> </a><a href="#">
+                                    Admin</a></p>
                             </div>
                         </div>
                     </div>
