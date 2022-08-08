@@ -49,7 +49,7 @@ begin('Add Package'); ?>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Shipping from</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="origin">
+                                        placeholder="" name="origin"  value="<?php pdetail($id, 'origin'); ?>" >
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Current Location</label>
