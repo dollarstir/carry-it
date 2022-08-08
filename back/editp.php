@@ -61,12 +61,12 @@ begin('Add Package'); ?>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Current Location</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="current" value="<?php pdetail($_GET['id'], 'current'); ?>">
+                                        placeholder="" name="current" value="<<?php echo $row['current']; ?>">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Destination Service Area</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="destination" value="<?php pdetail($_GET['id'], 'destination'); ?>" >
+                                        placeholder="" name="destination" value="<?php echo $row['destination']; ?>" >
                                 </div>
 
 
