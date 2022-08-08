@@ -182,7 +182,7 @@ function showpackage()
         <td>'.$row['destination'].'</td>
         <td>'.$row['dateadded'].'</td>
         <td>'.$row['status'].'</td>
-        <td><a href="" class="status_btn">Edit</a></td>
+        <td><a href="editpackage?id="'.$row['id'].'" class="status_btn">Edit</a></td>
     </tr>';
     }
 }

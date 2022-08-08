@@ -58,5 +58,12 @@ $router = new Router([
             return Viewer::view('back/viewpackage.php', $context);
         }
     ),
+
+    new Route(
+        '/editpackage',
+        function ($context) {
+            return Viewer::view('back/editp.php', $context);
+        }
+    ),
 ]);
 $router->launch();
