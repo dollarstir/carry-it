@@ -1,7 +1,7 @@
 <?php
 
 require '../loader/autoloader.php';
-require '../fragments/stafffunction.php';
+require '../fragement/stafffunctions.php';
 
 if (isset($_GET['action'])) {
     switch ($_GET['action']) {
