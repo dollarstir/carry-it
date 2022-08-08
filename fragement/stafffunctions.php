@@ -174,8 +174,7 @@ function showpackage()
     $dd = fetchall('package');
     foreach ($dd as $row) {
         echo '<tr>
-        <th scope="row">  '.$row['trackid'].'
-        </th>
+        <td>'.$row['trackid'].'</td>
         <td>'.$row['item'].'</td>
         <td>'.$row['origin'].'</td>
         <td>'.$row['current'].'</td>
