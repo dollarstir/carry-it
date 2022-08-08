@@ -63,57 +63,84 @@ begin();
 <!-- /contact -->
 <?php
 if (isset($_GET['tracking'])) {
-    echo '<div style="margin: 5%" class="inner_main_agile_section">
-    <div class="container">
-        <h3 class="w3l_header w3_agileits_header">Result <span> Summary</span></h3>
-        <p class="sub_para_agile two"></p>
-        <div class="bs-docs-example">
+    if ($_GET['tracking'] == '') {
+        echo '';
+    } else {
+        $rev = customfetch('package', [['trackid', '=', $_GET['tracking']]]);
 
-            <table class="table table-bordered table-hover table-striped">
-                
-                <tbody>
-                <tr>
-                    <td>#</td>
-                    <td>CAG153226</td>
+        echo '<div style="margin: 5%" class="inner_main_agile_section">
+        <div class="container">
+            <h3 class="w3l_header w3_agileits_header">Result <span> Summary</span></h3>
+            <p class="sub_para_agile two"></p>
+            <div class="bs-docs-example">
+    
+                <table class="table table-bordered table-hover table-striped">
                     
-                </tr>
-                <tr>
-                    <td>Item</td>
-                    
-                    <td> Six Bars of God</td>
-                    
-                </tr>
-                <tr>
-                    <td>Origin Service Area</td>
-                    <td>Ghana</td>
-                    
-                </tr>
-                <tr>
-                    <td>Current location</td>
-                    
-                    <td>Burkina Faso</td>
-                    
-                </tr>
-                <tr>
-                    <td>Destination Service Area</td>
-                    <td>Germany</td>
-                    
-                </tr>
-                <tr>
-                    <td>Status</td>
-                   
-                    <td>Shipped</td>
-                    
-                </tr>
-                <tr>
-                    <td>Date</td>
-                    <td>11/17/2022</td>
-                </tr>
-                </tbody>
-            </table>
+                    <tbody>
+                    <tr>
+                        <td>#</td>
+                        <td>CAG153226</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Item</td>
+                        
+                        <td> Six Bars of God</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Origin Service Area</td>
+                        <td>Ghana</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Current location</td>
+                        
+                        <td>Burkina Faso</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Destination Service Area</td>
+                        <td>Germany</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Status</td>
+                       
+                        <td>Shipped</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Date</td>
+                        <td>11/17/2022</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>';
+    }
+} else {
+    echo '<section class="overlape track-sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="track-form">
+                    <div class="heading2">
+                        <img src="front/images/resource/track-form.png" alt=""/>
+                        <span>BY SEAFREIGHT</span>
+                        <h3>SHIPMENT VISIBILITY</h3>
+                    </div>
+                    <form action="track" method="get">
+                        <label><i class="fa fa-stumbleupon"></i><input name="tracking" type="text" placeholder="Track a Shipment: Enter Way Bill Number"/></label>
+                        <button title=""  class="theme-btn"
+                           ><i class="fa fa-paper-plane"></i>Track</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
-</div>';
+</section>';
 }
 
 ?>
