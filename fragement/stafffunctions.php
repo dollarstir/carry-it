@@ -168,3 +168,21 @@ function addpackage($item, $status, $origin, $current, $destination)
         }
     }
 }
+
+function showpackage()
+{
+    $dd = fetchall('package');
+    foreach ($dd as $row) {
+        echo '<tr>
+        <th scope="row"> <a href="back/#" class="question_content"> '.$row['trackid'].'</a>
+        </th>
+        <td>'.$row['item'].'</td>
+        <td>'.$row['origin'].'</td>
+        <td>'.$row['current'].'</td>
+        <td>'.$row['destination'].'</td>
+        <td>'.$row['dateadded'].'</td>
+        <td>'.$row['status'].'</td>
+        <td><a href="" class="status_btn">Edit</a></td>
+    </tr>';
+    }
+}
