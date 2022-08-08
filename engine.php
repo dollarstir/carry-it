@@ -31,6 +31,13 @@ $router = new Router([
     ),
 
     new Route(
+        '/track',
+        function ($context) {
+            return Viewer::view('front/track.php', $context);
+        }
+    ),
+
+    new Route(
         '/services',
         function ($context) {
             return Viewer::view('front/services.php', $context);

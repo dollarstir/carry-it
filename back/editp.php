@@ -59,7 +59,7 @@ begin('Add Package'); ?>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Destination Service Area</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="destination">
+                                        placeholder="" name="destination" value="<?php pdetail($id, 'destination'); ?>" >
                                 </div>
 
 
