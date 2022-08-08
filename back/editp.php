@@ -23,7 +23,7 @@ begin('Add Package'); ?>
                         <div class="white_box mb_30">
                             <div class="box_header ">
                                 <div class="main-title">
-                                    <h3 class="mb-0">Edit <?php pdetail($$_GET['id'], 'item'); ?></h3>
+                                    <h3 class="mb-0">Edit <?php pdetail($_GET['id'], 'item'); ?></h3>
                                 </div>
                             </div>
                             <form class="editpackage">
