@@ -169,7 +169,7 @@ begin();
                             <h3>SHIPMENT VISIBILITY</h3>
                         </div>
                         <form action="track" method="get">
-                            <label><i class="fa fa-stumbleupon"></i><input name="track" type="text" placeholder="Track a Shipment: Enter Way Bill Number"/></label>
+                            <label><i class="fa fa-stumbleupon"></i><input name="tracking" type="text" placeholder="Track a Shipment: Enter Way Bill Number"/></label>
                             <button title=""  class="theme-btn"
                                ><i class="fa fa-paper-plane"></i>Track</button>
                         </form>
