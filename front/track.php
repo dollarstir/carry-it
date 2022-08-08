@@ -61,7 +61,9 @@ begin();
 
 
 <!-- /contact -->
-<div style="margin: 5%" class="inner_main_agile_section">
+<?php
+if (isset($_GET['tracking'])) {
+    echo '<div style="margin: 5%" class="inner_main_agile_section">
     <div class="container">
         <h3 class="w3l_header w3_agileits_header">Result <span> Summary</span></h3>
         <p class="sub_para_agile two"></p>
@@ -111,7 +113,10 @@ begin();
             </table>
         </div>
     </div>
-</div>
+</div>';
+}
+
+?>
 <!-- map -->
 
 <!-- //contact -->
