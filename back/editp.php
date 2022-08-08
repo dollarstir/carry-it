@@ -1,6 +1,8 @@
 <?php
 involve('stafffunctions');
 
+$id = $_GET['id'];
+
 begin('Add Package'); ?>
 
 <body class="crm_body_bg">
@@ -21,7 +23,7 @@ begin('Add Package'); ?>
                         <div class="white_box mb_30">
                             <div class="box_header ">
                                 <div class="main-title">
-                                    <h3 class="mb-0">App New Package</h3>
+                                    <h3 class="mb-0">Edit <?php pdetail($id, 'item'); ?></h3>
                                 </div>
                             </div>
                             <form class="addpackage">

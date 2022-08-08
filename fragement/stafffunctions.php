@@ -182,7 +182,7 @@ function showpackage()
         <td>'.$row['destination'].'</td>
         <td>'.$row['dateadded'].'</td>
         <td>'.$row['status'].'</td>
-        <td><a href="editpackage?id="'.$row['id'].'" class="status_btn">Edit</a></td>
+        <td><a href="editpackage?id='.$row['id'].'" class="status_btn">Edit</a></td>
     </tr>';
     }
 }
@@ -190,5 +190,5 @@ function showpackage()
 function pdetail($id, $data)
 {
     $dd = customfetch('package', ['id', '=', $id]);
-    echo $dd[0]['data'];
+    echo $dd[0][$data];
 }
