@@ -65,28 +65,28 @@ function topnav()
                         <p>Have Any Question?</p>
                     </li>
                     <li>
-                        <a href="front/#" title="" itemprop="url" class="theme-btn popup2">Track Item</a>
+                        <a href="#" title="" itemprop="url" class="theme-btn popup2">Track Item</a>
                     </li>
                 </ul>
             </div>
         </div>
         <nav class="menu-curve">
             <ul>
-                <li class=""><a itemprop="url" href="front/home" title="">HOME</a>
+                <li class=""><a itemprop="url" href="home" title="">HOME</a>
 
                 </li>
-                <li class=""><a itemprop="url" href="front/about" title="">ABOUT</a>
+                <li class=""><a itemprop="url" href="about" title="">ABOUT</a>
 
                 </li>
-                <li class=""><a itemprop="url" href="front/services" title="">SERVICES</a>
-
-                </li>
-
-                <li class=""><a itemprop="url" href="front/gallery.php.html" title="">GALLERY</a>
+                <li class=""><a itemprop="url" href="services" title="">SERVICES</a>
 
                 </li>
 
-                <li><a itemprop="url" href="front/contact" title="">CONTACT</a></li>
+                <li class=""><a itemprop="url" href="gallery" title="">GALLERY</a>
+
+                </li>
+
+                <li><a itemprop="url" href="contact" title="">CONTACT</a></li>
             </ul>
         </nav>
     </div><!-- Logo Menu Sec -->
