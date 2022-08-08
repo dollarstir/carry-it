@@ -30,6 +30,17 @@ begin('Add Package'); ?>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
                                         placeholder="" name="item">
                                 </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Select Item Status</label>
+                                    <select class="default_sel mb_30 w-100" name="status">
+                                        <option value="">Select</option>
+                                        <option value="Pending">Pending</option>
+                                        <option value="Shipped">Shipped</option>
+                                        <option value="Delivered">Delivered</option>
+                                        <option value="4">Potato</option>
+                                    </select>
+                                </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Shipping from</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
@@ -47,16 +58,7 @@ begin('Add Package'); ?>
                                 </div>
 
 
-                                <div class="mb-3">
-                                    <label class="form-label" for="exampleFormControlInput1">Select Item Status</label>
-                                    <select class="default_sel mb_30 w-100" name="status">
-                                        <option value="">Select</option>
-                                        <option value="Pending">Pending</option>
-                                        <option value="Shipped">Shipped</option>
-                                        <option value="Delivered">Delivered</option>
-                                        <option value="4">Potato</option>
-                                    </select>
-                                </div>
+                                <button type="submit" class="btn btn-primary"> Save </button>
                                 
                             </form>
                         </div>
