@@ -156,6 +156,7 @@ function addpackage($item, $status, $origin, $current, $destination)
             'origin' => $origin,
             'current' => $current,
             'destination' => $destination,
+            'dateadded' => date('jS F Y'),
         ];
         if ((insert('package', $record) == 'success')) {
             echo 'success';
