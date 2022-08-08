@@ -28,32 +28,32 @@ begin('Add Package'); ?>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Item </label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="name@example.com" name="item">
+                                        placeholder="" name="item">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Shipping from</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="name@example.com" name="origin">
+                                        placeholder="" name="origin">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Current Location</label>
                                     <input type="email" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="name@example.com">
+                                        placeholder="" name="current">
                                 </div>
                                 <div class="mb-3">
-                                    <label class="form-label" for="exampleFormControlInput1">Email address</label>
+                                    <label class="form-label" for="exampleFormControlInput1">Destination Service Area</label>
                                     <input type="email" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="name@example.com">
+                                        placeholder="" name="destination">
                                 </div>
 
 
                                 <div class="mb-3">
-                                    <label class="form-label" for="exampleFormControlInput1">Select option</label>
-                                    <select class="default_sel mb_30 w-100">
-                                        <option data-display="Select">Nothing</option>
-                                        <option value="1">Some option</option>
-                                        <option value="2">Another option</option>
-                                        <option value="3" disabled>A disabled option</option>
+                                    <label class="form-label" for="exampleFormControlInput1">Select Item Status</label>
+                                    <select class="default_sel mb_30 w-100" name="status">
+                                        <option value="">Select</option>
+                                        <option value="Pending">Pending</option>
+                                        <option value="Shipped">Shipped</option>
+                                        <option value="Delivered">Delivered</option>
                                         <option value="4">Potato</option>
                                     </select>
                                 </div>
@@ -82,47 +82,47 @@ begin('Add Package'); ?>
 
 
 
-    <script src="js/jquery1-3.4.1.min.js"></script>
+    <script src="back/js/jquery1-3.4.1.min.js"></script>
 
-    <script src="js/popper1.min.js"></script>
+    <script src="back/js/popper1.min.js"></script>
 
-    <script src="js/bootstrap1.min.js"></script>
+    <script src="back/js/bootstrap1.min.js"></script>
 
-    <script src="js/metisMenu.js"></script>
+    <script src="back/js/metisMenu.js"></script>
 
-    <script src="vendors/count_up/jquery.waypoints.min.js"></script>
+    <script src="back/vendors/count_up/jquery.waypoints.min.js"></script>
 
-    <script src="vendors/chartlist/Chart.min.js"></script>
+    <script src="back/vendors/chartlist/Chart.min.js"></script>
 
-    <script src="vendors/count_up/jquery.counterup.min.js"></script>
+    <script src="back/vendors/count_up/jquery.counterup.min.js"></script>
 
-    <script src="vendors/swiper_slider/js/swiper.min.js"></script>
+    <script src="back/vendors/swiper_slider/js/swiper.min.js"></script>
 
-    <script src="vendors/niceselect/js/jquery.nice-select.min.js"></script>
+    <script src="back/vendors/niceselect/js/jquery.nice-select.min.js"></script>
 
-    <script src="vendors/owl_carousel/js/owl.carousel.min.js"></script>
+    <script src="back/vendors/owl_carousel/js/owl.carousel.min.js"></script>
 
-    <script src="vendors/gijgo/gijgo.min.js"></script>
+    <script src="back/vendors/gijgo/gijgo.min.js"></script>
 
-    <script src="vendors/datatable/js/jquery.dataTables.min.js"></script>
-    <script src="vendors/datatable/js/dataTables.responsive.min.js"></script>
-    <script src="vendors/datatable/js/dataTables.buttons.min.js"></script>
-    <script src="vendors/datatable/js/buttons.flash.min.js"></script>
-    <script src="vendors/datatable/js/jszip.min.js"></script>
-    <script src="vendors/datatable/js/pdfmake.min.js"></script>
-    <script src="vendors/datatable/js/vfs_fonts.js"></script>
-    <script src="vendors/datatable/js/buttons.html5.min.js"></script>
-    <script src="vendors/datatable/js/buttons.print.min.js"></script>
-    <script src="js/chart.min.js"></script>
+    <script src="back/vendors/datatable/js/jquery.dataTables.min.js"></script>
+    <script src="back/vendors/datatable/js/dataTables.responsive.min.js"></script>
+    <script src="back/vendors/datatable/js/dataTables.buttons.min.js"></script>
+    <script src="back/vendors/datatable/js/buttons.flash.min.js"></script>
+    <script src="back/vendors/datatable/js/jszip.min.js"></script>
+    <script src="back/vendors/datatable/js/pdfmake.min.js"></script>
+    <script src="back/vendors/datatable/js/vfs_fonts.js"></script>
+    <script src="back/vendors/datatable/js/buttons.html5.min.js"></script>
+    <script src="back/vendors/datatable/js/buttons.print.min.js"></script>
+    <script src="back/js/chart.min.js"></script>
 
-    <script src="vendors/progressbar/jquery.barfiller.js"></script>
+    <script src="back/vendors/progressbar/jquery.barfiller.js"></script>
 
-    <script src="vendors/tagsinput/tagsinput.js"></script>
+    <script src="back/vendors/tagsinput/tagsinput.js"></script>
 
-    <script src="vendors/text_editor/summernote-bs4.js"></script>
-    <script src="vendors/apex_chart/apexcharts.js"></script>
+    <script src="back/vendors/text_editor/summernote-bs4.js"></script>
+    <script src="back/vendors/apex_chart/apexcharts.js"></script>
 
-    <script src="js/custom.js"></script>
+    <script src="back/js/custom.js"></script>
 </body>
 
 </html>
