@@ -66,7 +66,9 @@ if (isset($_GET['tracking'])) {
     if ($_GET['tracking'] == '') {
         echo '';
     } else {
-        $rev = customfetch('package', [['trackid', '=', $_GET['tracking']]]);
+        if (authenticate('package', [['tracking', '=', $_GET['tracking']]]) == 'succes') {
+            $rev = customfetch('package', [['trackid', '=', $_GET['tracking']]]);
+        }
 
         echo '<div style="margin: 5%" class="inner_main_agile_section">
         <div class="container">

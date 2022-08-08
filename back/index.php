@@ -28,7 +28,7 @@ begin('Home'); ?>
                                                     <img src="back/img/icon/man.svg" alt="">
                                                 </div>
                                                 <div class="count_content">
-                                                    <h3><span class="counter">1</span> </h3>
+                                                    <h3><span class="counter"><?php echo countall('package'); ?></span> </h3>
                                                     <p> Total Packages</p>
                                                 </div>
                                             </div>
