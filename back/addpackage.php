@@ -24,7 +24,7 @@ begin('Add Package'); ?>
                                     <h3 class="mb-0">App New Package</h3>
                                 </div>
                             </div>
-                            <form>
+                            <form class="addpackage">
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Item </label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
@@ -123,8 +123,10 @@ begin('Add Package'); ?>
 
     <script src="back/vendors/text_editor/summernote-bs4.js"></script>
     <script src="back/vendors/apex_chart/apexcharts.js"></script>
+    
 
     <script src="back/js/custom.js"></script>
+    <script src="processor/processor.js"></script>
 </body>
 
 </html>

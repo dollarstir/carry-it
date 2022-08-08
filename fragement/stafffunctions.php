@@ -50,6 +50,7 @@ function begin($title)
     
         <link rel="stylesheet" href="back/css/style1.css" />
         <link rel="stylesheet" href="back/css/colors/default.css" id="colorSkinCSS">
+        '.Yolk::uicore('cssa').'
     </head>';
 }
 // Staff Sidebar
