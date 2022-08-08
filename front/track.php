@@ -68,59 +68,69 @@ if (isset($_GET['tracking'])) {
     } else {
         if (authenticate('package', [['tracking', '=', $_GET['tracking']]]) == 'succes') {
             $rev = customfetch('package', [['trackid', '=', $_GET['tracking']]]);
-        }
-
-        echo '<div style="margin: 5%" class="inner_main_agile_section">
-        <div class="container">
-            <h3 class="w3l_header w3_agileits_header">Result <span> Summary</span></h3>
-            <p class="sub_para_agile two"></p>
-            <div class="bs-docs-example">
-    
-                <table class="table table-bordered table-hover table-striped">
-                    
-                    <tbody>
-                    <tr>
-                        <td>#</td>
-                        <td>CAG153226</td>
+            echo '<div style="margin: 5%" class="inner_main_agile_section">
+            <div class="container">
+                <h3 class="w3l_header w3_agileits_header">Result <span> Summary</span></h3>
+                <p class="sub_para_agile two"></p>
+                <div class="bs-docs-example">
+        
+                    <table class="table table-bordered table-hover table-striped">
                         
-                    </tr>
-                    <tr>
-                        <td>Item</td>
-                        
-                        <td> Six Bars of God</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>Origin Service Area</td>
-                        <td>Ghana</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>Current location</td>
-                        
-                        <td>Burkina Faso</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>Destination Service Area</td>
-                        <td>Germany</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>Status</td>
-                       
-                        <td>Shipped</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>Date</td>
-                        <td>11/17/2022</td>
-                    </tr>
-                    </tbody>
-                </table>
+                        <tbody>
+                        <tr>
+                            <td>#</td>
+                            <td>CAG153226</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Item</td>
+                            
+                            <td> Six Bars of God</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Origin Service Area</td>
+                            <td>Ghana</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Current location</td>
+                            
+                            <td>Burkina Faso</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Destination Service Area</td>
+                            <td>Germany</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Status</td>
+                           
+                            <td>Shipped</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Date</td>
+                            <td>11/17/2022</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
-    </div>';
+        </div>';
+        } else {
+            echo '<div style="margin: 5%" class="inner_main_agile_section">
+            <div class="container">
+                <h3 class="w3l_header w3_agileits_header">Result <span> Summary</span></h3>
+                <p class="sub_para_agile two"></p>
+                <div class="bs-docs-example">
+        
+                   <p>Invalid Tracking code</p>
+                </div>
+            </div>
+        </div>';
+        }
     }
 } else {
     echo '<section class="overlape track-sec">
