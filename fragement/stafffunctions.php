@@ -190,7 +190,7 @@ function showpackage()
 function pdetail($id, $data)
 {
     $dd = customfetch('package', ['id', '=', $id]);
-    echo $dd[0][$data];
+    echo $dd[0];
 }
 
 function editpackage($id, $item, $status, $origin, $current, $destination)
