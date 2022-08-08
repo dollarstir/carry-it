@@ -168,9 +168,9 @@ begin();
                             <span>BY SEAFREIGHT</span>
                             <h3>SHIPMENT VISIBILITY</h3>
                         </div>
-                        <form action="track.html" method="get">
+                        <form action="track" method="get">
                             <label><i class="fa fa-stumbleupon"></i><input name="track" type="text" placeholder="Track a Shipment: Enter Way Bill Number"/></label>
-                            <button title="" href="front/#" class="theme-btn"
+                            <button title="" href="track?id=<?php echo $_GET['track']; ?>" class="theme-btn"
                                ><i class="fa fa-paper-plane"></i>Track</button>
                         </form>
                     </div>
