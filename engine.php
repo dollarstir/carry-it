@@ -45,5 +45,12 @@ $router = new Router([
             return Viewer::view('back/index.php', $context);
         }
     ),
+
+    new Route(
+        '/newpackage',
+        function ($context) {
+            return Viewer::view('back/addpackage.php', $context);
+        }
+    ),
 ]);
 $router->launch();
