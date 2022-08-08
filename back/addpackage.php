@@ -26,6 +26,21 @@ begin('Add Package'); ?>
                             </div>
                             <form>
                                 <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Item </label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com" name="item">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Shipping from</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com" name="origin">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Current Location</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
+                                <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Email address</label>
                                     <input type="email" class="form-control" id="exampleFormControlInput1"
                                         placeholder="name@example.com">
