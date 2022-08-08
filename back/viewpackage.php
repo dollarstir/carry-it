@@ -112,8 +112,8 @@ staffsidebar();
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer_iner text-center">
-                            <p>2020 © Influence - Designed by <a href="back/#"> <i class="ti-heart"></i> </a><a
-                                    href="back/#"> Dashboard</a></p>
+                            <p>2020 © Moveit <a href="back/#"> <i class="ti-heart"></i> </a><a
+                                    href="back/#"> Admin</a></p>
                         </div>
                     </div>
                 </div>
