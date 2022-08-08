@@ -205,7 +205,7 @@ function editpackage($id, $item, $status, $origin, $current, $destination)
             'destination' => $destination,
             'status' => $status,
         ];
-        if (update('package', $record, ['id', '=', $id]) == 'success') {
+        if (update('package', $record, ['id' => $id]) == 'success') {
             echo 'Updated Successfully';
         } else {
             echo 'Failed to edit package';
