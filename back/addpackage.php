@@ -1,7 +1,7 @@
 <?php
 involve('stafffunctions');
 
-begin('Support'); ?>
+begin('Add Package'); ?>
 
 <body class="crm_body_bg">
 
