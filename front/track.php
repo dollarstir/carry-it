@@ -25,13 +25,13 @@ begin();
                                 </div>
 
                                 <div class="calculate-shipping-form">
-                                    <form method="get" action="track.html">
+                                    <form method="get" action="track">
                                         <div class="row">
 
 
 
                                             <div class="col-md-12">
-                                                <input type="text" name="track" required class="text-field" placeholder="WayBill Number" />
+                                                <input type="text" name="tracking" required class="text-field" placeholder="WayBill Number" />
                                             </div>
 
 
@@ -39,7 +39,7 @@ begin();
 
 
                                             <div class="col-md-12">
-                                                <button type="submit" href="#" title="" class="theme-btn"><i class="fa fa-paper-plane"></i> Track Shipment</button>
+                                                <button type="submit"  class="theme-btn"><i class="fa fa-paper-plane"></i> Track Shipment</button>
                                             </div>
                                             <!--<div class="col-md-12">
                                                 <div class="total">
