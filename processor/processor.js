@@ -128,14 +128,14 @@ $(function(){
     });
 }
 
+// Add Package
 
-
-$('.welcome').submit(function(e){
+$('.addpackage').submit(function(e){
 
     e.preventDefault();
-    // before();
+   
     var staff = {
-        url: 'processor/processor.php?action=welcome',
+        url: 'processor/processor.php?action=addpackage',
         type: 'post',
         data: new FormData(this),
         cache: false,
