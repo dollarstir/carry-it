@@ -48,12 +48,12 @@ begin('Add Package'); ?>
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Current Location</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
                                         placeholder="" name="current">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Destination Service Area</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
                                         placeholder="" name="destination">
                                 </div>
 
@@ -124,7 +124,7 @@ begin('Add Package'); ?>
     <script src="back/vendors/text_editor/summernote-bs4.js"></script>
     <script src="back/vendors/apex_chart/apexcharts.js"></script>
     
-
+    <?php echo Yolk::uicore('jsa'); ?>
     <script src="back/js/custom.js"></script>
     <script src="processor/processor.js"></script>
 </body>
