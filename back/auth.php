@@ -1,5 +1,4 @@
 <?php
-// session_start();
 loginpagechecker('admin', 'manager');
 involve('stafffunctions');
 
