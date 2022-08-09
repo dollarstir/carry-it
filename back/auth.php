@@ -27,20 +27,8 @@ begin('Admin Login'); ?>
                                         </div>
                                         <div class="modal-body">
                                             <form>
-                                                <div class="row social_login_btn">
-                                                    <div class="form-group  col-md-12 text-center">
-                                                        <a href="#" class="btn_1 full_width"><i
-                                                                class="fab fa-facebook-square"></i>Log in with
-                                                            Facebook</a>
-                                                    </div>
-                                                    <div class="form-group col-md-12 text-center">
-                                                        <a href="#" class="btn_1 full_width"><i
-                                                                class="fab fa-google"></i>Log in with Google</a>
-                                                    </div>
-                                                </div>
-                                                <div class="border_style">
-                                                    <span>Or</span>
-                                                </div>
+                                                
+                                                
                                                 <div class="">
                                                     <input type="text" class="form-control"
                                                         placeholder="Enter your email">
@@ -48,7 +36,7 @@ begin('Admin Login'); ?>
                                                 <div class="">
                                                     <input type="password" class="form-control" placeholder="Password">
                                                 </div>
-                                                <a href="#" class="btn_1 full_width text-center">Log in</a>
+                                                <a href="#" class="btn_1 full_width text-center"></a>
                                                 <p>Need an account? <a data-bs-toggle="modal" data-bs-target="#sing_up"
                                                         data-bs-dismiss="modal" href="#"> Sign Up</a></p>
                                                 <div class="text-center">
