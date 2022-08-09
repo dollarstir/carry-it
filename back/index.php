@@ -1,4 +1,5 @@
 <?php
+mainchecker('admin', 'login');
 involve('stafffunctions');
 
 begin('Home'); ?>
