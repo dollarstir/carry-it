@@ -212,15 +212,15 @@ function editpackage($id, $item, $status, $origin, $current, $destination)
         }
     }
 }
-function login($username, $password)
+function login($email, $password)
 {
-    if (authenticate('cmd', [['username', '=', $username]]) == 'success') {
-        if (loginauth('cmd', 'admin', [['username', '=', $username], ['password', '=', $password]], 'AND') == 'success') {
+    if (authenticate('cmd', [['email', '=', $email]]) == 'success') {
+        if (loginauth('cmd', 'admin', [['email', '=', $email], ['password', '=', md5($password)]], 'AND') == 'success') {
             echo 'loginsuccess';
         } else {
             echo 'Incorrect Password';
         }
     } else {
-        echo 'Incorrect Username';
+        echo 'Incorrect email';
     }
 }

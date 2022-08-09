@@ -16,7 +16,7 @@ if (isset($_GET['action'])) {
             break;
         case 'login':
             extract($_POST);
-            login($username, $password);
+            login($email, $password);
             break;
         default:
 
