@@ -86,5 +86,11 @@ $router = new Router([
             return Viewer::view('back/auth.php', $context);
         }
     ),
+    new Route(
+        '/logout',
+        function ($context) {
+            return Viewer::view('back/logout.php', $context);
+        }
+    ),
 ]);
 $router->launch();

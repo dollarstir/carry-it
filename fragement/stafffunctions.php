@@ -120,7 +120,7 @@ function staffheader()
                             <div class="profile_info_details">
                                 <!--<a href="#">My Profile <i class="ti-user"></i></a>
                                 <a href="back/#">Settings <i class="ti-settings"></i></a>-->
-                                <a href="home">Log Out <i class="ti-shift-left"></i></a>
+                                <a href="logo">Log Out <i class="ti-shift-left"></i></a>
                             </div>
                         </div>
                     </div>
