@@ -79,5 +79,12 @@ $router = new Router([
             return Viewer::view('back/editp.php', $context);
         }
     ),
+
+    new Route(
+        '/login',
+        function ($context) {
+            return Viewer::view('back/auth.php', $context);
+        }
+    ),
 ]);
 $router->launch();
