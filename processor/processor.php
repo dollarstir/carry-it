@@ -14,6 +14,10 @@ if (isset($_GET['action'])) {
             extract($_POST);
             editpackage($id, $item, $status, $origin, $current, $destination);
             break;
+        case 'login':
+            extract($_POST);
+            login($username, $password);
+            break;
         default:
 
         break;

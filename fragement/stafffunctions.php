@@ -212,3 +212,15 @@ function editpackage($id, $item, $status, $origin, $current, $destination)
         }
     }
 }
+function login($username, $password)
+{
+    if (authenticate('cmd', [['username', '=', $username]]) == 'success') {
+        if (loginauth('cmd', 'admin', [['username', '=', $username], ['password', '=', $password]], 'AND') == 'success') {
+            echo 'loginsuccess';
+        } else {
+            echo 'Incorrect Password';
+        }
+    } else {
+        echo 'Incorrect Username';
+    }
+}

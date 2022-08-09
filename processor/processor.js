@@ -69,7 +69,7 @@ $(function(){
                   swal.showLoading();
                 },
               }).then(function (result) {
-                window.location="/tms/home";
+                window.location="manager";
               });
 
         }
@@ -156,6 +156,24 @@ $('.editpackage').submit(function(e){
  
   var staff = {
       url: 'processor/processor.php?action=editpackage',
+      type: 'post',
+      data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
+$('.login').submit(function(e){
+
+  e.preventDefault();
+ 
+  var staff = {
+      url: 'processor/processor.php?action=login',
       type: 'post',
       data: new FormData(this),
       cache: false,
