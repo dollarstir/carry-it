@@ -34,14 +34,9 @@ begin('Add Package'); ?>
                                 </div>
 
                                 <div class="mb-3">
-                                    <label class="form-label" for="exampleFormControlInput1">Select Item Status</label>
-                                    <select class="default_sel mb_30 w-100" name="status">
-                                        <option value="">Select</option>
-                                        <option value="Pending">Pending</option>
-                                        <option value="Shipped">Shipped</option>
-                                        <option value="Delivered">Delivered</option>
-                                        <option value="4">Potato</option>
-                                    </select>
+                                    <label class="form-label" for="exampleFormControlInput1">Shipping Status</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="status">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Shipping from</label>
@@ -55,6 +50,32 @@ begin('Add Package'); ?>
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Destination Service Area</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="destination">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Pickup Date</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="pickupdate">
+                                </div>
+
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">something</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="destination">
+                                </div>
+
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">something</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="destination">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">something</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
                                         placeholder="" name="destination">
                                 </div>

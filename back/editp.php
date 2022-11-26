@@ -25,7 +25,9 @@ begin('Add Package'); ?>
 
                                 <?php
                                 $myid = $_GET['id'];
-                                $conn = mysqli_connect('localhost', 'tucevmlk_moveit', 'Teamwork@2019', 'tucevmlk_moveit');
+                                $conn = mysqli_connect('localhost', 'root', '', 'carrygo');
+                                // $conn = mysqli_connect('localhost', 'tucevmlk_moveit', 'Teamwork@2019', 'tucevmlk_moveit');
+
                                 $dd = mysqli_query($conn, "SELECT * FROM package  WHERE id = '$myid'");
                                 $row = mysqli_fetch_array($dd);
 
@@ -44,16 +46,17 @@ begin('Add Package'); ?>
                                         placeholder="" name="id" value="<?php echo $row['id']; ?>">
                                 </div>
 
+                                
+
+
                                 <div class="mb-3">
-                                    <label class="form-label" for="exampleFormControlInput1">Selected Status: <?php echo $row['status']; ?></label>
-                                    <select class="default_sel mb_30 w-100" name="status" value="<?php echo $row['status']; ?>">
-                                        <option value="<?php echo $row['status']; ?>"><?php echo $row['status']; ?></option>
-                                        <option value="Pending">Pending</option>
-                                        <option value="Shipped">Shipped</option>
-                                        <option value="Delivered">Delivered</option>
-                                        <option value="Cancelled">Cancelled</option>
-                                    </select>
+                                    <label class="form-label" for="exampleFormControlInput1">Shipping Status</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="origin"  value="<?php echo $row['status']; ?>" >
                                 </div>
+
+
+
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Shipping from</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
