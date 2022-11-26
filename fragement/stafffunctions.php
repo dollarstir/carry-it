@@ -145,7 +145,7 @@ function support($staffid, $message)
     }
 }
 
-function addpackage($item, $status, $origin, $current, $destination, $pickupdate, $edeliverydate, $departuretime, $weight, $shippername, $shipperaddress, $receivername, $recieveraddress, $paymode, $shipmode)
+function addpackage($item, $status, $origin, $current, $destination, $pickupdate, $edeliverydate, $departuretime, $weight, $shippername, $shipperaddress, $recievername, $recieveraddress, $paymode, $shipmode)
 {
     if (empty(trim($item))) {
         echo 'please enter a item';
@@ -166,7 +166,7 @@ function addpackage($item, $status, $origin, $current, $destination, $pickupdate
             'weight' => $weight,
             'shippername' => $shippername,
             'shipperaddress' => $shipperaddress,
-            'receivername' => $receivername,
+            'recievername' => $recievername,
             'recieveraddress' => $recieveraddress,
             'paymode' => $paymode,
             'shipmode' => $shipmode,
