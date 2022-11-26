@@ -91,11 +91,11 @@ function begin($title)
          <li class="">
          <a class="has-arrow" href="#" aria-expanded="false">
              <img src="back/img/menu-icon/3.svg" alt="">
-             <span>Packages</span>
+             <span>App Settings</span>
          </a>
          <ul>
-             <li><a href="newpackage">Add Package</a></li>
-             <li><a href="packages">View Packages</a></li>
+             <li><a href="appsettings">Site settings</a></li>
+             <li><a href="adminprofile">Profile settings</a></li>
              
          </ul>
      </li>
@@ -274,4 +274,10 @@ function login($email, $password)
     } else {
         echo 'Incorrect email';
     }
+}
+
+function app($data)
+{
+    $d = fetchall('settings');
+    echo $d[0][$data];
 }
