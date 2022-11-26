@@ -49,15 +49,21 @@ begin('App Settings'); ?>
 
 
                                 <div class="mb-3">
-                                    <label class="form-label" for="exampleFormControlInput1">Shipping from</label>
+                                    <label class="form-label" for="exampleFormControlInput1">Contact Number</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="origin">
+                                        placeholder="" name="appcontact" value=""> 
                                 </div>
 
                                 <div class="mb-3">
-                                    <label class="form-label" for="exampleFormControlInput1">Current Location</label>
+                                    <label class="form-label" for="exampleFormControlInput1">Contact Email</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="current">
+                                        placeholder="" name="appemail" value="">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Contact Adress </label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="appaddress" value="">
                                 </div>
                                 
 
