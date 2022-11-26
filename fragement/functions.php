@@ -277,3 +277,10 @@ function scripts()
     <script src="front/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
     <script src="front/js/script.js"></script>';
 }
+
+function app1($data)
+{
+    $d = fetchall('settings');
+
+    return $d[0][$data];
+}
