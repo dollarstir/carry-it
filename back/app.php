@@ -26,14 +26,14 @@ begin('App Settings'); ?>
                                     <h3 class="mb-0">Site Settings</h3>
                                 </div>
                             </div>
-                            <form class="addpackage">
+                            <form class="editapp">
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Site Name </label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="appname" value="">
+                                        placeholder="" name="appname" value="<?php app('appname'); ?>">
                                 </div>
 
-                                    <img src="yolkassets/upload/'<?php app('applogo'); ?>" alt="App logo" style="width:100px;height:100px;">
+                                    <img src="yolkassets/upload/'<?php app('applogo'); ?>" alt="" style="width:100px;height:100px;">
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Site Logo</label>
@@ -41,29 +41,39 @@ begin('App Settings'); ?>
                                         placeholder="" name="applogo">
                                 </div>
 
+
+
+                                <img src="yolkassets/upload/'<?php app('favicon'); ?>" alt="" style="width:100px;height:100px;">
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Favicon (png only)</label>
+                                    <input type="file" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="favicon">
+                                </div>
+
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Footer text</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="appfooter" value="">
+                                        placeholder="" name="appfooter" value="<?php app('appfooter'); ?>">
                                 </div>
 
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Contact Number</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="appcontact" value=""> 
+                                        placeholder="" name="appcontact" value="<?php app('appcontact'); ?>"> 
                                 </div>
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Contact Email</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="appemail" value="">
+                                        placeholder="" name="appemail" value="<?php app('appemail'); ?>">
                                 </div>
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Contact Adress </label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="appaddress" value="">
+                                        placeholder="" name="appaddress" value="<?php app('appaddress'); ?>">
                                 </div>
                                 
 
