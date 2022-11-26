@@ -282,3 +282,18 @@ function app($data)
     echo $d[0][$data];
 }
 function editapp($appname, $appfooter, $appcontact, $appemail, $appaddress, $appabout)
+{
+    $record = [
+        'appname' => $appname,
+        'appfooter' => $appfooter,
+        'appcontact' => $appcontact,
+        'appemail' => $appemail,
+        'appaddress' => $appaddress,
+        'appabout' => $appabout, ];
+
+    if (update('settings', $record, ['id' => 1], $_FILES) == 'success') {
+        echo 'Updated Successfully';
+    } else {
+        echo 'Failed to update app';
+    }
+}
