@@ -171,7 +171,15 @@ function addpackage($item, $status, $origin, $current, $destination, $pickupdate
             'paymode' => $paymode,
             'shipmode' => $shipmode,
         ];
-        if ((insert('package', $record) == 'success')) {
+
+        $history = [
+            'trackid' => $rd,
+            'location' => $current,
+            'status' => $status,
+            'dateadded' => date('jS F, Y'),
+            'timeadded' => date('h:i:s A'), ];
+
+        if ((insert('package', $record) == 'success') && (insert('history', $history) == 'success')) {
             echo 'success';
         } else {
             echo 'Failed to add package';
