@@ -160,6 +160,16 @@ function addpackage($item, $status, $origin, $current, $destination, $pickupdate
             'current' => $current,
             'destination' => $destination,
             'dateadded' => date('jS F, Y'),
+            'pickupdate' => $pickupdate,
+            'edeliverydate' => $edeliverydate,
+            'departuretime' => $departuretime,
+            'weight' => $weight,
+            'shippername' => $shippername,
+            'shipperaddress' => $shipperaddress,
+            'receivername' => $receivername,
+            'recieveraddress' => $recieveraddress,
+            'paymode' => $paymode,
+            'shipmode' => $shipmode,
         ];
         if ((insert('package', $record) == 'success')) {
             echo 'success';
