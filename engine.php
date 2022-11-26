@@ -92,5 +92,12 @@ $router = new Router([
             return Viewer::view('back/logout.php', $context);
         }
     ),
+
+    new Route(
+        '/appsettings',
+        function ($context) {
+            return Viewer::view('back/app.php', $context);
+        }
+    ),
 ]);
 $router->launch();

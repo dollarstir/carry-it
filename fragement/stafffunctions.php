@@ -86,6 +86,19 @@ function begin($title)
                  
              </ul>
          </li>
+
+
+         <li class="">
+         <a class="has-arrow" href="#" aria-expanded="false">
+             <img src="back/img/menu-icon/3.svg" alt="">
+             <span>Packages</span>
+         </a>
+         <ul>
+             <li><a href="newpackage">Add Package</a></li>
+             <li><a href="packages">View Packages</a></li>
+             
+         </ul>
+     </li>
          
          
      </ul>
