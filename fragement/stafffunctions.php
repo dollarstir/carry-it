@@ -170,12 +170,13 @@ function addpackage($item, $status, $origin, $current, $destination, $pickupdate
             'recieveraddress' => $recieveraddress,
             'paymode' => $paymode,
             'shipmode' => $shipmode,
-        ];
+            'remarks' => $remarks, ];
 
         $history = [
             'trackid' => $rd,
             'location' => $current,
             'status' => $status,
+            'remarks' => $remarks,
             'dateadded' => date('jS F, Y'),
             'timeadded' => date('h:i:s A'), ];
 
