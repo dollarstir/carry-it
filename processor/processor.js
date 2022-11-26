@@ -168,6 +168,28 @@ $('.editpackage').submit(function(e){
   $.ajax(staff);
 });
 
+
+
+// edit app
+
+$('.editapp').submit(function(e){
+
+  e.preventDefault();
+ 
+  var staff = {
+      url: 'processor/processor.php?action=editapp',
+      type: 'post',
+      data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
 $('.login').submit(function(e){
 
   e.preventDefault();
