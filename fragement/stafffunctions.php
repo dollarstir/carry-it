@@ -223,8 +223,27 @@ function editpackage($id, $item, $status, $origin, $current, $destination, $pick
             'current' => $current,
             'destination' => $destination,
             'status' => $status,
-        ];
-        if (update('package', $record, ['id' => $id]) == 'success') {
+            'pickupdate' => $pickupdate,
+            'edeliverydate' => $edeliverydate,
+            'departuretime' => $departuretime,
+            'weight' => $weight,
+            'shippername' => $shippername,
+            'shipperaddress' => $shipperaddress,
+            'recievername' => $recievername,
+            'recieveraddress' => $recieveraddress,
+            'paymode' => $paymode,
+            'shipmode' => $shipmode,
+            'remarks' => $remarks, ];
+
+        $history = [
+            'trackid' => $trackid,
+            'location' => $current,
+            'status' => $status,
+            'remarks' => $remarks,
+            'dateadded' => date('jS F, Y'),
+            'timeadded' => date('h:i:s A'), ];
+
+        if (update('package', $record, ['id' => $id]) == 'success' && insert('history', $history) == 'success') {
             echo 'Updated Successfully';
         } else {
             echo 'Failed to edit package';

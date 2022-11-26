@@ -52,7 +52,7 @@ begin('Edit Package'); ?>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Shipping Status</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="origin"  value="<?php pdetail($myid, 'status'); ?>" >
+                                        placeholder="" name="status"  value="<?php pdetail($myid, 'status'); ?>" >
                                 </div>
 
 
