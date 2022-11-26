@@ -118,6 +118,12 @@ begin('Add Package'); ?>
                                         placeholder="" name="shipmode">
                                 </div>
 
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Remarks</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="remarks">
+                                </div>
+
 
                                 <button type="submit" class="btn btn-primary"> Save </button>
                                 
