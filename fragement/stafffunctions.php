@@ -281,3 +281,4 @@ function app($data)
     $d = fetchall('settings');
     echo $d[0][$data];
 }
+function editapp($appname, $appfooter, $appcontact, $appemail, $appaddress, $appabout)

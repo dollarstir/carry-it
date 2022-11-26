@@ -75,6 +75,12 @@ begin('App Settings'); ?>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
                                         placeholder="" name="appaddress" value="<?php app('appaddress'); ?>">
                                 </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">About App </label>
+                                    <textarea  class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="appabout"><?php app('appabout'); ?></textarea>
+                                </div>
                                 
 
 
