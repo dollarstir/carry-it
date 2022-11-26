@@ -208,11 +208,11 @@ function showpackage()
 
 function pdetail($id, $data)
 {
-    $dd = customfetch('package', ['id', '=', $id]);
+    $dd = customfetch('package', [['id', '=', $id]]);
     echo $dd[0][$data];
 }
 
-function editpackage($id, $item, $status, $origin, $current, $destination)
+function editpackage($id, $item, $status, $origin, $current, $destination, $pickupdate, $edeliverydate, $departuretime, $weight, $shippername, $shipperaddress, $recievername, $recieveraddress, $paymode, $shipmode, $remarks, $trackid)
 {
     if (empty(trim($item))) {
         echo 'please enter a item';

@@ -32,7 +32,7 @@ begin('Edit Package'); ?>
                                 $row = mysqli_fetch_array($dd);
 
                                 ?>
-                                    <h3 class="mb-0">Edit <?php echo $row['item']; ?></h3>
+                                    <h3 class="mb-0">Edit <?php pdetail($myid, 'item'); ?></h3>
                                 </div>
                             </div>
                             
@@ -40,10 +40,10 @@ begin('Edit Package'); ?>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Item </label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="item" value="<?php echo $row['item']; ?>">
+                                        placeholder="" name="item" value="<?php pdetail($myid, 'item'); ?>">
 
                                         <input type="hidden" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="id" value="<?php echo $row['id']; ?>">
+                                        placeholder="" name="id" value="<?php pdetail($myid, 'id'); ?>">
                                 </div>
 
                                 
@@ -52,7 +52,7 @@ begin('Edit Package'); ?>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Shipping Status</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="origin"  value="<?php echo $row['status']; ?>" >
+                                        placeholder="" name="origin"  value="<?php pdetail($myid, 'status'); ?>" >
                                 </div>
 
 
@@ -60,87 +60,89 @@ begin('Edit Package'); ?>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Shipping from</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="origin"  value="<?php echo $row['origin']; ?>" >
+                                        placeholder="" name="origin"  value="<?php pdetail($myid, 'origin'); ?>" >
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Current Location</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="current" value="<?php echo $row['current']; ?>">
+                                        placeholder="" name="current" value="<?php pdetail($myid, 'current'); ?>">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Destination Service Area</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="destination" value="<?php echo $row['destination']; ?>" >
+                                        placeholder="" name="destination" value="<?php pdetail($myid, 'destination'); ?>" >
                                 </div>
 
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Pickup Date</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="pickupdate" value="<?php echo $row['pickupdate']; ?>" >
+                                        placeholder="" name="pickupdate" value="<?php pdetail($myid, 'pickupdate'); ?>" >
                                 </div>
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Expected Delivery Date</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="edeliverydate" value="<?php echo $row['edeliverydate']; ?>" >
+                                        placeholder="" name="edeliverydate" value="<?php pdetail($myid, 'edeliverydate'); ?>" >
                                 </div>
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Departure Time</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="departuretime" value="<?php echo $row['departuretime']; ?>" >
+                                        placeholder="" name="departuretime" value="<?php pdetail($myid, 'departuretime'); ?>" >
                                 </div>
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Weight of package</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="weight" value="<?php echo $row['weight']; ?>" >
+                                        placeholder="" name="weight" value="<?php pdetail($myid, 'weight'); ?>" >
                                 </div>
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Shipper's Name</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="shippername" value="<?php echo $row['shippername']; ?>" >
+                                        placeholder="" name="shippername" value="<?php pdetail($myid, 'shippername'); ?>" >
                                 </div>
 
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Shipper's Address</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="shipperaddress" value="<?php echo $row['shipperaddress']; ?>" >
+                                        placeholder="" name="shipperaddress" value="<?php pdetail($myid, 'shipperaddress'); ?>" >
                                 </div>
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Receiver's Name</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="recievername" value="<?php echo $row['recievername']; ?>" >
+                                        placeholder="" name="recievername" value="<?php pdetail($myid, 'recievername'); ?>" >
                                 </div>
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Receiver's Address </label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="recieveraddress" value="<?php echo $row['recieveraddress']; ?>" >
+                                        placeholder="" name="recieveraddress" value="<?php pdetail($myid, 'recieveraddress'); ?>" >
                                 </div>
 
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Payment Mode</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="paymode" value="<?php echo $row['paymode']; ?>" >
+                                        placeholder="" name="paymode" value="<?php pdetail($myid, 'paymode'); ?>" >
                                     
                                 </div>
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Shipping Mode</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="shipmode" value="<?php echo $row['shipmode']; ?>" >
+                                        placeholder="" name="shipmode" value="<?php pdetail($myid, 'shipmode'); ?>" >
                                 </div>
+
+                                <input type="hidden" name="trackid" value="<?php pdetail($myid, 'trackid'); ?>">
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Remarks</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="remarks" value="<?php echo $row['remarks']; ?>" >
+                                        placeholder="" name="remarks" value="<?php pdetail($myid, 'remarks'); ?>" >
                                 </div>
 
 

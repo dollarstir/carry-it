@@ -12,7 +12,7 @@ if (isset($_GET['action'])) {
 
         case 'editpackage':
             extract($_POST);
-            editpackage($id, $item, $status, $origin, $current, $destination);
+            editpackage($id, $item, $status, $origin, $current, $destination, $pickupdate, $edeliverydate, $departuretime, $weight, $shippername, $shipperaddress, $recievername, $recieveraddress, $paymode, $shipmode, $remarks, $trackid);
             break;
         case 'login':
             extract($_POST);
