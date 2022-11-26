@@ -56,28 +56,66 @@ begin('Add Package'); ?>
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Pickup Date</label>
-                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    <input type="date" class="form-control" id="exampleFormControlInput1"
                                         placeholder="" name="pickupdate">
                                 </div>
 
 
                                 <div class="mb-3">
-                                    <label class="form-label" for="exampleFormControlInput1">something</label>
-                                    <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="destination">
+                                    <label class="form-label" for="exampleFormControlInput1">Expected Delivery Date</label>
+                                    <input type="date" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="edeliverydate">
                                 </div>
 
 
                                 <div class="mb-3">
-                                    <label class="form-label" for="exampleFormControlInput1">something</label>
-                                    <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="destination">
+                                    <label class="form-label" for="exampleFormControlInput1">Depature Time</label>
+                                    <input type="time" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="departuretime">
                                 </div>
 
                                 <div class="mb-3">
-                                    <label class="form-label" for="exampleFormControlInput1">something</label>
+                                    <label class="form-label" for="exampleFormControlInput1">Weight of Package (add unit eg: Kg)</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="destination">
+                                        placeholder="" name="weight">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Shipper's Name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="shippername">
+                                </div>
+
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Shipper's Address</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="shipperaddress">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Reciever's Name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="recievername">
+                                </div>
+
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Reciever Address</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="recieveraddress">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Payment Mode(eg: Cash)</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="paymode">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Shipping Mode (eg : Air)</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="shipmode">
                                 </div>
 
 
