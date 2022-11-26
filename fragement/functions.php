@@ -114,12 +114,12 @@ function topnav()
                     <ul>
                         <li>
                             <img src="front/images/resource/phone.png" alt="" />
-                            <span>+1 73 25 64 7820</span>
+                            <span>'.app1('appcontact').'</span>
                             <p></p>
                         </li>
                         <li>
                             <img src="front/images/resource/sms.png" alt="" />
-                            <span>info@MoveItFasts.co</span>
+                            <span>'.app1('appemail').'</span>
                             <p>Have Any Question?</p>
                         </li>
                     </ul>
@@ -131,7 +131,7 @@ function topnav()
         <div class="container">
             <div class="responsive-logo">
                 <div class="logo">
-                    <a itemprop="url" href="front/home" title=""><img itemprop="image" src="front/images/resource/logo.png" alt="" /></a>
+                    <a itemprop="url" href="front/home" title=""><img itemprop="image" src="yolkassets/upload/'.app1('applogo').'" alt="" /></a>
                 </div>
             </div>
             <span class="responsive-btn"><i class="fa fa-list"></i></span>
@@ -179,7 +179,7 @@ function foot()
                                 <div class="about-widget">
                                     <div class="logo">
                                         <a itemprop="url" href="home" title=""><img itemprop="image"
-                                                                                         src="front/images/resource/logo.png"
+                                                                                         src="yolkassets/upload/'.app1('applogo').'" alt="
                                                                                          alt=""/></a>
                                     </div>
                                     <p itemprop="description"></p>
@@ -246,7 +246,7 @@ function foot()
                     <ul>
                         <li><a itemprop="url" href="front/home" title="">HOME</a></li>
                         <li><a itemprop="url" href="front/services" title="">SERVICES</a></li>
-                        <li><a itemprop="url" href="front/gallery.php.html" title="">GALLERY</a></li>
+                        <li><a itemprop="url" href="front/gallery" title="">GALLERY</a></li>
                         <li><a itemprop="url" href="front/contact" title="">CONTACT</a></li>
                         <li><a itemprop="url" href="front/about" title="">ABOUT US</a></li>
                     </ul>
