@@ -291,7 +291,7 @@ function editapp($appname, $appfooter, $appcontact, $appemail, $appaddress, $app
         'appaddress' => $appaddress,
         'appabout' => $appabout, ];
 
-    if (update('settings', $record, ['id' => 1], $_FILES, '../yolkassets/upload/') == 'success') {
+    if (update('settings', $record, [], $_FILES, '../yolkassets/upload/') == 'success') {
         echo 'Updated Successfully';
     } else {
         echo 'Failed to update app';
