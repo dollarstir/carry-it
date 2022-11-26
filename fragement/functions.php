@@ -1,16 +1,17 @@
 <?php
 
-function begin()
+function begin($title = '')
 {
     echo '<!DOCTYPE html>
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MoveItFast速 Specialized Logistics | The MoveItFast速 Companies </title>
+        <title>'.app1('appname').' | '.$title.' </title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />
-    
+        <link rel="icon" href="yolkassets/upload/'.app1('favicon').'" type="image/png">
+
         <!-- Styles -->
         <link rel="stylesheet" href="front/css/bootstrap.css" type="text/css" /><!-- Bootstrap -->
         <link rel="stylesheet" href="front/css/owl.carousel.css" type="text/css" /><!-- Owl Carousal -->
@@ -50,18 +51,18 @@ function topnav()
     <div class="logo-menu-sec">
         <div class="logo-menu">
             <div class="logo">
-                <a itemprop="url" href="home" title=""><img itemprop="image" src="front/images/resource/logo.png" alt="" /></a>
+                <a itemprop="url" href="home" title=""><img itemprop="image" src="yolkassets/upload/'.app1('applogo').'" alt="" /></a>
             </div>
             <div class="quick-contact">
                 <ul>
                     <li>
                         <img src="front/images/resource/phone.png" alt="" />
-                        <span>+1 73 25 64 7820</span>
+                        <span>'.app1('appcontact').'</span>
                         <p></p>
                     </li>
                     <li>
                         <img src="front/images/resource/sms.png" alt="" />
-                        <span>info@MoveItFasts.co</span>
+                        <span>'.app1('appemail').'</span>
                         <p>Have Any Question?</p>
                     </li>
                     <li>

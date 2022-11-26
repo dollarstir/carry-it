@@ -33,7 +33,7 @@ begin('App Settings'); ?>
                                         placeholder="" name="appname" value="<?php app('appname'); ?>">
                                 </div>
 
-                                    <img src="yolkassets/upload/'<?php app('applogo'); ?>" alt="" style="width:100px;height:100px;">
+                                    <img src="yolkassets/upload/<?php  app('applogo'); ?>" alt="" style="width:200px;height:100px;">
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Site Logo</label>
@@ -43,7 +43,7 @@ begin('App Settings'); ?>
 
 
 
-                                <img src="yolkassets/upload/'<?php app('favicon'); ?>" alt="" style="width:100px;height:100px;">
+                                <img src="yolkassets/upload/<?php app('favicon'); ?>" alt="" style="width:200px;height:100px;">
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Favicon (png only)</label>
