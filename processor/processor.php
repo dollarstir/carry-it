@@ -7,7 +7,7 @@ if (isset($_GET['action'])) {
     switch ($_GET['action']) {
         case 'addpackage':
             extract($_POST);
-            addpackage($item, $status, $origin, $current, $destination);
+            addpackage($item, $status, $origin, $current, $destination, $pickupdate, $edeliverydate, $departuretime, $weight, $shippername, $shipperaddress, $receivername, $recieveraddress, $paymode, $shipmode);
             break;
 
         case 'editpackage':
