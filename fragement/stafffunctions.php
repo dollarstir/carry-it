@@ -15,7 +15,7 @@ function begin($title)
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <title>'.$title.'</title>
-        <link rel="icon" href="back/img/logo.png" type="image/png">
+        <link rel="icon" href="yolkassets/upload/'.app1('favicon').'" type="image/png">
     
         <link rel="stylesheet" href="back/css/bootstrap1.min.css" />
     
@@ -59,7 +59,7 @@ function begin($title)
  {
      echo '<nav class="sidebar">
      <div class="logo d-flex justify-content-between">
-         <a href="manager"><img src="front/images/resource/logo.png" alt=""></a>
+         <a href="manager"><img src="yolkassets/upload/'.app1('applogo').'" alt=""></a>
          <div class="sidebar_close_icon d-lg-none">
              <i class="ti-close"></i>
          </div>
@@ -280,6 +280,13 @@ function app($data)
 {
     $d = fetchall('settings');
     echo $d[0][$data];
+}
+
+function app1($data)
+{
+    $d = fetchall('settings');
+
+    return $d[0][$data];
 }
 function editapp($appname, $appfooter, $appcontact, $appemail, $appaddress, $appabout)
 {
