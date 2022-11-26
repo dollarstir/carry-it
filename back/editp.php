@@ -2,7 +2,7 @@
 mainchecker('admin', 'login');
 involve('stafffunctions');
 
-begin('Add Package'); ?>
+begin('Edit Package'); ?>
 
 <body class="crm_body_bg">
 
@@ -72,6 +72,78 @@ begin('Add Package'); ?>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
                                         placeholder="" name="destination" value="<?php echo $row['destination']; ?>" >
                                 </div>
+
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Pickup Date</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="pickupdate" value="<?php echo $row['pickupdate']; ?>" >
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Expected Delivery Date</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="edeliverydate" value="<?php echo $row['edeliverydate']; ?>" >
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Departure Time</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="departuretime" value="<?php echo $row['departuretime']; ?>" >
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Weight of package</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="weight" value="<?php echo $row['weight']; ?>" >
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Shipper's Name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="shippername" value="<?php echo $row['shippername']; ?>" >
+                                </div>
+
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Shipper's Address</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="shipperaddress" value="<?php echo $row['shipperaddress']; ?>" >
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Receiver's Name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="recievername" value="<?php echo $row['recievername']; ?>" >
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Receiver's Address </label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="recieveraddress" value="<?php echo $row['recieveraddress']; ?>" >
+                                </div>
+
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Payment Mode</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="paymode" value="<?php echo $row['paymode']; ?>" >
+                                    
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Shipping Mode</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="shipmode" value="<?php echo $row['shipmode']; ?>" >
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Remarks</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="remarks" value="<?php echo $row['remarks']; ?>" >
+                                </div>
+
+
 
 
                                 <button type="submit" class="btn btn-primary"> Save </button>
