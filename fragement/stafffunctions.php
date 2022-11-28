@@ -237,7 +237,7 @@ function pdetail($id, $data)
     echo $dd[0][$data];
 }
 
-function editpackage($id, $item, $status, $origin, $current, $destination, $pickupdate, $edeliverydate, $departuretime, $weight, $shippername, $shipperaddress, $recievername, $recieveraddress, $paymode, $shipmode, $remarks, $trackid)
+function editpackage($id, $item, $status, $origin, $current, $destination, $pickupdate, $edeliverydate, $departuretime, $weight, $shippername, $shipperaddress, $recievername, $recieveraddress, $paymode, $shipmode, $remarks, $trackid, $hdate, $htime)
 {
     if (empty(trim($item))) {
         echo 'please enter a item';
@@ -265,8 +265,8 @@ function editpackage($id, $item, $status, $origin, $current, $destination, $pick
             'location' => $current,
             'status' => $status,
             'remarks' => $remarks,
-            'dateadded' => date('jS F, Y'),
-            'timeadded' => date('h:i:s A'), ];
+            'dateadded' => $hdate,
+            'timeadded' => $htime, ];
 
         if (update('package', $record, ['id' => $id]) == 'success' && insert('history', $history) == 'success') {
             echo 'Updated Successfully';

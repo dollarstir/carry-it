@@ -160,7 +160,7 @@ begin('Edit Package'); ?>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Time of operation </label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="time">
+                                        placeholder="" name="htime">
                                 </div>
 
 
