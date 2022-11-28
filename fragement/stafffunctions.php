@@ -79,8 +79,8 @@ function begin($title)
                  <span>Status</span>
              </a>
              <ul>
-                 <li><a href="newpackage">Add Status</a></li>
-                 <li><a href="packages">View Status List</a></li>
+                 <li><a href="addstatus">Add Status</a></li>
+                 <li><a href="viewstatus">View Status List</a></li>
                  
              </ul>
         </li>
