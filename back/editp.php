@@ -25,11 +25,11 @@ begin('Edit Package'); ?>
 
                                 <?php
                                 $myid = $_GET['id'];
-                                $conn = mysqli_connect('localhost', 'root', '', 'carrygo');
-                                // $conn = mysqli_connect('localhost', 'tucevmlk_moveit', 'Teamwork@2019', 'tucevmlk_moveit');
+                                // $conn = mysqli_connect('localhost', 'root', '', 'carrygo');
+                                // // $conn = mysqli_connect('localhost', 'tucevmlk_moveit', 'Teamwork@2019', 'tucevmlk_moveit');
 
-                                $dd = mysqli_query($conn, "SELECT * FROM package  WHERE id = '$myid'");
-                                $row = mysqli_fetch_array($dd);
+                                // $dd = mysqli_query($conn, "SELECT * FROM package  WHERE id = '$myid'");
+                                // $row = mysqli_fetch_array($dd);
 
                                 ?>
                                     <h3 class="mb-0">Edit <?php pdetail($myid, 'item'); ?></h3>
