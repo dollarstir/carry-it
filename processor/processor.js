@@ -249,5 +249,22 @@ $(document).on('submit','.addstatus',function(e){
       $.ajax(user);
 });
 
+// delete status
+$(document).on('click','.deletes',function(e){
+
+  e.preventDefault();
+  
+  var id = $(this).attr('id');
+  var staff = {
+      url: 'processor/processor.php?action=deletestatus',
+      type: 'post',
+      data: {"id": id},
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
     
 })

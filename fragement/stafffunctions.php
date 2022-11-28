@@ -354,3 +354,11 @@ function showstatus()
     </tr>';
     }
 }
+function deletestatus($id)
+{
+    if (delete('status', [['id', '=', $id]]) == 'success') {
+        echo 'Deleted Successfully';
+    } else {
+        echo 'Failed to delete package';
+    }
+}

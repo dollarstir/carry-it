@@ -37,6 +37,12 @@ if (isset($_GET['action'])) {
             // code...
             break;
 
+        case 'deletestatus':
+            extract($_POST);
+            deletestatus($id);
+            // code...
+            break;
+
         default:
 
         break;
