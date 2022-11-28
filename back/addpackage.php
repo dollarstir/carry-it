@@ -63,6 +63,12 @@ begin('Add Package'); ?>
                                         placeholder="" name="pickupdate">
                                 </div>
 
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Pickup Time</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="pickuptime">
+                                </div>
+
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Expected Delivery Date</label>
@@ -73,7 +79,7 @@ begin('Add Package'); ?>
 
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Depature Time</label>
-                                    <input type="time" class="form-control" id="exampleFormControlInput1"
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
                                         placeholder="" name="departuretime">
                                 </div>
 

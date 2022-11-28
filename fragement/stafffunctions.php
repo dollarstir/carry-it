@@ -170,7 +170,7 @@ function support($staffid, $message)
     }
 }
 
-function addpackage($item, $status, $origin, $current, $destination, $pickupdate, $edeliverydate, $departuretime, $weight, $shippername, $shipperaddress, $recievername, $recieveraddress, $paymode, $shipmode, $remarks)
+function addpackage($item, $status, $origin, $current, $destination, $pickupdate, $pickuptime, $edeliverydate, $departuretime, $weight, $shippername, $shipperaddress, $recievername, $recieveraddress, $paymode, $shipmode, $remarks)
 {
     if (empty(trim($item))) {
         echo 'please enter a item';
@@ -186,6 +186,8 @@ function addpackage($item, $status, $origin, $current, $destination, $pickupdate
             'destination' => $destination,
             'dateadded' => date('jS F, Y'),
             'pickupdate' => $pickupdate,
+            'pickuptime' => $pickuptime,
+
             'edeliverydate' => $edeliverydate,
             'departuretime' => $departuretime,
             'weight' => $weight,
@@ -202,8 +204,8 @@ function addpackage($item, $status, $origin, $current, $destination, $pickupdate
             'location' => $current,
             'status' => $status,
             'remarks' => $remarks,
-            'dateadded' => date('jS F, Y'),
-            'timeadded' => date('h:i:s A'), ];
+            'dateadded' => $pickupdate,
+            'timeadded' => $pickuptime, ];
 
         if ((insert('package', $record) == 'success') && (insert('history', $history) == 'success')) {
             echo 'success';
@@ -237,7 +239,7 @@ function pdetail($id, $data)
     echo $dd[0][$data];
 }
 
-function editpackage($id, $item, $status, $origin, $current, $destination, $pickupdate, $edeliverydate, $departuretime, $weight, $shippername, $shipperaddress, $recievername, $recieveraddress, $paymode, $shipmode, $remarks, $trackid, $hdate, $htime)
+function editpackage($id, $item, $status, $origin, $current, $destination, $pickupdate, $pickuptime, $edeliverydate, $departuretime, $weight, $shippername, $shipperaddress, $recievername, $recieveraddress, $paymode, $shipmode, $remarks, $trackid, $hdate, $htime)
 {
     if (empty(trim($item))) {
         echo 'please enter a item';
@@ -249,6 +251,7 @@ function editpackage($id, $item, $status, $origin, $current, $destination, $pick
             'destination' => $destination,
             'status' => $status,
             'pickupdate' => $pickupdate,
+            'pickuptime' => $pickuptime,
             'edeliverydate' => $edeliverydate,
             'departuretime' => $departuretime,
             'weight' => $weight,
