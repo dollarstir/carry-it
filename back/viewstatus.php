@@ -55,7 +55,7 @@ staffsidebar();
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <?php showpackage(); ?>
+                                        <?php showstatus(); ?>
                                         
                                     </tbody>
                                 </table>
