@@ -214,7 +214,7 @@ function showpackage()
         <td>'.$row['destination'].'</td>
         <td>'.$row['dateadded'].'</td>
         <td>'.$row['status'].'</td>
-        <td><a href="editpackage?id='.$row['id'].'" class="status_btn">Edit</a><button class="btn btn-danger btn-sm deletep" id="'.$row['id'].'"></td>
+        <td><a href="editpackage?id='.$row['id'].'" class="status_btn">Edit</a><button class="btn btn-danger btn-sm deletep" id="'.$row['id'].'"><i class="fas fa-trash"></i></button></td>
     </tr>';
     }
 }
