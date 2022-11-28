@@ -49,11 +49,7 @@ begin('Edit Package'); ?>
                                 
 
 
-                                <div class="mb-3">
-                                    <label class="form-label" for="exampleFormControlInput1">Shipping Status</label>
-                                    <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="status"  value="<?php pdetail($myid, 'status'); ?>" >
-                                </div>
+                                
 
                                 <div class="input-group mb-3">
                                             <label class="input-group-text" for="inputGroupSelect01">Shipping Status</label>
@@ -152,6 +148,19 @@ begin('Edit Package'); ?>
                                     <label class="form-label" for="exampleFormControlInput1">Remarks</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
                                         placeholder="" name="remarks" value="<?php pdetail($myid, 'remarks'); ?>" >
+                                </div>
+
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Date of operation </label>
+                                    <input type="date" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="hdate">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label" for="exampleFormControlInput1">Time of operation </label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="" name="time">
                                 </div>
 
 
