@@ -240,7 +240,7 @@ function foot()
         <div class="container">
             <div class="row">
                 <div class="col-md-6 column">
-                    <span>&copy; 2022 <a itemprop="url" title="" href="front/home">MoveItFast</a> - All Rights Reserved</span>
+                    <span>&copy; '.date('Y').'  <a itemprop="url" title="" href="front/home">'.app1('appname').'</a> - All Rights Reserved</span>
                 </div>
                 <div class="col-md-6 column">
                     <ul>
@@ -284,4 +284,11 @@ function app1($data)
     $d = fetchall('settings');
 
     return $d[0][$data];
+}
+
+function app($data)
+{
+    $d = fetchall('settings');
+
+    echo $d[0][$data];
 }

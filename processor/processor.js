@@ -209,6 +209,25 @@ $('.login').submit(function(e){
 });
 
 
+// delete product
+
+$(document).on('click','.deletep',function(e){
+
+  e.preventDefault();
+  
+  var id = $(this).attr('id');
+  var staff = {
+      url: 'processor/processor.php?action=deletepackage',
+      type: 'post',
+      data: {"id": id},
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
+
 
     
 })

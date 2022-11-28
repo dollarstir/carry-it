@@ -23,6 +23,12 @@ if (isset($_GET['action'])) {
             extract($_POST);
             login($email, $password);
             break;
+
+        case 'deletepackage':
+            extract($_POST);
+            deletepackage($id);
+            // code...
+            break;
         default:
 
         break;

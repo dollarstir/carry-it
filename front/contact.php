@@ -4,70 +4,7 @@ begin();
 ?>
 <body itemscope="">
 <div class="theme-layout">
-    <header class="fancy-header stick">
-        <div class="top-sec">
-            <div class="top-bar">
-                <div class="container">
-                    <span class="cargo-time"><i class="fa fa-clock-o"></i>Working Time : 08:00AM - 9:00PM</span>
-                    <div class="connect-us">
-                        <ul class="social-btn">
-                            <li><a itemprop="url" href="front/#" title=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a itemprop="url" href="front/#" title=""><i class="fa fa-linkedin"></i></a></li>
-                            <li><a itemprop="url" href="front/#" title=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a itemprop="url" href="front/#" title=""><i class="fa fa-reddit"></i></a></li>
-                            <li><a itemprop="url" href="front/#" title=""><i class="fa fa-rss"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="extra-links">
-                        <a itemprop="url" href="front/contact.php" title="">Support</a>   /   <a itemprop="url" href="front/#" title="" class="popup2">Track Item</a>
-                    </div>
-                </div>
-            </div>
-        </div><!-- Top Sec -->
-        <div class="logo-menu-sec">
-            <div class="logo-menu">
-                <div class="logo">
-                    <a itemprop="url" href="front/index.php" title=""><img itemprop="image" src="front/images/resource/logo.png" alt="" /></a>
-                </div>
-                <div class="quick-contact">
-                    <ul>
-                        <li>
-                            <img src="front/images/resource/phone.png" alt="" />
-                            <span>+1 73 25 64 7820</span>
-                            <p></p>
-                        </li>
-                        <li>
-                            <img src="front/images/resource/sms.png" alt="" />
-                            <span>info@MoveItFasts.co</span>
-                            <p>Have Any Question?</p>
-                        </li>
-                        <li>
-                            <a href="front/#" title="" itemprop="url" class="theme-btn popup2">Track Item</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <nav class="menu-curve">
-                <ul>
-                    <li class=""><a itemprop="url" href="front/index.php" title="">HOME</a>
-
-                    </li>
-                    <li class=""><a itemprop="url" href="front/about.php" title="">ABOUT</a>
-
-                    </li>
-                    <li class=""><a itemprop="url" href="front/services.php" title="">SERVICES</a>
-
-                    </li>
-
-                    <li class=""><a itemprop="url" href="front/gallery.php" title="">GALLERY</a>
-
-                    </li>
-
-                    <li><a itemprop="url" href="front/contact.php" title="">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div><!-- Logo Menu Sec -->
-    </header>
+    
 
     <?php topnav(); ?>
 
@@ -142,18 +79,18 @@ begin();
                                             <span>Fast And Safe</span>
                                             <h3>OFFICE ADDRESS</h3>
                                         </div>
-                                        <p>MoveItFast ltd. 2258 millenioum Street Columbia, DK 85966</p>
+                                        <p><?php  app('appaddress'); ?></p>
                                         <div class="contact-detail">
                                             <span class="contact">
                                                 <i class="fa fa-mobile"></i>
                                                 <strong>Phone No</strong>
-                                                <span>+1 73 25 64 7820</span>
-                                                <span>+1 73 25 64 7820</span>
+                                                <span><?php  app('appcontact'); ?></span>
+                                                <!-- <span>+1 73 25 64 7820</span> -->
                                             </span>
                                             <span class="contact">
                                                 <i class="fa fa-envelope"></i>
                                                 <strong>Email Address</strong>
-                                                <span>info@MoveItFasts.co</span>
+                                                <span><?php  app('appemail'); ?></span>
                                             </span>
                                             <span class="contact">
                                                 <i class="fa fa-clock-o"></i>
@@ -204,96 +141,7 @@ begin();
         </section>
 
 
-<footer>
-    <section class="block">
-        <div class="parallax dark" data-velocity="-.2"
-             style="background: rgba(0, 0, 0, 0) url(images/parallax2.jpg) no-repeat 50% 0;"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-4 column">
-                            <div class="widget">
-                                <div class="about-widget">
-                                    <div class="logo">
-                                        <a itemprop="url" href="front/index.php" title=""><img itemprop="image"
-                                                                                         src="front/images/resource/logo.png"
-                                                                                         alt=""/></a>
-                                    </div>
-                                    <p itemprop="description"></p>
-                                    <ul class="social-btn">
-                                        <li><a href="front/#" title="" itemprop="url"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="front/#" title="" itemprop="url"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="front/#" title="" itemprop="url"><i class="fa fa-facebook"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 column">
-                            <Div class="row">
-                                <div class="col-md-12 column">
-                                    <div class="widget">
-                                        <div class="heading2">
-                                            <span>Fast And Safe</span>
-                                            <h3>USEFUL LINKS</h3>
-                                        </div>
-                                        <div class="links-widget">
-                                            <ul>
-                                                <li><a itemprop="url" href="front/about.php" title="">About Us</a></li>
-                                                <li><a itemprop="url" href="front/services.php" title="">Services</a></li>
-                                                <li><a itemprop="url" href="front/gallery.php" title="">Gallery</a>
-                                                </li>
-                                                <li><a itemprop="url" href="front/contact.php"
-                                                       title="">Contact</a></li>
-                                                <li><a itemprop="url" href="front/track" title="">Track Shipment</a></li>
-                                            </ul>
-                                        </div>
-                                    </div><!-- Widget -->
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col-md-5 column">
-                            <div class="widget blue1">
-                                <div class="heading2">
-                                    <span>FAST AND SAFE</span>
-                                    <h3>Track Shipment</h3>
-                                </div>
-                                <div class="subscription-form">
-                                    <p itemprop="description"></p>
-                                    <form action="track" method="get">
-                                        <input type="text" name="track" required placeholder="Enter Way Bill Number"/>
-                                        <button type="submit" title="" href="front/#" class="theme-btn"
-                                           ><i class="fa fa-paper-plane"></i>TRACK NOW</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="bottom-line">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 column">
-                    <span>&copy; 2022 <a itemprop="url" title="" href="front/index.php">MoveItFast</a> - All Rights Reserved</span>
-                </div>
-                <div class="col-md-6 column">
-                    <ul>
-                        <li><a itemprop="url" href="front/index.php" title="">HOME</a></li>
-                        <li><a itemprop="url" href="front/services.php" title="">SERVICES</a></li>
-                        <li><a itemprop="url" href="front/gallery.php" title="">GALLERY</a></li>
-                        <li><a itemprop="url" href="front/contact.php" title="">CONTACT</a></li>
-                        <li><a itemprop="url" href="front/about.php" title="">ABOUT US</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="blank"></div>
-</footer>
+        <?php foot(); ?>
 
 </div>
 
@@ -309,21 +157,21 @@ begin();
                         <div class="col-md-6 column">
                             <div class="region-contact-info">
                                 <div class="heading2">
-                                    <span>Fast And Safe</span>
+                                    <span><?php app('appname'); ?></span>
                                     <h3>Office Address</h3>
                                 </div>
-                                <p>Transport logitec, ltd. 2258 millenioum Street Columbia, DK 85966</p>
+                                <p><?php  app('appaddress'); ?></p>
                                 <div class="contact-detail">
                                         <span class="contact">
                                             <i class="fa fa-mobile"></i>
                                             <strong>Phone No</strong>
-                                            <span>+17325647820</span>
-                                            <span>+1 73 25 64 7820</span>
+                                            <span><?php  app('appcontact'); ?></span>
+                                            <!-- <span>+1 73 25 64 7820</span> -->
                                         </span>
                                     <span class="contact">
                                             <i class="fa fa-email"></i>
                                             <strong>Email Address</strong>
-                                            <span>info@MoveItFasts.co</span>
+                                            <span><?php  app('appemail'); ?></span>
                                         </span>
                                     <span class="contact">
                                             <i class="fa fa-time"></i>
@@ -363,24 +211,7 @@ begin();
     </div>
 </div>
 
-<!-- Script -->
-<script type="text/javascript" src="front/js/modernizr-2.0.6.js"></script><!-- Modernizr -->
-<script type="text/javascript" src="front/js/jquery-2.2.2.js"></script><!-- jQuery -->
-<script type="text/javascript" src="front/js/bootstrap.min.js"></script><!-- Bootstrap -->
-<script type="text/javascript" src="front/js/scrolltopcontrol.js"></script><!-- Scroll To Top -->
-<script type="text/javascript" src="front/js/jquery.scrolly.js"></script><!-- Scrolly -->
-<script type="text/javascript" src="front/js/owl.carousel.min.js"></script><!-- Owl Carousal -->
-<script type="text/javascript" src="front/js/icheck.js"></script><!-- iCheck -->
-<script type="text/javascript" src="front/js/select2.full.js"></script><!-- Select2 -->
-<script type="text/javascript" src="front/js/perfect-scrollbar.js"></script><!-- Scroll Bar -->
-<script type="text/javascript" src="front/js/perfect-scrollbar.jquery.js"></script><!-- Scroll Bar -->
-
-<!-- External libraries: jQuery & GreenSock -->
-<script src="front/layerslider/js/greensock.js" type="text/javascript"></script>
-<!-- LayerSlider script files -->
-<script src="front/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
-<script src="front/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
-<script src="front/js/script.js"></script>
+<?php scripts(); ?>
 <script>
     $(document).ready(function () {
         "use strict";

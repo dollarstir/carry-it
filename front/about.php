@@ -1,6 +1,6 @@
 <?php
 involve('functions.php');
-begin();
+begin('About Us');
 ?>
 <body itemscope="">
 <div class="theme-layout">

@@ -69,9 +69,12 @@ if (isset($_GET['tracking'])) {
         if (authenticate('package', [['trackid', '=', $_GET['tracking']]]) == 'success') {
             $rev = customfetch('package', [['trackid', '=', $_GET['tracking']]]);
             $rev = $rev[0];
+
+            $rh = customfetch('history', [['trackid', '=', $_GET['tracking']]], '', ['id' => 'DESC']);
+
             echo '<div style="margin: 5%" class="inner_main_agile_section">
             <div class="container">
-                <h3 class="w3l_header w3_agileits_header">Result <span> Summary</span></h3>
+                <h3 class="w3l_header w3_agileits_header">Shipment <span> Summary</span></h3>
                 <p class="sub_para_agile two"></p>
                 <div class="bs-docs-example">
         
@@ -111,13 +114,123 @@ if (isset($_GET['tracking'])) {
                             <td>'.$rev['status'].'</td>
                             
                         </tr>
+
                         <tr>
-                            <td>Date</td>
-                            <td>'.$rev['dateadded'].'</td>
+                            <td>Weight</td>
+                           
+                            <td>'.$rev['weight'].'</td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>Payment Mode</td>
+                           
+                            <td>'.$rev['paymode'].'</td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>Shipping Mode</td>
+                           
+                            <td>'.$rev['shipmode'].'</td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>Status</td>
+                           
+                            <td>'.$rev['status'].'</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Pickup Date</td>
+                            <td>'.$rev['pickupdate'].'</td>
+                        </tr>
+                        <tr>
+                            <td>Expected Delivery Date</td>
+                           
+                            <td>'.$rev['edeliverydate'].'</td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>Departure Time</td>
+                           
+                            <td>'.$rev['departuretime'].'</td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>Shipper Name</td>
+                           
+                            <td>'.$rev['shippername'].'</td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>Shipper Address</td>
+                           
+                            <td>'.$rev['shipperaddress'].'</td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>Receiver Name</td>
+                           
+                            <td>'.$rev['recievername'].'</td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>Receiver Address</td>
+                           
+                            <td>'.$rev['recieveraddress'].'</td>
+                            
                         </tr>
                         </tbody>
                     </table>
-                </div>
+
+                    <h3 class="w3l_header w3_agileits_header">Shipment <span> History</span></h3></div>
+                    
+                    
+                    <div class="bs-docs-example">
+        
+                        <table class="table table-bordered table-hover table-striped">
+                        <thead style="background-color:#ffb400">
+                            <tr>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Location</th>
+                                <th>Status</th>
+                                <th>Updated By</th>
+                                <th>Remarks</th>
+                            </tr>
+
+                            
+                            </thead>
+                            
+                            <tbody>
+                    ';
+
+            foreach ($rh as $r) {
+                echo '
+                            
+                                <tr>
+                                    <td>'.$r['dateadded'].'</td>
+                                    <td>'.$r['timeadded'].'</td>
+                                    <td>'.$r['location'].'</td>
+                                    <td>'.$r['status'].'</td>
+                                    <td>'.app1('appname').'</td>
+                                    <td>'.$r['remarks'].'</td>
+                                </tr>
+                           ';
+            }
+
+            echo ' 
+
+            </tbody>
+            </table>
+            </div>
             </div>
         </div>';
         } else {
