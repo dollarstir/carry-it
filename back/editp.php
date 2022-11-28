@@ -88,7 +88,7 @@ begin('Edit Package'); ?>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Pickup Time</label>
                                     <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="pickuptime" value="<?php pdetail($myid, 'pickupdate'); ?>">
+                                        placeholder="" name="pickuptime" value="<?php pdetail($myid, 'pickuptime'); ?>">
                                 </div>
 
                                 <div class="mb-3">
