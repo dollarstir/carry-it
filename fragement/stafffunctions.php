@@ -350,7 +350,7 @@ function showstatus()
        
         <td>'.$row['stname'].'</td>
        
-        <td><a href="editstatus?id='.$row['id'].'" class="status_btn">Edit</a><button class="btn btn-danger btn-sm deletes" id="'.$row['id'].'">Delete</button></td>
+        <td><button class="btn btn-danger btn-sm deletes" id="'.$row['id'].'">Delete</button></td>
     </tr>';
     }
 }
