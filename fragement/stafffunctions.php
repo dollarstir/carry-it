@@ -341,3 +341,16 @@ function addstatus($stname)
         }
     }
 }
+
+function showstatus()
+{
+    $dd = fetchall('status');
+    foreach ($dd as $row) {
+        echo '<tr>
+       
+        <td>'.$row['stname'].'</td>
+       
+        <td><a href="editstatus?id='.$row['id'].'" class="status_btn">Edit</a><button class="btn btn-danger btn-sm deletes" id="'.$row['id'].'">Delete</button></td>
+    </tr>';
+    }
+}
