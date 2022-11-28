@@ -125,8 +125,9 @@ staffsidebar();
 
     <script src="back/vendors/text_editor/summernote-bs4.js"></script>
     <script src="back/vendors/apex_chart/apexcharts.js"></script>
-
+    <?php echo Yolk::uicore('jsa'); ?>
     <script src="back/js/custom.js"></script>
+    <script src="processor/processor.js"></script>
 </body>
 
 </html>

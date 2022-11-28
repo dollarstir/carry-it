@@ -214,7 +214,7 @@ function showpackage()
         <td>'.$row['destination'].'</td>
         <td>'.$row['dateadded'].'</td>
         <td>'.$row['status'].'</td>
-        <td><a href="editpackage?id='.$row['id'].'" class="status_btn">Edit</a><button class="btn btn-danger btn-sm deletep" id="'.$row['id'].'"><i class="fas fa-trash"></i></button></td>
+        <td><a href="editpackage?id='.$row['id'].'" class="status_btn">Edit</a><button class="btn btn-danger btn-sm deletep" id="'.$row['id'].'">Delete</button></td>
     </tr>';
     }
 }
@@ -307,7 +307,7 @@ function editapp($appname, $appfooter, $appcontact, $appemail, $appaddress, $app
 
 function deletepackage($id)
 {
-    if (delete('package', [['id' => $id]]) == 'success') {
+    if (delete('package', [['id', '=', $id]]) == 'success') {
         echo 'Deleted Successfully';
     } else {
         echo 'Failed to delete package';
