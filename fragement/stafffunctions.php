@@ -325,3 +325,19 @@ function deletepackage($id)
         echo 'Failed to delete package';
     }
 }
+
+function addstatus($stname)
+{
+    if (empty(trim($stname))) {
+        echo 'please enter a status';
+    } else {
+        $record = [
+            'stname' => $stname, ];
+
+        if (insert('status', $record) == 'success') {
+            echo 'success';
+        } else {
+            echo 'Failed to add status';
+        }
+    }
+}

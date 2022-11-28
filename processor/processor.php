@@ -29,6 +29,14 @@ if (isset($_GET['action'])) {
             deletepackage($id);
             // code...
             break;
+
+        case 'addstatus':
+            extract($_POST);
+            addstatus($stname);
+
+            // code...
+            break;
+
         default:
 
         break;

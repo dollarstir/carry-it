@@ -229,5 +229,25 @@ $(document).on('click','.deletep',function(e){
 
 
 
+
+// add status
+
+$(document).on('submit','.addstatus',function(e){
+
+  e.preventDefault();
+  var user = {
+            url: 'processor/processor.php?action=addstatus',
+            type: 'post',
+            data: new FormData(this),
+            cache: false,
+            contentType: false,
+            processData: false,
+            beforeSend: before,
+            success: resp
+    
+        };
+      $.ajax(user);
+});
+
     
 })
