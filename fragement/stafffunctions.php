@@ -72,6 +72,18 @@ function begin($title)
                  <img src="back/img/menu-icon/1.svg" alt="">
                  <span>Dashboard</span>
              </a>
+
+        <li class="">
+             <a class="has-arrow" href="#" aria-expanded="false">
+                 <img src="back/img/menu-icon/2.svg" alt="">
+                 <span>Status</span>
+             </a>
+             <ul>
+                 <li><a href="newpackage">Add Status</a></li>
+                 <li><a href="packages">View Status List</a></li>
+                 
+             </ul>
+        </li>
              
          </li>
          
