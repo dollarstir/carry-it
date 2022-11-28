@@ -99,5 +99,12 @@ $router = new Router([
             return Viewer::view('back/app.php', $context);
         }
     ),
+
+    new Route(
+        '/addstatus',
+        function ($context) {
+            return Viewer::view('back/addstatus.php', $context);
+        }
+    ),
 ]);
 $router->launch();
