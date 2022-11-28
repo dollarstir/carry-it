@@ -55,6 +55,15 @@ begin('Edit Package'); ?>
                                         placeholder="" name="status"  value="<?php pdetail($myid, 'status'); ?>" >
                                 </div>
 
+                                <div class="input-group mb-3">
+                                            <label class="input-group-text" for="inputGroupSelect01">Shipping Status</label>
+                                            <select class="form-select" id="inputGroupSelect01" name="status">
+                                                <option value="<?php pdetail($myid, 'status'); ?>"><?php pdetail($myid, 'status'); ?></option>
+                                                <?php echo status(); ?>
+                                                
+                                            </select>
+                                </div>
+
 
 
                                 <div class="mb-3">

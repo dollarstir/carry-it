@@ -362,3 +362,14 @@ function deletestatus($id)
         echo 'Failed to delete package';
     }
 }
+
+function status()
+{
+    $do = '';
+    $dd = fetchall('status');
+    foreach ($dd as $row) {
+        $do .= '<option value="'.$row['stname'].'">'.$row['stname'].'</option>';
+    }
+
+    return $do;
+}

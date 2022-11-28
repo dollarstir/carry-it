@@ -33,10 +33,13 @@ begin('Add Package'); ?>
                                         placeholder="" name="item">
                                 </div>
 
-                                <div class="mb-3">
-                                    <label class="form-label" for="exampleFormControlInput1">Shipping Status</label>
-                                    <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="" name="status">
+                                <div class="input-group mb-3">
+                                            <label class="input-group-text" for="inputGroupSelect01">Shipping Status</label>
+                                            <select class="form-select" id="inputGroupSelect01" name="status">
+                                                <option >Choose...</option>
+                                                <?php echo status(); ?>
+                                                
+                                            </select>
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="exampleFormControlInput1">Shipping from</label>
