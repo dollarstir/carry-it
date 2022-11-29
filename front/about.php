@@ -54,7 +54,7 @@ begin('About Us');
         </div>
     </div>
     <div class="page-top blackish overlape">
-        <div class="parallax" data-velocity="-.1" style="background: url(images/parallax4.jpg) repeat scroll 0 0"></div>
+        <div class="parallax" data-velocity="-.1" style="background: url(front/images/parallax4.jpg) repeat scroll 0 0"></div>
         <div class="container">
             <div class="page-title">
                 <span></span>
@@ -75,14 +75,7 @@ begin('About Us');
                                         <strong>SAFE &amp; AFFORDABLE CARGO</strong>
                                         <h2>ABOUT US</h2>
                                     </div>
-                                    <p itemprop="description">At MoveItFast Shipping Company, our approach to
-                                        courier services is unique. Our Courier Franchisees offer a cost effective,
-                                        reliable, timetable courier service, backed up by the latest computer technology
-                                        and online parcel track and trace facilities, making Fastrack Express Express
-                                        Shipping Company the ideal choice for individual consumers, small to medium
-                                        sized businesses as well as leading international e-tailers. Established in 2004
-                                        in Northern Australia, Fastrack Express Shipping Company is now a globally
-                                        franchised courier company with over 13 years' experience.</p>
+                                    <p itemprop="description"><?php app('about'); ?></p>
                                     <div class="services1">
                                         <div class="row">
                                             <div class="col-md-6">
