@@ -78,11 +78,11 @@ begin('About Us');
                                     <p itemprop="description"><?php  app('appabout'); ?></p>
                                     <div class="services1">
                                         <div class="row">
-                                            <div class="col-md-6">
+                                            <div class="col-lg-6">
                                             <p itemprop="description"><?php  app('appabout'); ?></p>
                                             </div>
 
-                                            <div class="col-md-2">
+                                            <div class="col-lg-3">
                                                 <div class="simple-services1">
                                                     <div class="service-box1">
                                                         <img src="front/images/resource/77.png" alt=""/>
@@ -92,7 +92,7 @@ begin('About Us');
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2">
+                                            <div class="col-lg-3">
                                                 <div class="simple-services1">
                                                     <div class="service-box1">
                                                         <img src="front/images/resource/88.png" alt=""/>
