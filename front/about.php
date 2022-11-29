@@ -53,7 +53,7 @@ begin('About Us');
             </div>
         </div>
     </div>
-    <div class="page-top blackish overlape">
+    <div class="page-top blackish overlape" style="opacity:1 !important;">
         <div class="parallax" data-velocity="-.1" style="background: url(front/images/parallax4.jpg) repeat scroll 0 0"></div>
         <div class="container">
             <div class="page-title">
