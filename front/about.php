@@ -75,7 +75,7 @@ begin('About Us');
                                         <strong>SAFE &amp; AFFORDABLE CARGO</strong>
                                         <h2>ABOUT US</h2>
                                     </div>
-                                    <p itemprop="description"><?php echo app('about'); ?></p>
+                                    <p itemprop="description"><?php  app('appabout'); ?></p>
                                     <div class="services1">
                                         <div class="row">
                                             <div class="col-md-6">
