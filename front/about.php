@@ -72,7 +72,7 @@ begin('About Us');
                             <div class="col-md-6">
                                 <div class="safe-affordable-cargo Shipment-guide">
                                     <div class="title2">
-                                        <strong>SAFE &amp; AFFORDABLE CARGO</strong>
+                                        <!-- <strong>SAFE &amp; AFFORDABLE CARGO</strong> -->
                                         <h2>ABOUT US</h2>
                                     </div>
                                     <p itemprop="description"><?php  app('appabout'); ?></p>
@@ -230,7 +230,7 @@ begin('About Us');
     </section>-->
 
 
-    <section class="block">
+    <!-- <section class="block">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -280,11 +280,11 @@ begin('About Us');
                                 </div>
                             </div>
                         </div>
-                    </div><!-- What Make Us Different -->
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
    <!-- <section class="block blackish">
         <div class="fixed-bg" style="background:url(images/parallax1.jpg)"></div>
@@ -374,7 +374,7 @@ begin('About Us');
         </div>
     </section>-->
 
-    <section class="block no-padding">
+    <!-- <section class="block no-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -393,7 +393,7 @@ begin('About Us');
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <?php foot(); ?>
