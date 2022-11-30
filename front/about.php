@@ -255,13 +255,9 @@ begin('About Us');
 
                                 <div class="col-md-6">
                                     <div class="post-style2">
-                                        <span><img src="fron/images/resource/post-thumb2-3.jpg" alt=""
-                                                   itemprop="image"/></span>
-                                        <div class="post-info2">
-                                            <i><img src="front/images/resource/103.png" alt="" itemprop="image"></i>
-                                            <h4><a href="front/#" title="" itemprop="url">Company Contract</a></h4>
-                                            <span>Professionally productize</span>
-                                        </div>
+                                        <img src="fron/images/parallax1.jpg" alt=""
+                                                   itemprop="image"/>
+                                        
                                     </div>
                                 </div>
                             </div>
