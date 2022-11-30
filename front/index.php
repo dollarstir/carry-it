@@ -253,55 +253,7 @@ begin('Welcome');
     </section>
 
 
-    <section class="block gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="column-title">
-                        <span>Safe & Affordable Cargo Services</span>
-                        <h2>We Offer Quick Cargo Shipment Facilities</h2>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="col-md-9">
-                    <div class="modern-services-carousel style2" id="modern-services-carousel">
-                        <div class="modern-service">
-                            <div class="mod-service-inner">
-                                <span><img itemprop="image" alt="" src="front/images/resource/101.png"></span>
-                                <h3><a href="front/#" title="">Reports & Visibility</a></h3>
-                                <i>Professionally Productize</i>
-                                <p></p>
-                            </div>
-                        </div><!-- Modern Service -->
-                        <div class="modern-service">
-                            <div class="mod-service-inner">
-                                <span><img itemprop="image" alt="" src="front/images/resource/102.png"></span>
-                                <h3><a href="front/#" title="">Packages Storage</a></h3>
-                                <i>Professionally Productize</i>
-                                <p></p>
-                            </div>
-                        </div><!-- Modern Service -->
-                        <div class="modern-service">
-                            <div class="mod-service-inner">
-                                <span><img itemprop="image" alt="" src="front/images/resource/103.png"></span>
-                                <h3><a href="front/#" title="">Company Contract</a></h3>
-                                <i>Professionally Productize</i>
-                                <p></p>
-                            </div>
-                        </div><!-- Modern Service -->
-                        <div class="modern-service">
-                            <div class="mod-service-inner">
-                                <span><img itemprop="image" alt="" src="front/images/resource/101.png"></span>
-                                <h3><a href="front/#" title="">Reports & Visibility</a></h3>
-                                <i>Professionally Productize</i>
-                                <p></p>
-                            </div>
-                        </div><!-- Modern Service -->
-                    </div><!-- Modern Services Carousel -->
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
 
     <section class="block no-padding">
