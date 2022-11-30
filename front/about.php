@@ -63,59 +63,7 @@ begin('About Us');
         </div>
     </div><!-- Page Top -->
 
-    <section class="block">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="about-shipment">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="safe-affordable-cargo Shipment-guide">
-                                    <div class="title2">
-                                        <!-- <strong>SAFE &amp; AFFORDABLE CARGO</strong> -->
-                                        <h2>ABOUT US</h2>
-                                    </div>
-                                    <p itemprop="description"><?php  app('appabout'); ?></p>
-                                    <div class="services1">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="simple-services1">
-                                                    <div class="service-box1">
-                                                        <img src="front/images/resource/77.png" alt=""/>
-                                                        <h5 class="counter">2257</h5>
-                                                        <span>Freights Delivered</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            
-
-                                            <div class="col-md-6">
-                                                <div class="simple-services1">
-                                                    <div class="service-box1">
-                                                        <img src="front/images/resource/88.png" alt=""/>
-                                                        <h5 class="counter">6919</h5>
-                                                        <span>Vehicles Owned</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                   <!-- <a class="theme-btn dark" href="front/about.html" title=""><i
-                                                class="fa fa-paper-plane"></i> about unload</a>-->
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="about-shipment-thumb">
-                                    <img src="front/images/resource/about-shipment-thumb.jpg" alt="" itemprop="image"/>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- About Shipment -->
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
    <!-- <section class="block gray">
         <div class="container">
@@ -238,8 +186,8 @@ begin('About Us');
                 <div class="col-md-12">
                     <div class="what-make-us-different">
                         <div class="heading">
-                            <span>WHAT WE PROVIDE FOR CLIENTS</span>
-                            <h2>WHAT MAKE US DIFFERENT</h2>
+                            <!-- <span>WHAT WE PROVIDE FOR CLIENTS</span> -->
+                            <h2>ABOUT US</h2>
                             <p></p>
                         </div>
 
