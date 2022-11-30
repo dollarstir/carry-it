@@ -90,10 +90,10 @@ begin('Welcome');
 
                     </div>
 
-                    <a href="front/track.html" itemprop="url" title="" class="ls-slide slide-icon"
+                    <!-- <a href="front/track.html" itemprop="url" title="" class="ls-slide slide-icon"
                        style="padding:16px 45px; background:#ffb400; color:#ffffff; font-size:12px; top:539px; left:100px;"
                        data-ls="offsetxout:left; offsetyin:bottom; durationin:1500; delayin:1300; easingin:easeOutBack; fadein:false; easingout:easeInBack; fadeout:false;">ORDER
-                        NOW</a>
+                        NOW</a> -->
 
                     <img src="front/images/resource/slide-model.png" alt="" itemprop="image" class="ls-slide"
                          style="top:0; left:540px;"
