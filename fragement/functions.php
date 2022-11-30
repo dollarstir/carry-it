@@ -83,7 +83,7 @@ function topnav()
 
                 </li>
 
-                <li class=""><a itemprop="url" href="gallery" title="">GALLERY</a>
+                <!--<li class=""><a itemprop="url" href="gallery" title="">GALLERY</a>-->
 
                 </li>
 
