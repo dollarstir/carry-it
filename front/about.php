@@ -251,21 +251,11 @@ begin('About Us');
                                     </div>
                                 </div>
 
-                                <!-- <div class="col-md-4">
-                                    <div class="post-style2">
-                                        <span><img src="front/https://moveitfast.co/images/resource/post-thumb2-2.jpg" alt=""
-                                                   itemprop="image"/></span>
-                                        <div class="post-info2">
-                                            <i><img src="front/images/resource/102.png" alt="" itemprop="image"></i>
-                                            <h4><a href="front/#" title="" itemprop="url">Packages Storage</a></h4>
-                                            <span>Professionally productize</span>
-                                        </div>
-                                    </div>
-                                </div> -->
+                                
 
                                 <div class="col-md-6">
                                     <div class="post-style2">
-                                        <span><img src="front/https://moveitfast.co/images/resource/post-thumb2-3.jpg" alt=""
+                                        <span><img src="fron/images/resource/post-thumb2-3.jpg" alt=""
                                                    itemprop="image"/></span>
                                         <div class="post-info2">
                                             <i><img src="front/images/resource/103.png" alt="" itemprop="image"></i>
