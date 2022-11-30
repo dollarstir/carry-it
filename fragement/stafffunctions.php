@@ -175,7 +175,7 @@ function addpackage($item, $status, $origin, $current, $destination, $pickupdate
     if (empty(trim($item))) {
         echo 'please enter a item';
     } else {
-        $rr = rand(1111111, 9999999);
+        $rr = rand(1111111111, 9999999999);
         $rd = 'CCT'.$rr;
         $record = [
             'trackid' => $rd,
