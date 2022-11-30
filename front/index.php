@@ -256,7 +256,7 @@ begin('Welcome');
     
 
 
-    <section class="block no-padding">
+    <!-- <section class="block no-padding">
         <div class="fixed-bg  layer" style="background: url(images/parallax4.jpg) no-repeat scroll;"></div>
         <div class="row">
             <div class="col-md-6">
@@ -396,7 +396,7 @@ begin('Welcome');
                 </div><!-- Shipment Guide -->
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
