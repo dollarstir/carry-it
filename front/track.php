@@ -195,7 +195,7 @@ if (isset($_GET['tracking'])) {
                     
                     <div class="bs-docs-example">
         
-                        <table class="table table-bordered table-responsive table-hover table-striped">
+                        <table class="table table-responsive table-responsive table-hover">
                         <thead style="background-color:#ffb400">
                             <tr>
                                 <th>Date</th>
