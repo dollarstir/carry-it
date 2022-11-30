@@ -255,7 +255,7 @@ begin('About Us');
 
                                 <div class="col-md-6">
                                     <div class="post-style2">
-                                        <img src="front/images/parallax1.jpg" alt=""
+                                        <img src="front/images/parallax4.jpg" alt=""
                                                    itemprop="image"/>
                                         
                                     </div>
