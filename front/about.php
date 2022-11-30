@@ -232,7 +232,7 @@ begin('About Us');
     </section>-->
 
 
-    <!-- <section class="block">
+    <section class="block">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -286,7 +286,7 @@ begin('About Us');
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
    <!-- <section class="block blackish">
         <div class="fixed-bg" style="background:url(images/parallax1.jpg)"></div>
