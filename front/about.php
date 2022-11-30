@@ -247,13 +247,7 @@ begin('About Us');
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="post-style2">
-                                        <span><img src="front/https://moveitfast.co/images/resource/post-thumb2-1.jpg" alt=""
-                                                   itemprop="image"/></span>
-                                        <div class="post-info2">
-                                            <i><img src="front/images/resource/101.png" alt="" itemprop="image"></i>
-                                            <h4><a href="front/#" title="" itemprop="url">Reports &amp; Visibility</a></h4>
-                                            <span>Professionally productize</span>
-                                        </div>
+                                    <p itemprop="description"><?php  app('appabout'); ?></p>
                                     </div>
                                 </div>
 
