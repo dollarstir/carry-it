@@ -449,7 +449,7 @@ begin('Welcome');
 
 
 
-    <section class="block no-padding">
+    <!-- <section class="block no-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -468,7 +468,7 @@ begin('Welcome');
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 <?php foot(); ?>
 
 </div>
@@ -612,5 +612,5 @@ begin('Welcome');
 </script>
 </body>
 
-<!-- Mirrored from html.webinane.com/unload/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Aug 2019 06:57:15 GMT -->
+
 </html>
