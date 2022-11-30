@@ -193,9 +193,9 @@ if (isset($_GET['tracking'])) {
                     <h3 class="w3l_header w3_agileits_header">Shipment <span> History</span></h3></div>
                     
                     
-                    <div class="bs-docs-example">
+                    
         
-                        <table class="table table-responsive table-responsive table-hover">
+                        <table class="table table-bordered table-responsive table-hover table-striped">
                         <thead style="background-color:#ffb400">
                             <tr>
                                 <th>Date</th>
@@ -230,7 +230,7 @@ if (isset($_GET['tracking'])) {
 
             </tbody>
             </table>
-            </div>
+            
             </div>
         </div>';
         } else {
