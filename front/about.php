@@ -245,7 +245,7 @@ begin('About Us');
 
                         <div class="top-margin">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-6">
                                     <div class="post-style2">
                                         <span><img src="front/https://moveitfast.co/images/resource/post-thumb2-1.jpg" alt=""
                                                    itemprop="image"/></span>
@@ -257,7 +257,7 @@ begin('About Us');
                                     </div>
                                 </div>
 
-                                <div class="col-md-4">
+                                <!-- <div class="col-md-4">
                                     <div class="post-style2">
                                         <span><img src="front/https://moveitfast.co/images/resource/post-thumb2-2.jpg" alt=""
                                                    itemprop="image"/></span>
@@ -267,9 +267,9 @@ begin('About Us');
                                             <span>Professionally productize</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
 
-                                <div class="col-md-4">
+                                <div class="col-md-6">
                                     <div class="post-style2">
                                         <span><img src="front/https://moveitfast.co/images/resource/post-thumb2-3.jpg" alt=""
                                                    itemprop="image"/></span>
