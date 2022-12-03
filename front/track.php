@@ -108,12 +108,7 @@ if (isset($_GET['tracking'])) {
                             <td>'.$rev['destination'].'</td>
                             
                         </tr>
-                        <tr>
-                            <td>Status</td>
-                           
-                            <td>'.$rev['status'].'</td>
-                            
-                        </tr>
+                       
 
                         <tr>
                             <td>Weight</td>
